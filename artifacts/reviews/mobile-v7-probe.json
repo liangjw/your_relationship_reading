@@ -1,0 +1,340 @@
+{
+  "phone": [
+    {
+      "width": 320,
+      "gender": "male",
+      "minTap": 56,
+      "minBody": 12,
+      "artworkFiles": [
+        "assets/manga-messages-v7.webp",
+        "assets/manga-city-v7.webp",
+        "assets/manga-plans-v7.webp",
+        "assets/manga-home-v7.webp",
+        "assets/manga-cafe-v7.webp",
+        "assets/manga-gift-v7.webp",
+        "assets/manga-metro-v7.webp"
+      ],
+      "cachedArtworks": 8,
+      "aspectRatio": 1.5,
+      "evidenceBelowImage": true,
+      "entryResumesSeed": true,
+      "backDoubleOnlyOne": true,
+      "laterAnswersRetained": true,
+      "initialScore": 97,
+      "editedScore": 93,
+      "offlineBackEditReport": true,
+      "errors": []
+    },
+    {
+      "width": 320,
+      "gender": "female",
+      "minTap": 56,
+      "minBody": 12,
+      "artworkFiles": [
+        "assets/manga-messages-v7.webp",
+        "assets/manga-city-v7.webp",
+        "assets/manga-plans-v7.webp",
+        "assets/manga-home-v7.webp",
+        "assets/manga-cafe-v7.webp",
+        "assets/manga-gift-v7.webp",
+        "assets/manga-metro-v7.webp"
+      ],
+      "cachedArtworks": 8,
+      "aspectRatio": 1.5,
+      "evidenceBelowImage": true,
+      "entryResumesSeed": true,
+      "backDoubleOnlyOne": true,
+      "laterAnswersRetained": true,
+      "initialScore": 97,
+      "editedScore": 93,
+      "offlineBackEditReport": true,
+      "errors": []
+    },
+    {
+      "width": 360,
+      "gender": "male",
+      "minTap": 56,
+      "minBody": 12,
+      "artworkFiles": [
+        "assets/manga-messages-v7.webp",
+        "assets/manga-city-v7.webp",
+        "assets/manga-plans-v7.webp",
+        "assets/manga-home-v7.webp",
+        "assets/manga-cafe-v7.webp",
+        "assets/manga-gift-v7.webp",
+        "assets/manga-metro-v7.webp"
+      ],
+      "cachedArtworks": 8,
+      "aspectRatio": 1.5,
+      "evidenceBelowImage": true,
+      "entryResumesSeed": true,
+      "backDoubleOnlyOne": true,
+      "laterAnswersRetained": true,
+      "initialScore": 97,
+      "editedScore": 93,
+      "offlineBackEditReport": true,
+      "errors": []
+    },
+    {
+      "width": 360,
+      "gender": "female",
+      "minTap": 56,
+      "minBody": 12,
+      "artworkFiles": [
+        "assets/manga-messages-v7.webp",
+        "assets/manga-city-v7.webp",
+        "assets/manga-plans-v7.webp",
+        "assets/manga-home-v7.webp",
+        "assets/manga-cafe-v7.webp",
+        "assets/manga-gift-v7.webp",
+        "assets/manga-metro-v7.webp"
+      ],
+      "cachedArtworks": 8,
+      "aspectRatio": 1.5,
+      "evidenceBelowImage": true,
+      "entryResumesSeed": true,
+      "backDoubleOnlyOne": true,
+      "laterAnswersRetained": true,
+      "initialScore": 97,
+      "editedScore": 93,
+      "offlineBackEditReport": true,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "gender": "male",
+      "minTap": 57.1875,
+      "minBody": 12,
+      "artworkFiles": [
+        "assets/manga-messages-v7.webp",
+        "assets/manga-city-v7.webp",
+        "assets/manga-plans-v7.webp",
+        "assets/manga-home-v7.webp",
+        "assets/manga-cafe-v7.webp",
+        "assets/manga-gift-v7.webp",
+        "assets/manga-metro-v7.webp"
+      ],
+      "cachedArtworks": 8,
+      "aspectRatio": 1.5,
+      "evidenceBelowImage": true,
+      "entryResumesSeed": true,
+      "backDoubleOnlyOne": true,
+      "laterAnswersRetained": true,
+      "initialScore": 97,
+      "editedScore": 93,
+      "offlineBackEditReport": true,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "gender": "female",
+      "minTap": 57.1875,
+      "minBody": 12,
+      "artworkFiles": [
+        "assets/manga-messages-v7.webp",
+        "assets/manga-city-v7.webp",
+        "assets/manga-plans-v7.webp",
+        "assets/manga-home-v7.webp",
+        "assets/manga-cafe-v7.webp",
+        "assets/manga-gift-v7.webp",
+        "assets/manga-metro-v7.webp"
+      ],
+      "cachedArtworks": 8,
+      "aspectRatio": 1.5,
+      "evidenceBelowImage": true,
+      "entryResumesSeed": true,
+      "backDoubleOnlyOne": true,
+      "laterAnswersRetained": true,
+      "initialScore": 97,
+      "editedScore": 93,
+      "offlineBackEditReport": true,
+      "errors": []
+    },
+    {
+      "width": 430,
+      "gender": "male",
+      "minTap": 57.1875,
+      "minBody": 12,
+      "artworkFiles": [
+        "assets/manga-messages-v7.webp",
+        "assets/manga-city-v7.webp",
+        "assets/manga-plans-v7.webp",
+        "assets/manga-home-v7.webp",
+        "assets/manga-cafe-v7.webp",
+        "assets/manga-gift-v7.webp",
+        "assets/manga-metro-v7.webp"
+      ],
+      "cachedArtworks": 8,
+      "aspectRatio": 1.5,
+      "evidenceBelowImage": true,
+      "entryResumesSeed": true,
+      "backDoubleOnlyOne": true,
+      "laterAnswersRetained": true,
+      "initialScore": 97,
+      "editedScore": 93,
+      "offlineBackEditReport": true,
+      "errors": []
+    },
+    {
+      "width": 430,
+      "gender": "female",
+      "minTap": 57.1875,
+      "minBody": 12,
+      "artworkFiles": [
+        "assets/manga-messages-v7.webp",
+        "assets/manga-city-v7.webp",
+        "assets/manga-plans-v7.webp",
+        "assets/manga-home-v7.webp",
+        "assets/manga-cafe-v7.webp",
+        "assets/manga-gift-v7.webp",
+        "assets/manga-metro-v7.webp"
+      ],
+      "cachedArtworks": 8,
+      "aspectRatio": 1.5,
+      "evidenceBelowImage": true,
+      "entryResumesSeed": true,
+      "backDoubleOnlyOne": true,
+      "laterAnswersRetained": true,
+      "initialScore": 97,
+      "editedScore": 93,
+      "offlineBackEditReport": true,
+      "errors": []
+    }
+  ],
+  "doubleTap": [
+    {
+      "delay": 40,
+      "choice": 0,
+      "index": 1
+    },
+    {
+      "delay": 40,
+      "choice": 1,
+      "index": 1
+    },
+    {
+      "delay": 40,
+      "choice": 2,
+      "index": 1
+    },
+    {
+      "delay": 40,
+      "choice": 3,
+      "index": 1
+    },
+    {
+      "delay": 100,
+      "choice": 0,
+      "index": 1
+    },
+    {
+      "delay": 100,
+      "choice": 1,
+      "index": 1
+    },
+    {
+      "delay": 100,
+      "choice": 2,
+      "index": 1
+    },
+    {
+      "delay": 100,
+      "choice": 3,
+      "index": 1
+    },
+    {
+      "delay": 160,
+      "choice": 0,
+      "index": 1
+    },
+    {
+      "delay": 160,
+      "choice": 1,
+      "index": 1
+    },
+    {
+      "delay": 160,
+      "choice": 2,
+      "index": 1
+    },
+    {
+      "delay": 160,
+      "choice": 3,
+      "index": 1
+    },
+    {
+      "delay": 200,
+      "choice": 0,
+      "index": 1
+    },
+    {
+      "delay": 200,
+      "choice": 1,
+      "index": 1
+    },
+    {
+      "delay": 200,
+      "choice": 2,
+      "index": 1
+    },
+    {
+      "delay": 200,
+      "choice": 3,
+      "index": 1
+    },
+    {
+      "delay": 250,
+      "choice": 0,
+      "index": 1
+    },
+    {
+      "delay": 250,
+      "choice": 1,
+      "index": 1
+    },
+    {
+      "delay": 250,
+      "choice": 2,
+      "index": 1
+    },
+    {
+      "delay": 250,
+      "choice": 3,
+      "index": 1
+    },
+    {
+      "delay": 350,
+      "choice": 0,
+      "index": 1
+    },
+    {
+      "delay": 350,
+      "choice": 1,
+      "index": 1
+    },
+    {
+      "delay": 350,
+      "choice": 2,
+      "index": 1
+    },
+    {
+      "delay": 350,
+      "choice": 3,
+      "index": 1
+    }
+  ],
+  "migrations": [
+    {
+      "version": 4,
+      "round": 25,
+      "oldAnswerUnknown": true,
+      "otherAnswersRetained": 29
+    },
+    {
+      "version": 6,
+      "round": 25,
+      "oldAnswerUnknown": true,
+      "otherAnswersRetained": 29
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "phone": [
+    {
+      "width": 320,
+      "gender": "male",
+      "minTap": 56,
+      "minProp": 11,
+      "minBody": 12,
+      "maxPropOverflow": 0,
+      "maxHeight": 981,
+      "offline": true,
+      "errors": []
+    },
+    {
+      "width": 320,
+      "gender": "female",
+      "minTap": 56,
+      "minProp": 11,
+      "minBody": 12,
+      "maxPropOverflow": 0,
+      "maxHeight": 978,
+      "offline": true,
+      "errors": []
+    },
+    {
+      "width": 360,
+      "gender": "male",
+      "minTap": 56,
+      "minProp": 11,
+      "minBody": 12,
+      "maxPropOverflow": 0,
+      "maxHeight": 936,
+      "offline": true,
+      "errors": []
+    },
+    {
+      "width": 360,
+      "gender": "female",
+      "minTap": 56,
+      "minProp": 11,
+      "minBody": 12,
+      "maxPropOverflow": 0,
+      "maxHeight": 918,
+      "offline": true,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "gender": "male",
+      "minTap": 57.1875,
+      "minProp": 11,
+      "minBody": 12,
+      "maxPropOverflow": 0,
+      "maxHeight": 944,
+      "offline": true,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "gender": "female",
+      "minTap": 57.1875,
+      "minProp": 11,
+      "minBody": 12,
+      "maxPropOverflow": 0,
+      "maxHeight": 926,
+      "offline": true,
+      "errors": []
+    },
+    {
+      "width": 430,
+      "gender": "male",
+      "minTap": 57.1875,
+      "minProp": 11,
+      "minBody": 12,
+      "maxPropOverflow": 0,
+      "maxHeight": 944,
+      "offline": true,
+      "errors": []
+    },
+    {
+      "width": 430,
+      "gender": "female",
+      "minTap": 57.1875,
+      "minProp": 11,
+      "minBody": 12,
+      "maxPropOverflow": 0,
+      "maxHeight": 926,
+      "offline": true,
+      "errors": []
+    }
+  ],
+  "doubleTap": [
+    {
+      "delay": 40,
+      "choice": 0,
+      "index": 1
+    },
+    {
+      "delay": 40,
+      "choice": 1,
+      "index": 1
+    },
+    {
+      "delay": 40,
+      "choice": 2,
+      "index": 1
+    },
+    {
+      "delay": 40,
+      "choice": 3,
+      "index": 1
+    },
+    {
+      "delay": 100,
+      "choice": 0,
+      "index": 1
+    },
+    {
+      "delay": 100,
+      "choice": 1,
+      "index": 1
+    },
+    {
+      "delay": 100,
+      "choice": 2,
+      "index": 1
+    },
+    {
+      "delay": 100,
+      "choice": 3,
+      "index": 1
+    },
+    {
+      "delay": 160,
+      "choice": 0,
+      "index": 1
+    },
+    {
+      "delay": 160,
+      "choice": 1,
+      "index": 1
+    },
+    {
+      "delay": 160,
+      "choice": 2,
+      "index": 1
+    },
+    {
+      "delay": 160,
+      "choice": 3,
+      "index": 1
+    },
+    {
+      "delay": 200,
+      "choice": 0,
+      "index": 1
+    },
+    {
+      "delay": 200,
+      "choice": 1,
+      "index": 1
+    },
+    {
+      "delay": 200,
+      "choice": 2,
+      "index": 1
+    },
+    {
+      "delay": 200,
+      "choice": 3,
+      "index": 1
+    },
+    {
+      "delay": 250,
+      "choice": 0,
+      "index": 1
+    },
+    {
+      "delay": 250,
+      "choice": 1,
+      "index": 1
+    },
+    {
+      "delay": 250,
+      "choice": 2,
+      "index": 1
+    },
+    {
+      "delay": 250,
+      "choice": 3,
+      "index": 1
+    },
+    {
+      "delay": 350,
+      "choice": 0,
+      "index": 1
+    },
+    {
+      "delay": 350,
+      "choice": 1,
+      "index": 1
+    },
+    {
+      "delay": 350,
+      "choice": 2,
+      "index": 1
+    },
+    {
+      "delay": 350,
+      "choice": 3,
+      "index": 1
+    }
+  ],
+  "legacy": [
+    {
+      "before": 0,
+      "after": 1,
+      "finished": false,
+      "oldTimesUnknown": true,
+      "version": 6
+    },
+    {
+      "before": 6,
+      "after": 7,
+      "finished": false,
+      "oldTimesUnknown": true,
+      "version": 6
+    },
+    {
+      "before": 29,
+      "after": 30,
+      "finished": true,
+      "oldTimesUnknown": true,
+      "version": 6
+    }
+  ]
+}

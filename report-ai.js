@@ -1,0 +1,6 @@
+export function localReportCopy(report,run){const weak=report.abilityWeak;return {seed:run.seed,source:'local',opening:report.misses.length?`这不是“你不懂TA”的判决。${weak.label}里的具体经历，可以成为下一次多问一句的起点。`:'这一局你接住了所有创作心声。下一次遇见真人，仍然可以把“我猜”换成“你愿意说说吗”。',closing:'把报告发给TA，也许最有意思的不是比谁分高，而是聊聊：哪一幕你会有另一个答案？'};}
+export function validateReportCopy(copy,report){return copy&&copy.typeId===report.type.id&&copy.classifierVersion===report.assessment.version&&['opening','closing'].every(k=>typeof copy[k]==='string'&&copy[k].length>=4&&copy[k].length<=200&&!/[<>\d]|男人都|女人都|男生都|女生都|一定会|诊断|依恋型/.test(copy[k]));}
+export async function enhanceReport(report,run,{endpoint=document.querySelector('meta[name="report-narrative-endpoint"]')?.content||'',fetcher=fetch,base=location.href,timeout=3500}={}){
+ const fallback=localReportCopy(report,run);if(!endpoint)return fallback;let url;try{url=new URL(endpoint,base);if(url.origin!==new URL(base).origin||!/^https?:$/.test(url.protocol))return fallback;}catch{return fallback;}
+ try{const res=await fetcher(url.href,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({run}),signal:AbortSignal.timeout(timeout)});if(!res.ok)return fallback;const copy=await res.json();return validateReportCopy(copy,report)?{...copy,seed:run.seed,source:'ai'}:fallback;}catch{return fallback;}
+}

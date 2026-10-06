@@ -1,0 +1,49 @@
+{
+  "visibilityMode": "Browser DOM visibility getter/event simulation; not real OS/WeChat hidden state",
+  "timing": [
+    {
+      "case": "hidden excluded",
+      "pausedMs": 743,
+      "hiddenWaitMs": 2200,
+      "answerMs": 1369
+    },
+    {
+      "case": "real reload preserves current scene",
+      "savedMs": 644,
+      "answerMs": 1400
+    },
+    {
+      "case": "450ms transition omitted",
+      "wallBetweenClicksMs": 1000,
+      "answerMs": 541,
+      "excludedMs": 459
+    }
+  ],
+  "legacy": [
+    {
+      "source": "oldv4 finished browser report",
+      "type": "empath",
+      "tempoUnknown": true,
+      "behaviorUnknown": true
+    }
+  ],
+  "ai": [
+    {
+      "defaultExternalRequests": 0,
+      "fallbacks": [
+        {
+          "failure": "network",
+          "source": "local"
+        },
+        {
+          "failure": "bad-json",
+          "source": "local"
+        },
+        {
+          "failure": "invalid-copy",
+          "source": "local"
+        }
+      ]
+    }
+  ]
+}

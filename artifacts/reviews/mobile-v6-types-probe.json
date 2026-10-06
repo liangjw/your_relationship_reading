@@ -1,0 +1,206 @@
+[
+  {
+    "type": "intuitive",
+    "widths": [
+      320,
+      430
+    ],
+    "axes": 3,
+    "metrics": 8,
+    "matrix": 12,
+    "poster": {
+      "w": 750,
+      "h": 1360,
+      "type": "intuitive",
+      "score": "79"
+    },
+    "errors": []
+  },
+  {
+    "type": "radar",
+    "widths": [
+      320,
+      430
+    ],
+    "axes": 3,
+    "metrics": 8,
+    "matrix": 12,
+    "poster": {
+      "w": 750,
+      "h": 1360,
+      "type": "radar",
+      "score": "72"
+    },
+    "errors": []
+  },
+  {
+    "type": "translator",
+    "widths": [
+      320,
+      430
+    ],
+    "axes": 3,
+    "metrics": 8,
+    "matrix": 12,
+    "poster": {
+      "w": 750,
+      "h": 1360,
+      "type": "translator",
+      "score": "79"
+    },
+    "errors": []
+  },
+  {
+    "type": "rational",
+    "widths": [
+      320,
+      430
+    ],
+    "axes": 3,
+    "metrics": 8,
+    "matrix": 12,
+    "poster": {
+      "w": 750,
+      "h": 1360,
+      "type": "rational",
+      "score": "38"
+    },
+    "errors": []
+  },
+  {
+    "type": "observer",
+    "widths": [
+      320,
+      430
+    ],
+    "axes": 3,
+    "metrics": 8,
+    "matrix": 12,
+    "poster": {
+      "w": 750,
+      "h": 1360,
+      "type": "observer",
+      "score": "100"
+    },
+    "errors": []
+  },
+  {
+    "type": "realist",
+    "widths": [
+      320,
+      430
+    ],
+    "axes": 3,
+    "metrics": 8,
+    "matrix": 12,
+    "poster": {
+      "w": 750,
+      "h": 1360,
+      "type": "realist",
+      "score": "31"
+    },
+    "errors": []
+  },
+  {
+    "type": "romantic",
+    "widths": [
+      320,
+      430
+    ],
+    "axes": 3,
+    "metrics": 8,
+    "matrix": 12,
+    "poster": {
+      "w": 750,
+      "h": 1360,
+      "type": "romantic",
+      "score": "62"
+    },
+    "errors": []
+  },
+  {
+    "type": "stereotype",
+    "widths": [
+      320,
+      430
+    ],
+    "axes": 3,
+    "metrics": 8,
+    "matrix": 12,
+    "poster": {
+      "w": 750,
+      "h": 1360,
+      "type": "stereotype",
+      "score": "38"
+    },
+    "errors": []
+  },
+  {
+    "type": "security",
+    "widths": [
+      320,
+      430
+    ],
+    "axes": 3,
+    "metrics": 8,
+    "matrix": 12,
+    "poster": {
+      "w": 750,
+      "h": 1360,
+      "type": "security",
+      "score": "28"
+    },
+    "errors": []
+  },
+  {
+    "type": "detective",
+    "widths": [
+      320,
+      430
+    ],
+    "axes": 3,
+    "metrics": 8,
+    "matrix": 12,
+    "poster": {
+      "w": 750,
+      "h": 1360,
+      "type": "detective",
+      "score": "21"
+    },
+    "errors": []
+  },
+  {
+    "type": "subtext",
+    "widths": [
+      320,
+      430
+    ],
+    "axes": 3,
+    "metrics": 8,
+    "matrix": 12,
+    "poster": {
+      "w": 750,
+      "h": 1360,
+      "type": "subtext",
+      "score": "31"
+    },
+    "errors": []
+  },
+  {
+    "type": "empath",
+    "widths": [
+      320,
+      430
+    ],
+    "axes": 3,
+    "metrics": 8,
+    "matrix": 12,
+    "poster": {
+      "w": 750,
+      "h": 1360,
+      "type": "empath",
+      "score": "28"
+    },
+    "errors": []
+  }
+]

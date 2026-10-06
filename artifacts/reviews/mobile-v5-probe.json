@@ -1,0 +1,195 @@
+{
+  "phone": [
+    {
+      "width": 320,
+      "gender": "male",
+      "minTap": 53,
+      "minProp": 9,
+      "maxHeight": 859,
+      "offline": true,
+      "errors": []
+    },
+    {
+      "width": 320,
+      "gender": "female",
+      "minTap": 53,
+      "minProp": 8,
+      "maxHeight": 863,
+      "offline": true,
+      "errors": []
+    },
+    {
+      "width": 360,
+      "gender": "male",
+      "minTap": 53,
+      "minProp": 9,
+      "maxHeight": 851,
+      "offline": true,
+      "errors": []
+    },
+    {
+      "width": 360,
+      "gender": "female",
+      "minTap": 53,
+      "minProp": 8,
+      "maxHeight": 863,
+      "offline": true,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "gender": "male",
+      "minTap": 53,
+      "minProp": 9,
+      "maxHeight": 830,
+      "offline": true,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "gender": "female",
+      "minTap": 53,
+      "minProp": 9,
+      "maxHeight": 863,
+      "offline": true,
+      "errors": []
+    },
+    {
+      "width": 430,
+      "gender": "male",
+      "minTap": 53,
+      "minProp": 9,
+      "maxHeight": 830,
+      "offline": true,
+      "errors": []
+    },
+    {
+      "width": 430,
+      "gender": "female",
+      "minTap": 53,
+      "minProp": 9,
+      "maxHeight": 863,
+      "offline": true,
+      "errors": []
+    }
+  ],
+  "doubleTap": [
+    {
+      "delay": 40,
+      "choice": 0,
+      "index": 1
+    },
+    {
+      "delay": 40,
+      "choice": 1,
+      "index": 1
+    },
+    {
+      "delay": 40,
+      "choice": 2,
+      "index": 1
+    },
+    {
+      "delay": 40,
+      "choice": 3,
+      "index": 1
+    },
+    {
+      "delay": 100,
+      "choice": 0,
+      "index": 1
+    },
+    {
+      "delay": 100,
+      "choice": 1,
+      "index": 1
+    },
+    {
+      "delay": 100,
+      "choice": 2,
+      "index": 1
+    },
+    {
+      "delay": 100,
+      "choice": 3,
+      "index": 1
+    },
+    {
+      "delay": 160,
+      "choice": 0,
+      "index": 1
+    },
+    {
+      "delay": 160,
+      "choice": 1,
+      "index": 2
+    },
+    {
+      "delay": 160,
+      "choice": 2,
+      "index": 2
+    },
+    {
+      "delay": 160,
+      "choice": 3,
+      "index": 2
+    },
+    {
+      "delay": 200,
+      "choice": 0,
+      "index": 1
+    },
+    {
+      "delay": 200,
+      "choice": 1,
+      "index": 2
+    },
+    {
+      "delay": 200,
+      "choice": 2,
+      "index": 2
+    },
+    {
+      "delay": 200,
+      "choice": 3,
+      "index": 2
+    },
+    {
+      "delay": 250,
+      "choice": 0,
+      "index": 1
+    },
+    {
+      "delay": 250,
+      "choice": 1,
+      "index": 2
+    },
+    {
+      "delay": 250,
+      "choice": 2,
+      "index": 2
+    },
+    {
+      "delay": 250,
+      "choice": 3,
+      "index": 2
+    }
+  ],
+  "legacy": [
+    {
+      "before": 0,
+      "after": 1,
+      "finished": false
+    },
+    {
+      "before": 6,
+      "after": 7,
+      "finished": false
+    },
+    {
+      "before": 29,
+      "after": 30,
+      "finished": true
+    }
+  ]
+}

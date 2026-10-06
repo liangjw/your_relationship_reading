@@ -1,0 +1,253 @@
+{
+  "phone": [
+    {
+      "width": 320,
+      "gender": "male",
+      "minTap": 53,
+      "minProp": 11,
+      "minBody": 12,
+      "maxPropOverflow": 0,
+      "maxHeight": 884,
+      "offline": true,
+      "errors": []
+    },
+    {
+      "width": 320,
+      "gender": "female",
+      "minTap": 53,
+      "minProp": 11,
+      "minBody": 12,
+      "maxPropOverflow": 0,
+      "maxHeight": 888,
+      "offline": true,
+      "errors": []
+    },
+    {
+      "width": 360,
+      "gender": "male",
+      "minTap": 53,
+      "minProp": 11,
+      "minBody": 12,
+      "maxPropOverflow": 0,
+      "maxHeight": 876,
+      "offline": true,
+      "errors": []
+    },
+    {
+      "width": 360,
+      "gender": "female",
+      "minTap": 53,
+      "minProp": 11,
+      "minBody": 12,
+      "maxPropOverflow": 0,
+      "maxHeight": 888,
+      "offline": true,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "gender": "male",
+      "minTap": 53,
+      "minProp": 11,
+      "minBody": 12,
+      "maxPropOverflow": 0,
+      "maxHeight": 855,
+      "offline": true,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "gender": "female",
+      "minTap": 53,
+      "minProp": 11,
+      "minBody": 12,
+      "maxPropOverflow": 0,
+      "maxHeight": 888,
+      "offline": true,
+      "errors": []
+    },
+    {
+      "width": 430,
+      "gender": "male",
+      "minTap": 53,
+      "minProp": 11,
+      "minBody": 12,
+      "maxPropOverflow": 0,
+      "maxHeight": 855,
+      "offline": true,
+      "errors": []
+    },
+    {
+      "width": 430,
+      "gender": "female",
+      "minTap": 53,
+      "minProp": 11,
+      "minBody": 12,
+      "maxPropOverflow": 0,
+      "maxHeight": 888,
+      "offline": true,
+      "errors": []
+    }
+  ],
+  "doubleTap": [
+    {
+      "delay": 40,
+      "choice": 0,
+      "index": 1
+    },
+    {
+      "delay": 40,
+      "choice": 1,
+      "index": 1
+    },
+    {
+      "delay": 40,
+      "choice": 2,
+      "index": 1
+    },
+    {
+      "delay": 40,
+      "choice": 3,
+      "index": 1
+    },
+    {
+      "delay": 100,
+      "choice": 0,
+      "index": 1
+    },
+    {
+      "delay": 100,
+      "choice": 1,
+      "index": 1
+    },
+    {
+      "delay": 100,
+      "choice": 2,
+      "index": 1
+    },
+    {
+      "delay": 100,
+      "choice": 3,
+      "index": 1
+    },
+    {
+      "delay": 160,
+      "choice": 0,
+      "index": 1
+    },
+    {
+      "delay": 160,
+      "choice": 1,
+      "index": 1
+    },
+    {
+      "delay": 160,
+      "choice": 2,
+      "index": 1
+    },
+    {
+      "delay": 160,
+      "choice": 3,
+      "index": 1
+    },
+    {
+      "delay": 200,
+      "choice": 0,
+      "index": 1
+    },
+    {
+      "delay": 200,
+      "choice": 1,
+      "index": 1
+    },
+    {
+      "delay": 200,
+      "choice": 2,
+      "index": 1
+    },
+    {
+      "delay": 200,
+      "choice": 3,
+      "index": 1
+    },
+    {
+      "delay": 250,
+      "choice": 0,
+      "index": 1
+    },
+    {
+      "delay": 250,
+      "choice": 1,
+      "index": 1
+    },
+    {
+      "delay": 250,
+      "choice": 2,
+      "index": 1
+    },
+    {
+      "delay": 250,
+      "choice": 3,
+      "index": 1
+    },
+    {
+      "delay": 350,
+      "choice": 0,
+      "index": 1
+    },
+    {
+      "delay": 350,
+      "choice": 1,
+      "index": 1
+    },
+    {
+      "delay": 350,
+      "choice": 2,
+      "index": 1
+    },
+    {
+      "delay": 350,
+      "choice": 3,
+      "index": 1
+    }
+  ],
+  "legacy": [
+    {
+      "before": 0,
+      "after": 1,
+      "finished": false
+    },
+    {
+      "before": 6,
+      "after": 7,
+      "finished": false
+    },
+    {
+      "before": 29,
+      "after": 30,
+      "finished": true
+    }
+  ],
+  "normalInput": [
+    {
+      "gender": "male",
+      "index": 4,
+      "mouse": "two single answers separated by 500ms",
+      "keyboard": "Enter and Space answered successive scenes",
+      "errors": []
+    },
+    {
+      "gender": "female",
+      "index": 4,
+      "mouse": "two single answers separated by 500ms",
+      "keyboard": "Enter and Space answered successive scenes",
+      "errors": []
+    }
+  ],
+  "provenance": {
+    "phone": "mobile-v5-fix-probe.json — same unchanged scene-stage.js/styles.css; 240 scenes passed",
+    "legacy": "mobile-v5-fix-probe.json — unchanged game-core.js and migration code; 3 states passed",
+    "doubleTap": "Fresh run after app.js click event.detail > 1 filter",
+    "normalInput": "Fresh real browser mouse/keyboard interaction"
+  }
+}

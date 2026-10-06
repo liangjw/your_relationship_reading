@@ -1,0 +1,24 @@
+import fs from 'node:fs';
+import crypto from 'node:crypto';
+import assert from 'node:assert/strict';
+import {buildRounds} from '../game-data.js';
+import {newRun,commitAnswer,makeReport} from '../game-core.js';
+import {PERSONALITIES,CLASSIFIER_VERSION} from '../personality.js';
+const files=['index.html','styles.css','app.js','game-core.js','game-data.js','game-view.js','scene-stage.js','assessment-data.js','personality.js','active-timer.js','illustrations.js','report-ai.js','data.js','wechat-share.js','manifest.webmanifest','sw.js'];
+const hash=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
+const read=p=>JSON.parse(fs.readFileSync(p,'utf8').replace(/^\uFEFF/,''));
+const production=Object.fromEntries(files.map(p=>{assert.equal(hash(p),hash('dist/'+p),`Stale production file: ${p}`);return [p,hash(p)];}));
+for(const f of fs.readdirSync('assets'))assert.equal(hash('assets/'+f),hash('dist/assets/'+f));
+const reviews=Object.fromEntries(['game-experience','relationship','mobile'].map(role=>{const p=`artifacts/reviews/${role}-v6-round1.md`,text=fs.readFileSync(p,'utf8');assert.match(text,/结论：\*\*PASS/);return [role,{file:p,status:'PASS',sha256:hash(p)}];}));
+const qa=read('artifacts/v6-qa.json');assert.equal(qa.passed,true);assert.deepEqual(qa.errors,[]);
+const probes=read('artifacts/reviews/mobile-v6-probe.json');assert.equal(probes.phone.length,8);for(const p of probes.phone){assert.deepEqual(p.errors,[]);assert.equal(p.offline,true);assert.ok(p.minTap>=44);assert.ok(p.minBody>=12);assert.ok(p.maxPropOverflow<=0);}
+assert.equal(probes.doubleTap.length,24);for(const p of probes.doubleTap)assert.equal(p.index,1);
+assert.equal(probes.legacy.length,3);for(const p of probes.legacy)assert.equal(p.after,p.before+1);
+const timing=read('artifacts/reviews/mobile-v6-timing-probe.json');assert.equal(timing.timing.length,3);const [hidden,reload,guard]=timing.timing;assert.ok(hidden.answerMs-hidden.pausedMs<hidden.hiddenWaitMs);assert.ok(reload.answerMs>=reload.savedMs);assert.ok(guard.excludedMs>=400);assert.ok(timing.legacy[0].tempoUnknown&&timing.legacy[0].behaviorUnknown);assert.equal(timing.ai[0].defaultExternalRequests,0);for(const f of timing.ai[0].fallbacks)assert.equal(f.source,'local');
+const types=read('artifacts/reviews/mobile-v6-types-probe.json');assert.equal(new Set(types.map(t=>t.type)).size,12);for(const t of types){assert.deepEqual(t.errors,[]);assert.equal(t.axes,3);assert.equal(t.metrics,8);assert.equal(t.matrix,12);assert.equal(t.poster.w,750);assert.equal(t.poster.h,1360);assert.equal(t.poster.type,t.type);}
+const fixtures=read('tests/fixtures/personality.json');assert.deepEqual(fixtures.missing,[]);assert.equal(fixtures.fixtures.length,12);for(const f of fixtures.fixtures){const r=newRun(f.gender,'audit');f.picks.forEach((pick,i)=>commitAnswer(r,pick,i,f.spentMs));const report=makeReport(r);assert.equal(report.type.id,f.typeId);assert.equal(report.score,f.score);const ui=types.find(t=>t.type===f.typeId);assert.equal(Number(ui.poster.score),report.score);}
+assert.equal(PERSONALITIES.length,12);for(const group of ['情绪读取','动机理解','关系判断'])assert.equal(PERSONALITIES.filter(t=>t.group===group).length,4);
+const a=buildRounds('male'),b=buildRounds('female');assert.equal(a.length,30);assert.equal(a.filter((q,i)=>q.context!==b[i].context).length,30);assert.equal(a.filter(q=>q.bases).length,8);assert.equal(a.filter(q=>q.behaviorOutcome).length,7);
+const evidenceFiles=['artifacts/v6-qa.json','artifacts/reviews/mobile-v6-probe.json','artifacts/reviews/mobile-v6-timing-probe.json','artifacts/reviews/mobile-v6-types-probe.json','tests/fixtures/personality.json'];
+fs.writeFileSync('artifacts/delivery-audit.json',JSON.stringify({version:6,stateSchema:6,classifier:CLASSIFIER_VERSION,verifiedAt:new Date().toISOString(),production,serverSources:{'server.mjs':hash('server.mjs'),'report-service.js':hash('report-service.js')},reviews,evidence:Object.fromEntries(evidenceFiles.map(p=>[p,hash(p)])),qaPassed:true,mobileCombinations:8,doubleTapCombinations:24,personalityTypes:12,abilities:6,attributionIndices:2,coreAxes:3,authoredCases:60,attributionScenes:8,behaviorPredictionScenes:7,flow:'magazine UI, diegetic context, direct advance, all interpretation in final report',scope:'fixed product personalities from authored character interpretation, not psychometric or population validation',visibilityVerification:timing.visibilityMode,ai:'optional backend verified through real HTTP with mocked provider; local report active without configuration',remainingLaunchWork:['public HTTPS deployment','actual iOS/Android WeChat signature and background visibility verification','optional live AI credentials/provider verification'],status:'local v6 complete'},null,2));
+console.log('V6 audit PASS: source/build match, all three experts PASS, 12 actual-answer types, mobile and timing evidence verified.');

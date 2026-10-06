@@ -1,0 +1,18 @@
+{
+  "deepEntry": {
+    "seedPreserved": true,
+    "edition": 3,
+    "retainedAnswers": 30,
+    "previousMarker": true
+  },
+  "changedGender": {
+    "newSeed": true,
+    "clearedAnswers": true
+  },
+  "guardBack": {
+    "duringDisabled": true,
+    "forcedClickIgnored": true,
+    "index": 1,
+    "afterEnabled": true
+  }
+}

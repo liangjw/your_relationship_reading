@@ -1,0 +1,178 @@
+[
+  {
+    "width": 320,
+    "gender": "male",
+    "minTap": 53,
+    "closeTarget": 44,
+    "maxQuestionHeight": 985,
+    "maxRevealScroll": 523,
+    "offline": true,
+    "entry": [
+      {
+        "w": 135.5,
+        "h": 80,
+        "y": 587.25
+      },
+      {
+        "w": 135.5,
+        "h": 80,
+        "y": 587.25
+      }
+    ],
+    "errors": []
+  },
+  {
+    "width": 320,
+    "gender": "female",
+    "minTap": 53,
+    "closeTarget": 44,
+    "maxQuestionHeight": 966,
+    "maxRevealScroll": 504,
+    "offline": true,
+    "entry": [
+      {
+        "w": 135.5,
+        "h": 80,
+        "y": 587.25
+      },
+      {
+        "w": 135.5,
+        "h": 80,
+        "y": 587.25
+      }
+    ],
+    "errors": []
+  },
+  {
+    "width": 360,
+    "gender": "male",
+    "minTap": 53,
+    "closeTarget": 44,
+    "maxQuestionHeight": 955,
+    "maxRevealScroll": 495,
+    "offline": true,
+    "entry": [
+      {
+        "w": 155.5,
+        "h": 80,
+        "y": 587.25
+      },
+      {
+        "w": 155.5,
+        "h": 80,
+        "y": 587.25
+      }
+    ],
+    "errors": []
+  },
+  {
+    "width": 360,
+    "gender": "female",
+    "minTap": 53,
+    "closeTarget": 44,
+    "maxQuestionHeight": 955,
+    "maxRevealScroll": 495,
+    "offline": true,
+    "entry": [
+      {
+        "w": 155.5,
+        "h": 80,
+        "y": 587.25
+      },
+      {
+        "w": 155.5,
+        "h": 80,
+        "y": 587.25
+      }
+    ],
+    "errors": []
+  },
+  {
+    "width": 390,
+    "gender": "male",
+    "minTap": 53,
+    "closeTarget": 44,
+    "maxQuestionHeight": 955,
+    "maxRevealScroll": 495,
+    "offline": true,
+    "entry": [
+      {
+        "w": 165,
+        "h": 80,
+        "y": 632.625
+      },
+      {
+        "w": 165,
+        "h": 80,
+        "y": 632.625
+      }
+    ],
+    "errors": []
+  },
+  {
+    "width": 390,
+    "gender": "female",
+    "minTap": 53,
+    "closeTarget": 44,
+    "maxQuestionHeight": 955,
+    "maxRevealScroll": 495,
+    "offline": true,
+    "entry": [
+      {
+        "w": 165,
+        "h": 80,
+        "y": 632.625
+      },
+      {
+        "w": 165,
+        "h": 80,
+        "y": 632.625
+      }
+    ],
+    "errors": []
+  },
+  {
+    "width": 430,
+    "gender": "male",
+    "minTap": 53,
+    "closeTarget": 44,
+    "maxQuestionHeight": 955,
+    "maxRevealScroll": 471,
+    "offline": true,
+    "entry": [
+      {
+        "w": 185,
+        "h": 80,
+        "y": 632.625
+      },
+      {
+        "w": 185,
+        "h": 80,
+        "y": 632.625
+      }
+    ],
+    "errors": []
+  },
+  {
+    "width": 430,
+    "gender": "female",
+    "minTap": 53,
+    "closeTarget": 44,
+    "maxQuestionHeight": 955,
+    "maxRevealScroll": 471,
+    "offline": true,
+    "entry": [
+      {
+        "w": 185,
+        "h": 80,
+        "y": 632.625
+      },
+      {
+        "w": 185,
+        "h": 80,
+        "y": 632.625
+      }
+    ],
+    "errors": []
+  }
+]
