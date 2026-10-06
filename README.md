@@ -86,3 +86,8 @@ PNG人格长卡750×1360，使用相同类型ID、名称、英文、分数和三
 画稿由built-in imagegen按用户参考图生成，完整提示词在artwork/MANGA_V7_PROMPTS.md与MANGA_V7_PROMPTS_B.md。原PNG保留本机artwork/manga-v7，发布8张优化WebP共约1.7MB，所有画板进入离线缓存。
 
 Cloudflare Workers静态资源配置：wrangler.jsonc，发布目录dist。先npm run build，再npx wrangler deploy。静态报告本地计算即完整可用；可选AI、微信SDK签名服务未启用时，不影响游戏、报告和保存分享卡。
+
+线上试玩：https://your-relationship-reading.fliedwolf.workers.dev
+源代码：https://github.com/liangjw/your_relationship_reading
+部署及线上复验记录：DEPLOYMENT.md
+
