@@ -1,0 +1,111 @@
+{
+  "license": "Original synthesized composition for this project; no sampled commercial recordings.",
+  "tracks": [
+    {
+      "name": "entry",
+      "bpm": 78,
+      "instruments": "Rhodes-like sine keys, bass, subdued procedural percussion; plucked guitar harmonics on ordinary and personality tracks",
+      "duration": 25
+    },
+    {
+      "name": "ordinary",
+      "bpm": 82,
+      "instruments": "Rhodes-like sine keys, bass, subdued procedural percussion; plucked guitar harmonics on ordinary and personality tracks",
+      "duration": 23
+    },
+    {
+      "name": "messages",
+      "bpm": 80,
+      "instruments": "Rhodes-like sine keys, bass, subdued procedural percussion; plucked guitar harmonics on ordinary and personality tracks",
+      "duration": 24
+    },
+    {
+      "name": "tension",
+      "bpm": 78,
+      "instruments": "Rhodes-like sine keys, bass, subdued procedural percussion; plucked guitar harmonics on ordinary and personality tracks",
+      "duration": 25
+    },
+    {
+      "name": "type-01",
+      "bpm": 96,
+      "instruments": "Rhodes-like sine keys, bass, subdued procedural percussion; plucked guitar harmonics on ordinary and personality tracks",
+      "duration": 20
+    },
+    {
+      "name": "type-02",
+      "bpm": 99,
+      "instruments": "Rhodes-like sine keys, bass, subdued procedural percussion; plucked guitar harmonics on ordinary and personality tracks",
+      "duration": 19
+    },
+    {
+      "name": "type-03",
+      "bpm": 102,
+      "instruments": "Rhodes-like sine keys, bass, subdued procedural percussion; plucked guitar harmonics on ordinary and personality tracks",
+      "duration": 19
+    },
+    {
+      "name": "type-04",
+      "bpm": 105,
+      "instruments": "Rhodes-like sine keys, bass, subdued procedural percussion; plucked guitar harmonics on ordinary and personality tracks",
+      "duration": 18
+    },
+    {
+      "name": "type-05",
+      "bpm": 96,
+      "instruments": "Rhodes-like sine keys, bass, subdued procedural percussion; plucked guitar harmonics on ordinary and personality tracks",
+      "duration": 20
+    },
+    {
+      "name": "type-06",
+      "bpm": 99,
+      "instruments": "Rhodes-like sine keys, bass, subdued procedural percussion; plucked guitar harmonics on ordinary and personality tracks",
+      "duration": 19
+    },
+    {
+      "name": "type-07",
+      "bpm": 102,
+      "instruments": "Rhodes-like sine keys, bass, subdued procedural percussion; plucked guitar harmonics on ordinary and personality tracks",
+      "duration": 19
+    },
+    {
+      "name": "type-08",
+      "bpm": 105,
+      "instruments": "Rhodes-like sine keys, bass, subdued procedural percussion; plucked guitar harmonics on ordinary and personality tracks",
+      "duration": 18
+    },
+    {
+      "name": "type-09",
+      "bpm": 96,
+      "instruments": "Rhodes-like sine keys, bass, subdued procedural percussion; plucked guitar harmonics on ordinary and personality tracks",
+      "duration": 20
+    },
+    {
+      "name": "type-10",
+      "bpm": 99,
+      "instruments": "Rhodes-like sine keys, bass, subdued procedural percussion; plucked guitar harmonics on ordinary and personality tracks",
+      "duration": 19
+    },
+    {
+      "name": "type-11",
+      "bpm": 102,
+      "instruments": "Rhodes-like sine keys, bass, subdued procedural percussion; plucked guitar harmonics on ordinary and personality tracks",
+      "duration": 19
+    },
+    {
+      "name": "type-12",
+      "bpm": 105,
+      "instruments": "Rhodes-like sine keys, bass, subdued procedural percussion; plucked guitar harmonics on ordinary and personality tracks",
+      "duration": 18
+    }
+  ],
+  "cues": [
+    {
+      "name": "notification",
+      "duration": 0.28
+    },
+    {
+      "name": "typing",
+      "duration": 0.4
+    }
+  ]
+}

@@ -1,0 +1,562 @@
+[
+  {
+    "id": "M01",
+    "targetGender": "male",
+    "relatability": 5,
+    "context": "男生加班回家，明显心情不好。你问：“今天怎么了？” 他先说：“没什么，挺累的。” 你觉得他更可能接下来做什么？",
+    "choices": [
+      "继续讲今天发生的一切",
+      "先去洗澡 / 打游戏 / 安静一会儿",
+      "希望你追问到他讲出来",
+      "马上开始讨论怎么解决问题"
+    ],
+    "anchor": "D2 冲突与修复；D1 情绪表达。核心比较：退开 / 问题解决 / 披露。",
+    "prdEvidence": "A/B · 小-中效；情境强"
+  },
+  {
+    "id": "M02",
+    "targetGender": "male",
+    "relatability": 5,
+    "context": "你对男朋友说：“我觉得你最近对我不太一样了。” 他停了一下。你觉得他更可能第一反应是？",
+    "choices": [
+      "问你具体哪几件事",
+      "先解释自己最近为什么忙",
+      "先抱你，再问你怎么想",
+      "不想继续聊，觉得越说越复杂"
+    ],
+    "anchor": "D2 冲突与修复；D1 自我披露。把“解决问题/解释”与“情绪停留”拆开。",
+    "prdEvidence": "A/B · 小-中效；较稳"
+  },
+  {
+    "id": "M03",
+    "targetGender": "male",
+    "relatability": 4,
+    "context": "你发现他今天被老板批评了。他没主动说，但你问起后，他更可能？",
+    "choices": [
+      "只讲结论：“今天被骂了”",
+      "把细节、情绪和来龙去脉都讲一遍",
+      "说没什么，不想展开",
+      "转而分析老板为什么这么做"
+    ],
+    "anchor": "D1 情绪表达；self-disclosure。重点是披露广度 vs 问题分析。",
+    "prdEvidence": "A · 轻-中效"
+  },
+  {
+    "id": "M04",
+    "targetGender": "male",
+    "relatability": 4,
+    "context": "你今天状态很差，只想让他陪你一下，不想听建议。你觉得很多男生最容易出现的反应是？",
+    "choices": [
+      "直接开始帮你分析怎么解决",
+      "先说“那你想让我怎么做”",
+      "安静陪着你，不急着解决",
+      "先转移话题让你开心"
+    ],
+    "anchor": "D1 情绪理解；D2 problem solving。注意：这是“常见沟通错位”，不是男性一定如此。",
+    "prdEvidence": "B · 情境证据"
+  },
+  {
+    "id": "M05",
+    "targetGender": "male",
+    "relatability": 5,
+    "context": "你们吵架时，你还想把事情讲清楚。他开始收拾东西，说：“我们都冷静一下，明天再聊。” 你觉得他真正更可能是在？",
+    "choices": [
+      "想逃避这段关系",
+      "情绪过载，先退出冲突",
+      "想让你更着急",
+      "已经想好分手了"
+    ],
+    "anchor": "D2 demand/withdraw；D3 安全感。核心是 withdrawal 不等于不爱。",
+    "prdEvidence": "A · 稳定的小效应"
+  },
+  {
+    "id": "M06",
+    "targetGender": "male",
+    "relatability": 5,
+    "context": "你指出家里的一个问题：“我们最近总因为这个吵。” 他第二天直接把问题处理掉了，却没怎么解释。你会猜他更可能觉得？",
+    "choices": [
+      "做完了就等于解决了",
+      "觉得你只是需要被理解",
+      "不知道你为什么还不高兴",
+      "他其实不想管，只是被迫做"
+    ],
+    "anchor": "D2 problem solving vs intimacy。把“行动=修复”与“语言=修复”分开。",
+    "prdEvidence": "B · 情境证据"
+  },
+  {
+    "id": "M07",
+    "targetGender": "male",
+    "relatability": 4,
+    "context": "吵完架第二天，他没有认真写长消息道歉，只是下班时顺手带了你喜欢吃的东西。你觉得这更可能是？",
+    "choices": [
+      "只是想把事情翻篇",
+      "一种比较行动导向的修复方式",
+      "不知道怎么道歉",
+      "觉得自己没错，只是怕你生气"
+    ],
+    "anchor": "D2 relationship repair；D1 表达方式。用于区分“行为修复”与“语言修复”。",
+    "prdEvidence": "B · 中等；需自有样本校准"
+  },
+  {
+    "id": "M08",
+    "targetGender": "male",
+    "relatability": 4,
+    "context": "你们周末一起装家具。说明书还有两页，他已经开始动手。你觉得他更可能？",
+    "choices": [
+      "先完整读完说明书",
+      "边看边拆，先试出来再说",
+      "直接让你来装",
+      "找视频教程看十分钟"
+    ],
+    "anchor": "D5 系统/问题解决倾向；D6 反刻板校准。不是“男人天生会修东西”。",
+    "prdEvidence": "C · 弱；仅作校准"
+  },
+  {
+    "id": "M09",
+    "targetGender": "male",
+    "relatability": 5,
+    "context": "一个女性同事在朋友圈夸他“今天超靠谱”。你觉得他在看到这条评论时，更可能？",
+    "choices": [
+      "立刻觉得对方在释放暧昧信号",
+      "有点开心，但基本不当回事",
+      "马上告诉女朋友",
+      "开始考虑怎么回应才不尴尬"
+    ],
+    "anchor": "D3 嫉妒 / 关系边界；D6 反刻板校准。研究对性别差异并不统一，因此不做高权重“男性一定不在意”。",
+    "prdEvidence": "C · 证据混合"
+  },
+  {
+    "id": "M10",
+    "targetGender": "male",
+    "relatability": 5,
+    "context": "前任突然给他发消息：“最近过得好吗？” 你觉得很多男生更可能？",
+    "choices": [
+      "立即告诉现任",
+      "礼貌回复，但不主动展开",
+      "想起过去，忍不住继续聊",
+      "直接删除，不想惹麻烦"
+    ],
+    "anchor": "D3 mate retention / boundaries；D1 self-disclosure。重点看关系边界，而非单一“男性答案”。",
+    "prdEvidence": "B · 情境证据"
+  },
+  {
+    "id": "M11",
+    "targetGender": "male",
+    "relatability": 5,
+    "context": "你半开玩笑地问：“你为什么不回我？” 他更可能先？",
+    "choices": [
+      "解释自己当时在做什么",
+      "反问“你是不是不相信我”",
+      "先道歉再解释",
+      "觉得这个问题没什么好解释的"
+    ],
+    "anchor": "D2 冲突；D3 依恋回避/焦虑。用于观察解释与退开的取向。",
+    "prdEvidence": "B · 情境证据"
+  },
+  {
+    "id": "M12",
+    "targetGender": "male",
+    "relatability": 4,
+    "context": "你们公开关系后，他突然不太愿意频繁发合照。你会猜他更可能是？",
+    "choices": [
+      "觉得公开关系很麻烦",
+      "不喜欢把私人生活放网上",
+      "担心别人怎么看",
+      "对关系开始不确定"
+    ],
+    "anchor": "D3 关系公开 / 边界；D6 反刻板校准。避免把“不发”直接等同“不爱”。",
+    "prdEvidence": "C · 证据有限；反刻板"
+  },
+  {
+    "id": "M13",
+    "targetGender": "male",
+    "relatability": 5,
+    "context": "你升职后收入变成他的两倍。你觉得这对很多男性的亲密关系感受更可能？",
+    "choices": [
+      "完全没有影响",
+      "可能触发一点自尊 / 角色压力",
+      "会马上产生嫉妒",
+      "会因此更喜欢你"
+    ],
+    "anchor": "D5 资源 / 地位；D6 社会角色。研究提示资源控制会改变传统性别差异，不能机械化。",
+    "prdEvidence": "B · B级；情境依赖"
+  },
+  {
+    "id": "M14",
+    "targetGender": "male",
+    "relatability": 5,
+    "context": "只能二选一作为长期伴侣：外形非常吸引你但不太体贴，或外形普通但非常可靠。你猜男性平均更可能偏向？",
+    "choices": [
+      "更看重外形吸引",
+      "更看重可靠体贴",
+      "两者一样",
+      "看收入"
+    ],
+    "anchor": "D4 伴侣偏好。长期/短期情境必须明确；男性对外貌的平均权重更高，但个体差异很大。",
+    "prdEvidence": "A · 跨文化较稳"
+  },
+  {
+    "id": "M15",
+    "targetGender": "male",
+    "relatability": 5,
+    "context": "第一次约会吃饭，账单 428 元。你觉得一个男生平均更可能认为哪一种最“自然”？",
+    "choices": [
+      "我来付",
+      "AA",
+      "谁邀请谁付",
+      "先试探对方怎么想"
+    ],
+    "anchor": "D4 伴侣投入；D5 resource display。强文化调节，不能当成“男性天生买单”。",
+    "prdEvidence": "B · 文化强相关"
+  },
+  {
+    "id": "M16",
+    "targetGender": "male",
+    "relatability": 4,
+    "context": "工作正处于最关键的两年，女朋友问：“我们要不要开始考虑结婚？” 你觉得他更容易先想到？",
+    "choices": [
+      "感情够不够",
+      "我的事业是否准备好",
+      "她父母怎么看",
+      "先讨论婚礼细节"
+    ],
+    "anchor": "D4 长期关系；D5 资源 / 时间成本。用于测试“资源准备感”。",
+    "prdEvidence": "B · 中等"
+  },
+  {
+    "id": "M17",
+    "targetGender": "male",
+    "relatability": 4,
+    "context": "和几个男性朋友打游戏，最后一局输了。他说：“再来一局。” 你觉得这背后更可能是？",
+    "choices": [
+      "单纯还想玩",
+      "不服输，想把结果扳回来",
+      "不想让别人看笑话",
+      "只是时间还早"
+    ],
+    "anchor": "D5 status / competition；男性平均竞争与风险倾向的相关证据较多，但场景效应仍需本地化。",
+    "prdEvidence": "A/B · B级"
+  },
+  {
+    "id": "M18",
+    "targetGender": "male",
+    "relatability": 5,
+    "context": "旅行导航显示前方有一条更快但明显更野的路，另一条慢 20 分钟但稳。你觉得男性平均更可能？",
+    "choices": [
+      "稳一点",
+      "直接走快的",
+      "看同行者意见",
+      "先试一小段"
+    ],
+    "anchor": "D5 sensation seeking / risk taking。男性在风险、寻求刺激上平均更高。",
+    "prdEvidence": "A · Meta 较稳"
+  },
+  {
+    "id": "M19",
+    "targetGender": "male",
+    "relatability": 4,
+    "context": "朋友拿到一个特别高的职位。你觉得男生更容易出现哪种第一反应？",
+    "choices": [
+      "真心替他高兴",
+      "顺便比较一下“如果是我呢”",
+      "完全不在意",
+      "先问工作内容"
+    ],
+    "anchor": "D5 status competition。重点是地位比较，不等于“男性都嫉妒”。",
+    "prdEvidence": "B · B级"
+  },
+  {
+    "id": "M20",
+    "targetGender": "male",
+    "relatability": 4,
+    "context": "你问他：“你最近最想得到的是什么？” 你觉得男性更容易把答案落在？",
+    "choices": [
+      "一种生活状态",
+      "一个更高的收入 / 职业成果",
+      "一段更亲密的关系",
+      "更多空闲时间"
+    ],
+    "anchor": "D5 status/resources；D6 反刻板校准。不是价值观测试，而是预测平均倾向。",
+    "prdEvidence": "B · 中等；需自有样本"
+  },
+  {
+    "id": "F01",
+    "targetGender": "female",
+    "relatability": 5,
+    "context": "她下班回家说：“今天真的很烦。” 你问“怎么了”，她没有马上讲。你觉得她更可能？",
+    "choices": [
+      "真不想说",
+      "希望对方再问一点",
+      "想自己解决",
+      "觉得说了也没用"
+    ],
+    "anchor": "D1 情绪表达 / self-disclosure；研究显示女性平均自我披露略高，但效应不大且受关系影响。",
+    "prdEvidence": "B · Meta 小效应"
+  },
+  {
+    "id": "F02",
+    "targetGender": "female",
+    "relatability": 5,
+    "context": "她跟闺蜜讲一件和男朋友吵架的事。你觉得她更可能？",
+    "choices": [
+      "只讲结果",
+      "把情绪、过程、细节一起讲",
+      "完全不提自己的感受",
+      "只说男朋友哪里做得不好"
+    ],
+    "anchor": "D1 self-disclosure / person-oriented communication。",
+    "prdEvidence": "B · Meta 小效应"
+  },
+  {
+    "id": "F03",
+    "targetGender": "female",
+    "relatability": 4,
+    "context": "她和一个朋友闹别扭，第一反应不是一个人消化，而是找两个很信任的人聊聊。你觉得这更像？",
+    "choices": [
+      "寻求社会支持",
+      "想让别人站队",
+      "逃避真正的问题",
+      "单纯想八卦"
+    ],
+    "anchor": "D1 社会情绪调节；D5 关系网络。强调“平均倾向”而非女性必然。",
+    "prdEvidence": "A · B级"
+  },
+  {
+    "id": "F04",
+    "targetGender": "female",
+    "relatability": 5,
+    "context": "你说“我没事”，但你的语气和往常不一样。她更可能？",
+    "choices": [
+      "相信你说的",
+      "继续观察你的语气 / 表情",
+      "先忙自己的",
+      "直接问“你到底怎么了”"
+    ],
+    "anchor": "D1 other-focused emotional ability。2026 大型 meta-analytic review 支持女性平均在部分他人导向的情绪能力上更高，但存在测量与情境差异。",
+    "prdEvidence": "B/D · 2026 Meta"
+  },
+  {
+    "id": "F05",
+    "targetGender": "female",
+    "relatability": 5,
+    "context": "你们吵架时，她说：“我们今天一定要把这件事说清楚。” 你觉得她更可能是在？",
+    "choices": [
+      "想控制你",
+      "想得到关系上的变化或解决",
+      "单纯喜欢吵架",
+      "想证明自己有道理"
+    ],
+    "anchor": "D2 demand / withdraw；女性在经典异性伴侣冲突研究中平均更偏 demand，但差异小且与“谁更想改变现状”有关。",
+    "prdEvidence": "B · Meta 小效应"
+  },
+  {
+    "id": "F06",
+    "targetGender": "female",
+    "relatability": 5,
+    "context": "她和你争论时突然开始举：“上次你也是这样、那次你也……” 你觉得她更可能在做什么？",
+    "choices": [
+      "扩大矛盾",
+      "给当前感受补充证据",
+      "想让你内疚",
+      "已经不想解决了"
+    ],
+    "anchor": "D2 conflict distress / intimacy；把“细节化表达”理解为冲突强度与问题具体化。",
+    "prdEvidence": "B · B级"
+  },
+  {
+    "id": "F07",
+    "targetGender": "female",
+    "relatability": 5,
+    "context": "吵完架，她说：“你先抱我一下，我们再说。” 你觉得她更可能在追求？",
+    "choices": [
+      "先证明你爱她",
+      "先恢复关系安全感，再继续讨论",
+      "逃避问题",
+      "想让自己占上风"
+    ],
+    "anchor": "D2 + D3 intimacy / attachment security。不是“女性都需要拥抱”，而是将亲密修复纳入预测。",
+    "prdEvidence": "B · 情境证据"
+  },
+  {
+    "id": "F08",
+    "targetGender": "female",
+    "relatability": 5,
+    "context": "她看到男朋友在公开社交平台频繁给一个漂亮女生互动。你觉得她平均更可能感受到？",
+    "choices": [
+      "完全没感觉",
+      "有一点不舒服，但不一定说",
+      "明显吃醋 / 不爽",
+      "先去问那个女生是谁"
+    ],
+    "anchor": "D3 jealousy / relationship threat；社交媒体情境研究发现女性在某些公开背叛线索下负面情绪更强，但并非普遍规律。",
+    "prdEvidence": "C · B级/情境强"
+  },
+  {
+    "id": "F09",
+    "targetGender": "female",
+    "relatability": 5,
+    "context": "男朋友说：“她只是同事。” 她却继续问：“那你们怎么认识的？平时聊什么？” 你觉得这更可能是？",
+    "choices": [
+      "单纯八卦",
+      "在确认边界与关系安全",
+      "不信任任何人",
+      "想找出证据"
+    ],
+    "anchor": "D3 attachment / mate retention / relationship monitoring。",
+    "prdEvidence": "B · B级"
+  },
+  {
+    "id": "F10",
+    "targetGender": "female",
+    "relatability": 4,
+    "context": "闺蜜出现一个条件很好、又很受欢迎的女生。你觉得女性更容易出现哪种“安静的反应”？",
+    "choices": [
+      "公开竞争",
+      "观察、比较、维持自己的社交位置",
+      "完全忽略",
+      "马上攻击她"
+    ],
+    "anchor": "D5 intrasexual competition。文献常区分女性较多使用低成本、关系/社会排斥等竞争方式；避免夸大。",
+    "prdEvidence": "B · B级"
+  },
+  {
+    "id": "F11",
+    "targetGender": "female",
+    "relatability": 5,
+    "context": "长期伴侣候选人 A：比自己大 3–5 岁、收入稳定；B：同龄、外形更吸引。你猜女性平均更可能把哪项看得更重要？",
+    "choices": [
+      "年龄与稳定资源",
+      "单纯外形",
+      "两者差不多",
+      "只看性格"
+    ],
+    "anchor": "D4 mate preference；45国大型复制研究显示女性平均更重视较年长与财务前景，但性别平等与文化会调节。",
+    "prdEvidence": "A · 跨文化较稳"
+  },
+  {
+    "id": "F12",
+    "targetGender": "female",
+    "relatability": 5,
+    "context": "两个人只能选一个长期伴侣：非常帅但不稳定，或外形普通但善良可靠。你猜女性平均更可能？",
+    "choices": [
+      "帅但不稳定",
+      "善良可靠",
+      "两者一样",
+      "看对方收入"
+    ],
+    "anchor": "D4 long-term mate preference；长期关系中善良/可靠的重要性有稳定支持。",
+    "prdEvidence": "A/B · 跨研究"
+  },
+  {
+    "id": "F13",
+    "targetGender": "female",
+    "relatability": 5,
+    "context": "生日礼物：A 一件昂贵但明显“随便买的”；B 不贵，但准确记住了她半年前随口说过的一件小事。你猜女性更容易觉得？",
+    "choices": [
+      "A 更有诚意",
+      "B 更有诚意",
+      "都一样",
+      "看包装"
+    ],
+    "anchor": "D4 kindness / care / investment。注意：该方向更接近伴侣特质偏好，不等于“女人都喜欢便宜礼物”。",
+    "prdEvidence": "B · 中等"
+  },
+  {
+    "id": "F14",
+    "targetGender": "female",
+    "relatability": 4,
+    "context": "男朋友拿到一个可能让你们异地两年的工作机会。你觉得她更容易先考虑？",
+    "choices": [
+      "他的事业机会",
+      "关系会不会被影响",
+      "收入会不会翻倍",
+      "先问朋友怎么想"
+    ],
+    "anchor": "D4 long-term relationship tradeoff；D3 security。此题主要看关系成本而非“女性一定反对”。",
+    "prdEvidence": "B · 情境证据"
+  },
+  {
+    "id": "F15",
+    "targetGender": "female",
+    "relatability": 5,
+    "context": "她说：“我不是要你解决，我只是想让你知道我现在很难受。” 你觉得她最可能希望对方下一步？",
+    "choices": [
+      "给方案",
+      "先承接感受",
+      "告诉她别人也一样",
+      "让她冷静"
+    ],
+    "anchor": "D1 emotional validation；D2 communication mismatch。目标是预测情绪互动，而不是“女性不需要解决问题”。",
+    "prdEvidence": "B · B级"
+  },
+  {
+    "id": "F16",
+    "targetGender": "female",
+    "relatability": 5,
+    "context": "两人关系有点不确定，她开始更频繁问：“你还爱我吗？” 你觉得这更接近？",
+    "choices": [
+      "单纯撒娇",
+      "需要确认关系安全感",
+      "想控制对方",
+      "已经准备分手"
+    ],
+    "anchor": "D3 attachment anxiety / reassurance seeking。女性平均焦虑维度略高，但个体差异很大。",
+    "prdEvidence": "B · Meta"
+  },
+  {
+    "id": "F17",
+    "targetGender": "female",
+    "relatability": 4,
+    "context": "她发现男朋友把两人的合照从头像换掉了，却没有解释。你觉得她更可能？",
+    "choices": [
+      "完全不在意",
+      "开始留意这是不是关系变化的信号",
+      "直接分手",
+      "觉得只是审美变化"
+    ],
+    "anchor": "D3 relationship visibility / uncertainty monitoring；D6 反刻板。",
+    "prdEvidence": "B · C级"
+  },
+  {
+    "id": "F18",
+    "targetGender": "female",
+    "relatability": 4,
+    "context": "一群女生讨论谁最近“状态最好”。你觉得女性平均更容易把比较放在哪？",
+    "choices": [
+      "纯工作能力",
+      "外貌、社交状态和关系资源等综合线索",
+      "完全不比较",
+      "只看收入"
+    ],
+    "anchor": "D5 appearance/status/intrasexual competition；竞争研究支持题型，但具体指标需本地化。",
+    "prdEvidence": "B · B级"
+  },
+  {
+    "id": "F19",
+    "targetGender": "female",
+    "relatability": 5,
+    "context": "有两个男生：A 非常有事业野心但时间极少；B 事业普通但长期稳定、愿意投入关系。你猜女性平均更可能偏向？",
+    "choices": [
+      "A",
+      "B",
+      "取决于年龄和关系阶段",
+      "两者一样"
+    ],
+    "anchor": "D4 + D5 resource vs dependability；配对偏好文献显示资源、善良、可靠和关系阶段共同作用。",
+    "prdEvidence": "C · 需要情境校准"
+  },
+  {
+    "id": "F20",
+    "targetGender": "female",
+    "relatability": 4,
+    "context": "一个人说：“我们其实都不喜欢公开讲亲密关系。” 但她会默默关注朋友圈里的互动变化。你觉得这更可能说明？",
+    "choices": [
+      "她其实很在意，只是不想公开",
+      "她有点矛盾",
+      "她纯粹无聊",
+      "没任何心理意义"
+    ],
+    "anchor": "D3 social-media relationship monitoring；D6 anti-stereotype。用于避免把“公开表达”当成“关系投入”的唯一指标。",
+    "prdEvidence": "B/C · 情境证据"
+  }
+]

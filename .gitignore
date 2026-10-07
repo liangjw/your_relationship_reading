@@ -7,4 +7,12 @@ artwork/manga-v7/*.png
 artwork/manga-v7-manifest.json
 .wrangler/
 .env*
+.data/
+frontend/audio/*.wav
+artwork/v2/*.png
 artwork/manga-v7-manifest-b.json
+deliverables/
+artifacts/proposal-qa/
+artifacts/v2-drafts/
+scripts/*game-proposal.py
+scripts/proposal-*.mjs

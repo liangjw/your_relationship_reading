@@ -1,0 +1,2006 @@
+{
+  "type-06": {
+    "gender": "female",
+    "answers": [
+      {
+        "id": "M01",
+        "pick": 1,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M02",
+        "pick": 2,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M03",
+        "pick": 0,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M04",
+        "pick": 1,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M05",
+        "pick": 1,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M06",
+        "pick": 2,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M07",
+        "pick": 0,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M08",
+        "pick": 3,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": {
+          "text": "我想到他也可能先找个教程",
+          "generalization": false,
+          "version": 1
+        }
+      },
+      {
+        "id": "M09",
+        "pick": 3,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": {
+          "text": "公开评论里，我猜他会考虑怎么回复",
+          "generalization": false,
+          "version": 1
+        }
+      },
+      {
+        "id": "M10",
+        "pick": 0,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M11",
+        "pick": 0,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M12",
+        "pick": 1,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": {
+          "text": "我把不常发照片和私人生活边界联系起来",
+          "generalization": false,
+          "version": 1
+        }
+      },
+      {
+        "id": "M13",
+        "pick": 1,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": {
+          "text": "我想到收入差距可能带来的角色压力",
+          "generalization": false,
+          "version": 1
+        }
+      },
+      {
+        "id": "M14",
+        "pick": 0,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M15",
+        "pick": 1,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M16",
+        "pick": 0,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M17",
+        "pick": 0,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M18",
+        "pick": 1,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M19",
+        "pick": 1,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M20",
+        "pick": 0,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": {
+          "text": "我想到对方也可能更在意生活状态",
+          "generalization": false,
+          "version": 1
+        }
+      }
+    ],
+    "score": 83,
+    "version": "v2-directional-2"
+  },
+  "type-09": {
+    "gender": "male",
+    "answers": [
+      {
+        "id": "F01",
+        "pick": 2,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F02",
+        "pick": 3,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F03",
+        "pick": 0,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F04",
+        "pick": 0,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": {
+          "text": "我先按对方说出来的话理解",
+          "generalization": false,
+          "version": 1
+        }
+      },
+      {
+        "id": "F05",
+        "pick": 0,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F06",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F07",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F08",
+        "pick": 0,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": {
+          "text": "我猜她对公开平台互动不太敏感",
+          "generalization": false,
+          "version": 1
+        }
+      },
+      {
+        "id": "F09",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F10",
+        "pick": 2,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F11",
+        "pick": 2,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F12",
+        "pick": 2,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F13",
+        "pick": 0,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F14",
+        "pick": 0,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F15",
+        "pick": 3,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F16",
+        "pick": 3,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F17",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": {
+          "text": "头像变化没解释，我猜她会继续观察",
+          "generalization": false,
+          "version": 1
+        }
+      },
+      {
+        "id": "F18",
+        "pick": 2,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F19",
+        "pick": 2,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": {
+          "text": "我觉得年龄和关系阶段会影响选择",
+          "generalization": false,
+          "version": 1
+        }
+      },
+      {
+        "id": "F20",
+        "pick": 0,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": {
+          "text": "我把公开表达与关注互动分开看",
+          "generalization": false,
+          "version": 1
+        }
+      }
+    ],
+    "score": 63,
+    "version": "v2-directional-2"
+  },
+  "type-08": {
+    "gender": "female",
+    "answers": [
+      {
+        "id": "M01",
+        "pick": 2,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M02",
+        "pick": 2,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M03",
+        "pick": 0,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M04",
+        "pick": 0,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M05",
+        "pick": 2,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M06",
+        "pick": 2,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M07",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M08",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": {
+          "text": "他已经动手，我猜会边做边试",
+          "generalization": false,
+          "version": 1
+        }
+      },
+      {
+        "id": "M09",
+        "pick": 0,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": {
+          "text": "男人被异性夸肯定都当暧昧",
+          "generalization": true,
+          "version": 1
+        }
+      },
+      {
+        "id": "M10",
+        "pick": 0,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M11",
+        "pick": 0,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M12",
+        "pick": 3,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": {
+          "text": "发照片习惯突然变了，我担心关系变化",
+          "generalization": false,
+          "version": 1
+        }
+      },
+      {
+        "id": "M13",
+        "pick": 3,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": {
+          "text": "我猜升职也可能让他更欣赏对方",
+          "generalization": false,
+          "version": 1
+        }
+      },
+      {
+        "id": "M14",
+        "pick": 2,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M15",
+        "pick": 0,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M16",
+        "pick": 0,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M17",
+        "pick": 0,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M18",
+        "pick": 0,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M19",
+        "pick": 3,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M20",
+        "pick": 3,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": {
+          "text": "我想到对方也可能更想有空休息",
+          "generalization": false,
+          "version": 1
+        }
+      }
+    ],
+    "score": 66,
+    "version": "v2-directional-2"
+  },
+  "type-12": {
+    "gender": "male",
+    "answers": [
+      {
+        "id": "F01",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F02",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F03",
+        "pick": 0,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F04",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": {
+          "text": "语气和平时不同，我猜她会继续观察",
+          "generalization": false,
+          "version": 1
+        }
+      },
+      {
+        "id": "F05",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F06",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F07",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F08",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": {
+          "text": "公开而且频繁的互动，可能让人不舒服",
+          "generalization": false,
+          "version": 1
+        }
+      },
+      {
+        "id": "F09",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F10",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F11",
+        "pick": 0,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F12",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F13",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F14",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F15",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F16",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F17",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": {
+          "text": "头像变化没解释，我猜她会继续观察",
+          "generalization": false,
+          "version": 1
+        }
+      },
+      {
+        "id": "F18",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F19",
+        "pick": 3,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": {
+          "text": "我猜两种生活方式可能各有吸引力",
+          "generalization": false,
+          "version": 1
+        }
+      },
+      {
+        "id": "F20",
+        "pick": 0,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": {
+          "text": "我把公开表达与关注互动分开看",
+          "generalization": false,
+          "version": 1
+        }
+      }
+    ],
+    "score": 97,
+    "version": "v2-directional-2"
+  },
+  "type-11": {
+    "gender": "female",
+    "answers": [
+      {
+        "id": "M01",
+        "pick": 1,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M02",
+        "pick": 2,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M03",
+        "pick": 3,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M04",
+        "pick": 0,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M05",
+        "pick": 2,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M06",
+        "pick": 0,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M07",
+        "pick": 1,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M08",
+        "pick": 1,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": {
+          "text": "他已经动手，我猜会边做边试",
+          "generalization": false,
+          "version": 1
+        }
+      },
+      {
+        "id": "M09",
+        "pick": 3,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": {
+          "text": "公开评论里，我猜他会考虑怎么回复",
+          "generalization": false,
+          "version": 1
+        }
+      },
+      {
+        "id": "M10",
+        "pick": 2,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M11",
+        "pick": 2,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M12",
+        "pick": 1,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": {
+          "text": "我把不常发照片和私人生活边界联系起来",
+          "generalization": false,
+          "version": 1
+        }
+      },
+      {
+        "id": "M13",
+        "pick": 1,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": {
+          "text": "我想到收入差距可能带来的角色压力",
+          "generalization": false,
+          "version": 1
+        }
+      },
+      {
+        "id": "M14",
+        "pick": 0,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M15",
+        "pick": 0,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M16",
+        "pick": 3,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M17",
+        "pick": 1,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M18",
+        "pick": 1,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M19",
+        "pick": 1,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M20",
+        "pick": 1,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": {
+          "text": "男人最想要的肯定都是事业和收入",
+          "generalization": true,
+          "version": 1
+        }
+      }
+    ],
+    "score": 81,
+    "version": "v2-directional-2"
+  },
+  "type-05": {
+    "gender": "male",
+    "answers": [
+      {
+        "id": "F01",
+        "pick": 2,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F02",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F03",
+        "pick": 0,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F04",
+        "pick": 3,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": {
+          "text": "我猜她会先直接确认发生了什么",
+          "generalization": false,
+          "version": 1
+        }
+      },
+      {
+        "id": "F05",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F06",
+        "pick": 3,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F07",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F08",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": {
+          "text": "公开而且频繁的互动，可能让人不舒服",
+          "generalization": false,
+          "version": 1
+        }
+      },
+      {
+        "id": "F09",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F10",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F11",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F12",
+        "pick": 3,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F13",
+        "pick": 0,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F14",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F15",
+        "pick": 0,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F16",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F17",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": {
+          "text": "头像变化没解释，我猜她会继续观察",
+          "generalization": false,
+          "version": 1
+        }
+      },
+      {
+        "id": "F18",
+        "pick": 0,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F19",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": {
+          "text": "长期投入可能比事业野心更合适",
+          "generalization": false,
+          "version": 1
+        }
+      },
+      {
+        "id": "F20",
+        "pick": 2,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": {
+          "text": "我想到她也可能只是随手看朋友圈",
+          "generalization": false,
+          "version": 1
+        }
+      }
+    ],
+    "score": 76,
+    "version": "v2-directional-2"
+  },
+  "type-07": {
+    "gender": "male",
+    "answers": [
+      {
+        "id": "F01",
+        "pick": 1,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F02",
+        "pick": 0,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F03",
+        "pick": 0,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F04",
+        "pick": 0,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": {
+          "text": "我先按对方说出来的话理解",
+          "generalization": false,
+          "version": 1
+        }
+      },
+      {
+        "id": "F05",
+        "pick": 1,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F06",
+        "pick": 3,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F07",
+        "pick": 1,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F08",
+        "pick": 3,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": {
+          "text": "我猜她会先问这个人的身份",
+          "generalization": false,
+          "version": 1
+        }
+      },
+      {
+        "id": "F09",
+        "pick": 0,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F10",
+        "pick": 0,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F11",
+        "pick": 0,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F12",
+        "pick": 1,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F13",
+        "pick": 3,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F14",
+        "pick": 1,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F15",
+        "pick": 0,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F16",
+        "pick": 1,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F17",
+        "pick": 0,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": {
+          "text": "我猜她平时就不太注意头像",
+          "generalization": false,
+          "version": 1
+        }
+      },
+      {
+        "id": "F18",
+        "pick": 1,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F19",
+        "pick": 2,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": {
+          "text": "我觉得年龄和关系阶段会影响选择",
+          "generalization": false,
+          "version": 1
+        }
+      },
+      {
+        "id": "F20",
+        "pick": 0,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": {
+          "text": "我把公开表达与关注互动分开看",
+          "generalization": false,
+          "version": 1
+        }
+      }
+    ],
+    "score": 74,
+    "version": "v2-directional-2"
+  },
+  "type-04": {
+    "gender": "male",
+    "answers": [
+      {
+        "id": "F01",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F02",
+        "pick": 3,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F03",
+        "pick": 0,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F04",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": {
+          "text": "语气和平时不同，我猜她会继续观察",
+          "generalization": false,
+          "version": 1
+        }
+      },
+      {
+        "id": "F05",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F06",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F07",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F08",
+        "pick": 0,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": {
+          "text": "我猜她对公开平台互动不太敏感",
+          "generalization": false,
+          "version": 1
+        }
+      },
+      {
+        "id": "F09",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F10",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F11",
+        "pick": 0,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F12",
+        "pick": 3,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F13",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F14",
+        "pick": 3,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F15",
+        "pick": 3,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F16",
+        "pick": 0,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F17",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": {
+          "text": "头像变化没解释，我猜她会继续观察",
+          "generalization": false,
+          "version": 1
+        }
+      },
+      {
+        "id": "F18",
+        "pick": 2,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F19",
+        "pick": 2,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": {
+          "text": "我觉得年龄和关系阶段会影响选择",
+          "generalization": false,
+          "version": 1
+        }
+      },
+      {
+        "id": "F20",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": {
+          "text": "女人的心思就是都很矛盾",
+          "generalization": true,
+          "version": 1
+        }
+      }
+    ],
+    "score": 75,
+    "version": "v2-directional-2"
+  },
+  "type-02": {
+    "gender": "male",
+    "answers": [
+      {
+        "id": "F01",
+        "pick": 1,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F02",
+        "pick": 1,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F03",
+        "pick": 0,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F04",
+        "pick": 3,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": {
+          "text": "我猜她会先直接确认发生了什么",
+          "generalization": false,
+          "version": 1
+        }
+      },
+      {
+        "id": "F05",
+        "pick": 1,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F06",
+        "pick": 1,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F07",
+        "pick": 1,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F08",
+        "pick": 0,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": {
+          "text": "我猜她对公开平台互动不太敏感",
+          "generalization": false,
+          "version": 1
+        }
+      },
+      {
+        "id": "F09",
+        "pick": 1,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F10",
+        "pick": 3,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F11",
+        "pick": 2,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F12",
+        "pick": 1,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F13",
+        "pick": 1,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F14",
+        "pick": 1,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F15",
+        "pick": 1,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F16",
+        "pick": 1,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F17",
+        "pick": 1,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": {
+          "text": "头像变化没解释，我猜她会继续观察",
+          "generalization": false,
+          "version": 1
+        }
+      },
+      {
+        "id": "F18",
+        "pick": 0,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F19",
+        "pick": 2,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": {
+          "text": "我觉得年龄和关系阶段会影响选择",
+          "generalization": false,
+          "version": 1
+        }
+      },
+      {
+        "id": "F20",
+        "pick": 2,
+        "activeMs": 3000,
+        "revisited": false,
+        "reason": {
+          "text": "我想到她也可能只是随手看朋友圈",
+          "generalization": false,
+          "version": 1
+        }
+      }
+    ],
+    "score": 86,
+    "version": "v2-directional-2"
+  },
+  "type-01": {
+    "gender": "female",
+    "answers": [
+      {
+        "id": "M01",
+        "pick": 2,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M02",
+        "pick": 2,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M03",
+        "pick": 0,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M04",
+        "pick": 0,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M05",
+        "pick": 0,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M06",
+        "pick": 0,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M07",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M08",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": {
+          "text": "他已经动手，我猜会边做边试",
+          "generalization": false,
+          "version": 1
+        }
+      },
+      {
+        "id": "M09",
+        "pick": 2,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": {
+          "text": "我猜他习惯把同事互动告诉对象",
+          "generalization": false,
+          "version": 1
+        }
+      },
+      {
+        "id": "M10",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M11",
+        "pick": 0,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M12",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": {
+          "text": "我把不常发照片和私人生活边界联系起来",
+          "generalization": false,
+          "version": 1
+        }
+      },
+      {
+        "id": "M13",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": {
+          "text": "我想到收入差距可能带来的角色压力",
+          "generalization": false,
+          "version": 1
+        }
+      },
+      {
+        "id": "M14",
+        "pick": 3,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M15",
+        "pick": 0,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M16",
+        "pick": 3,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M17",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M18",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M19",
+        "pick": 2,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M20",
+        "pick": 0,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": {
+          "text": "我想到对方也可能更在意生活状态",
+          "generalization": false,
+          "version": 1
+        }
+      }
+    ],
+    "score": 76,
+    "version": "v2-directional-2"
+  },
+  "type-03": {
+    "gender": "female",
+    "answers": [
+      {
+        "id": "M01",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M02",
+        "pick": 0,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M03",
+        "pick": 0,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M04",
+        "pick": 0,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M05",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M06",
+        "pick": 0,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M07",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M08",
+        "pick": 2,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": {
+          "text": "男人遇到装家具都会直接甩给别人",
+          "generalization": true,
+          "version": 1
+        }
+      },
+      {
+        "id": "M09",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": {
+          "text": "评论夸的是工作，我先猜他只是开心",
+          "generalization": false,
+          "version": 1
+        }
+      },
+      {
+        "id": "M10",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M11",
+        "pick": 0,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M12",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": {
+          "text": "我把不常发照片和私人生活边界联系起来",
+          "generalization": false,
+          "version": 1
+        }
+      },
+      {
+        "id": "M13",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": {
+          "text": "我想到收入差距可能带来的角色压力",
+          "generalization": false,
+          "version": 1
+        }
+      },
+      {
+        "id": "M14",
+        "pick": 0,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M15",
+        "pick": 0,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M16",
+        "pick": 3,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M17",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M18",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M19",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "M20",
+        "pick": 0,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": {
+          "text": "我想到对方也可能更在意生活状态",
+          "generalization": false,
+          "version": 1
+        }
+      }
+    ],
+    "score": 94,
+    "version": "v2-directional-2"
+  },
+  "type-10": {
+    "gender": "male",
+    "answers": [
+      {
+        "id": "F01",
+        "pick": 0,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F02",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F03",
+        "pick": 3,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F04",
+        "pick": 2,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": {
+          "text": "女生对男生的情绪都不怎么在乎",
+          "generalization": true,
+          "version": 1
+        }
+      },
+      {
+        "id": "F05",
+        "pick": 3,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F06",
+        "pick": 2,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F07",
+        "pick": 2,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F08",
+        "pick": 3,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": {
+          "text": "我猜她会先问这个人的身份",
+          "generalization": false,
+          "version": 1
+        }
+      },
+      {
+        "id": "F09",
+        "pick": 2,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F10",
+        "pick": 2,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F11",
+        "pick": 0,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F12",
+        "pick": 3,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F13",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F14",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F15",
+        "pick": 0,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F16",
+        "pick": 0,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F17",
+        "pick": 2,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": {
+          "text": "女生遇到换合照这种事都会直接分手",
+          "generalization": true,
+          "version": 1
+        }
+      },
+      {
+        "id": "F18",
+        "pick": 2,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": null
+      },
+      {
+        "id": "F19",
+        "pick": 3,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": {
+          "text": "我猜两种生活方式可能各有吸引力",
+          "generalization": false,
+          "version": 1
+        }
+      },
+      {
+        "id": "F20",
+        "pick": 1,
+        "activeMs": 10000,
+        "revisited": false,
+        "reason": {
+          "text": "女人的心思就是都很矛盾",
+          "generalization": true,
+          "version": 1
+        }
+      }
+    ],
+    "score": 51,
+    "version": "v2-directional-2"
+  }
+}

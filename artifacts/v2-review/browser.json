@@ -1,0 +1,104 @@
+{
+  "passed": true,
+  "url": "http://localhost:4174",
+  "runs": [
+    {
+      "width": 320,
+      "gender": "male",
+      "scenes": 20,
+      "reload": true,
+      "back": true,
+      "doubleTap": true,
+      "reportEdit": true,
+      "png": true,
+      "friend": true,
+      "audio": true
+    },
+    {
+      "width": 320,
+      "gender": "female",
+      "scenes": 20,
+      "reload": true,
+      "back": true,
+      "doubleTap": true,
+      "reportEdit": true,
+      "png": true,
+      "friend": true,
+      "audio": true
+    },
+    {
+      "width": 375,
+      "gender": "male",
+      "scenes": 20,
+      "reload": true,
+      "back": true,
+      "doubleTap": true,
+      "reportEdit": true,
+      "png": true,
+      "friend": true,
+      "audio": true
+    },
+    {
+      "width": 375,
+      "gender": "female",
+      "scenes": 20,
+      "reload": true,
+      "back": true,
+      "doubleTap": true,
+      "reportEdit": true,
+      "png": true,
+      "friend": true,
+      "audio": true
+    },
+    {
+      "width": 390,
+      "gender": "male",
+      "scenes": 20,
+      "reload": true,
+      "back": true,
+      "doubleTap": true,
+      "reportEdit": true,
+      "png": true,
+      "friend": true,
+      "audio": true
+    },
+    {
+      "width": 390,
+      "gender": "female",
+      "scenes": 20,
+      "reload": true,
+      "back": true,
+      "doubleTap": true,
+      "reportEdit": true,
+      "png": true,
+      "friend": true,
+      "audio": true
+    },
+    {
+      "width": 430,
+      "gender": "male",
+      "scenes": 20,
+      "reload": true,
+      "back": true,
+      "doubleTap": true,
+      "reportEdit": true,
+      "png": true,
+      "friend": true,
+      "audio": true
+    },
+    {
+      "width": 430,
+      "gender": "female",
+      "scenes": 20,
+      "reload": true,
+      "back": true,
+      "doubleTap": true,
+      "reportEdit": true,
+      "png": true,
+      "friend": true,
+      "audio": true
+    }
+  ],
+  "errors": [],
+  "verifiedAt": "2026-10-07T08:45:13.216Z"
+}
