@@ -2,18 +2,18 @@
   "provider": "Cloudflare Workers",
   "name": "your-relationship-reading-v2",
   "url": "https://your-relationship-reading-v2.fliedwolf.workers.dev/",
-  "version": "4ccae00f-a415-4125-ba47-3175b57bd54a",
+  "version": "4fd353cf-ad23-4ff5-9e1c-53fbc3c3e7ba",
   "workerStartupMs": 3,
-  "uploadKiB": 1229.48,
-  "gzipKiB": 855.48,
-  "assetsUploaded": 1,
+  "uploadKiB": 1229.44,
+  "gzipKiB": 855.49,
+  "assetsUploaded": 4,
   "priorFeatureDeployment": {
     "version": "c1f55dcf-ac9e-48d4-a789-852277b16871",
     "assetsUploaded": 47
   },
   "questionArtworks": 40,
   "status": "deployed and publicly verified",
-  "verifiedAt": "2026-10-07T14:45:33.697Z",
+  "verifiedAt": "2026-10-07T15:00:23.3688570Z",
   "checks": {
     "unitTests": 28,
     "mobileRoutes": 8,
@@ -23,5 +23,9 @@
     "publicAudioRace": true,
     "publicPNG": true
   },
-  "originalMasterPreserved": "e781e25d8f83055ab87d3fc0ca9ec1ee954106f8"
+  "originalMasterPreserved": "e781e25d8f83055ab87d3fc0ca9ec1ee954106f8",
+  "title": "你真的懂TA吗？",
+  "revealSeconds": 5.2,
+  "rotationSeconds": 4.8,
+  "currentVerification": "artifacts/v2-review/effects-slow/browser.json"
 }

@@ -48,7 +48,7 @@ function sceneTrack(q) {
 }
 
 function entry(s) {
-  return `${logo}<section class="intro-head"><span class="eyebrow">20幕生活 · 一次心动观察</span><h1>你真的<br>懂<em>异性</em>吗<span class="question-mark">？</span></h1><p>你以为你很懂。<br>我们来看看。</p></section><div class="intro-comic">${art("cover", "可爱动物角色的都市生活漫画")}</div><h2 class="entry-question">我是</h2><div class="gender-entry"><button data-action="start" data-gender="male"><b>男性</b><small>预测她的20个生活瞬间 →</small></button><button data-action="start" data-gender="female"><b>女性</b><small>预测他的20个生活瞬间 →</small></button></div><div class="mini-tags"><span>约 5–7 分钟</span><span>20题</span><span>最后一起揭晓</span></div><p class="tiny-note">无需登录 · 娱乐与自我观察<br>进度由服务器保存，清除浏览器标识后无法恢复。</p>${s.migrationNotice ? `<p class="tiny-note">${esc(s.migrationNotice)}</p>` : ""}${s.playerGender ? '<p class="tiny-note">选择原路线，可以接着上次玩。</p>' : ""}`;
+  return `${logo}<section class="intro-head"><span class="eyebrow">20幕生活 · 一次心动观察</span><h1>你真的<br>懂<em>TA</em>吗<span class="question-mark">？</span></h1><p>你以为你很懂。<br>我们来看看。</p></section><div class="intro-comic">${art("cover", "可爱动物角色的都市生活漫画")}</div><h2 class="entry-question">我是</h2><div class="gender-entry"><button data-action="start" data-gender="male"><b>男性</b><small>预测她的20个生活瞬间 →</small></button><button data-action="start" data-gender="female"><b>女性</b><small>预测他的20个生活瞬间 →</small></button></div><div class="mini-tags"><span>约 5–7 分钟</span><span>20题</span><span>最后一起揭晓</span></div><p class="tiny-note">无需登录 · 娱乐与自我观察<br>进度由服务器保存，清除浏览器标识后无法恢复。</p>${s.migrationNotice ? `<p class="tiny-note">${esc(s.migrationNotice)}</p>` : ""}${s.playerGender ? '<p class="tiny-note">选择原路线，可以接着上次玩。</p>' : ""}`;
 }
 function play(s) {
   const q = sessionQuestions(s)[s.index],
@@ -195,7 +195,7 @@ export function present(s, publicUrl, r = null) {
     ...(s.screen === "report"
       ? {
           share: {
-            title: `我的异性理解人格：${r.type.name}`,
+            title: "你真的懂TA吗？",
             text: r.type.quote,
             url: publicUrl + "/?from=report",
             poster: "/api/poster.svg",

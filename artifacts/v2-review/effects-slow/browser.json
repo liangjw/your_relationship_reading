@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "url": "http://localhost:4175",
+  "url": "https://your-relationship-reading-v2.fliedwolf.workers.dev",
   "runs": [
     {
       "gender": "male",
@@ -30,5 +30,5 @@
     }
   ],
   "errors": [],
-  "verifiedAt": "2026-10-07T14:53:50.065Z"
+  "verifiedAt": "2026-10-07T14:59:20.854Z"
 }

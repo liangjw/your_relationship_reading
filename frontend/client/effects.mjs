@@ -27,5 +27,5 @@ export function revealCard(card,effect){
   const finish=()=>{clearTimeout(revealTimer);dialog.remove();if(revealDialog===dialog)revealDialog=null;card.classList.add('card-revealed');card.tabIndex=-1;card.focus({preventScroll:true});};
   dialog.addEventListener('cancel',stopCues);
   dialog.addEventListener('close',finish,{once:true});dialog.querySelector('.summon-skip').addEventListener('click',()=>{stopCues();dialog.close();});
-  dialog.showModal();playEffect(effect);revealTimer=setTimeout(()=>dialog.open&&dialog.close(),2800);return true;
+  dialog.showModal();playEffect(effect);revealTimer=setTimeout(()=>dialog.open&&dialog.close(),5200);return true;
 }

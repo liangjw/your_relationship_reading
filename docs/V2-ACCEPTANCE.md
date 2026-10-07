@@ -60,3 +60,9 @@ Git实现已推送 `codex/v2-node-game`；原远程master仍为e781e25。Cloudfl
 公网首轮专项发现音频时序问题：开启声音后切换入口音乐，旧play()被中断产生AbortError，旧catch误将声音偏好改为静音，后续揭晓音效未触发。保留失败记录public-audio-failure.json。已修正为仅当前音源的NotAllowedError会回到静音；正常换曲、手动暂停和切出页面引起的中断不改变用户设置。专项注入AbortError/NotAllowedError及用户重试回归通过，见audio-race.json。
 
 最终发布版本4ccae00f-a415-4125-ba47-3175b57bd54a，公网地址https://your-relationship-reading-v2.fliedwolf.workers.dev/。公网两条路线40张图、声音及揭晓、回退、刷新、减少动态效果、6轴雷达、小屏抽卡和PNG导出全部通过；音轨中断专项也通过。结果见effects/browser.json与effects/audio-race.json。Worker启动3ms，上传1229.48KiB/gzip855.48KiB。原master仍为e781e25d8f83055ab87d3fc0ca9ec1ee954106f8。
+
+## 标题与揭晓节奏调整
+
+用户要求主标题改为“你真的懂TA吗？”，入口、浏览器标题、OG分享标题与原生分享标题已同步，标题不再使用“异性”。随后按用户反馈将揭晓从约2.8秒放慢为5.2秒，主旋转4.8秒，翻面后留约1.5秒观看卡片；光晕、星光和原创揭晓音效同步延长。跳过、Esc与减少动态效果仍支持。两条路线专项浏览器复测已通过，实际CSS动画时长核验为4.8秒。
+
+标题及慢速揭晓最终线上版本4fd353cf-ad23-4ff5-9e1c-53fbc3c3e7ba；公网两条路线、4.8秒真实CSS旋转、自动结束、跳过、小屏和分享PNG复测通过，记录见effects-slow/browser.json。原截图目录出现一次本地文件写入错误，使用独立输出目录完成复测。主标题的线上HTML和入口API也已检查。
