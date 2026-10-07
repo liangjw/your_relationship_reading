@@ -64,6 +64,8 @@ async function refresh() {
 }
 async function act(payload, { quiet = false } = {}) {
   if (busy || !view) return;
+  const controller = new AbortController(),
+    timeout = setTimeout(() => controller.abort(), 15000);
   busy = true;
   app.setAttribute("aria-busy", "true");
   app.querySelectorAll("button").forEach((b) => (b.disabled = true));
@@ -76,6 +78,7 @@ async function act(payload, { quiet = false } = {}) {
     const result = await response(
       await fetch("/api/action", {
         method: "POST",
+        signal: controller.signal,
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           ...payload,
@@ -87,10 +90,19 @@ async function act(payload, { quiet = false } = {}) {
     show(result, { scroll: !quiet });
   } catch (e) {
     if (e.status === 409) {
-      await refresh();
-      toast("页面已同步，请使用当前题目继续。");
-    } else toast(e.message);
+      try {
+        await refresh();
+        toast("页面已同步，请使用当前题目继续。");
+      } catch {
+        toast("暂时无法同步，请检查网络后重试。");
+      }
+    } else
+      toast(
+        e.name === "AbortError" ? "连接超时，请检查网络后重试。" : e.message,
+      );
   } finally {
+    clearTimeout(timeout);
+    picked?.classList.remove("picked");
     busy = false;
     app.removeAttribute("aria-busy");
     app.querySelectorAll("button").forEach((b) => (b.disabled = false));

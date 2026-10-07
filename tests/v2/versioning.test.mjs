@@ -55,11 +55,20 @@ test("old answers without displayed reason provenance are never attributed new g
   assert.equal(a.calibrationAbility, null);
   assert.notEqual(classify(a).id, "type-12");
   assert.notEqual(classify(a).id, "type-10");
-  const s={...newSession(),screen:'report',playerGender:'female',questions:structuredClone(qs),answers};
-  const report=reportData(s),html=present(s,'http://localhost',report).html;
-  assert(html.includes('未评估'));assert(html.includes('未记录可核验的判断依据'));
-  assert(!html.includes('null/100'));assert(!report.bugs[2].includes('没有选中'));
-  assert(poster(report,'http://localhost').includes('未评估'));
+  const s = {
+    ...newSession(),
+    screen: "report",
+    playerGender: "female",
+    questions: structuredClone(qs),
+    answers,
+  };
+  const report = reportData(s),
+    html = present(s, "http://localhost", report).html;
+  assert(html.includes("未评估"));
+  assert(html.includes("未记录可核验的判断依据"));
+  assert(!html.includes("null/100"));
+  assert(!report.bugs[2].includes("没有选中"));
+  assert(poster(report, "http://localhost").includes("未评估"));
 });
 test("old sessions and cached reports restart safely while keeping historical answers", async () => {
   const old = {

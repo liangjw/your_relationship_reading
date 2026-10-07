@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "url": "http://127.0.0.1:4175",
+  "runs": [
+    {
+      "gender": "male",
+      "questions": 20,
+      "oppositeSexOnly": true,
+      "report": true,
+      "persistedReport": true,
+      "poster": true,
+      "freshFriend": true
+    },
+    {
+      "gender": "female",
+      "questions": 20,
+      "oppositeSexOnly": true,
+      "report": true,
+      "persistedReport": true,
+      "poster": true,
+      "freshFriend": true
+    }
+  ],
+  "verifiedAt": "2026-10-07T08:56:17.969Z",
+  "runtime": "Cloudflare workerd + SQLite Durable Objects"
+}
