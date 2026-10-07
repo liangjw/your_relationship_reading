@@ -16,3 +16,6 @@ artifacts/proposal-qa/
 artifacts/v2-drafts/
 scripts/*game-proposal.py
 scripts/proposal-*.mjs
+artwork/personality-v2/*.png
+artwork/personality-v2/source-manifest.json
+artwork/personality-v2/scenes-source.json

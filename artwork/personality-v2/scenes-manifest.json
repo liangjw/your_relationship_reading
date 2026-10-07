@@ -1,0 +1,29 @@
+{
+  "mode": "built-in imagegen",
+  "assets": [
+    {
+      "id": "cover",
+      "prompt": "Use case: illustration-story. A polished wide 3:2 game background illustration for a cute mobile relationship observation game. Scene: a cream-pink fox wearing burgundy headphones, a lavender rabbit, a calico cat with a tiny detective cape and a mint otter meeting in a cozy contemporary Chinese city plaza with coffee takeaway cups and a small phone, friendly relaxed curiosity, no obvious romantic pairing. Original adorable 2D chibi animal character illustration, matching a sophisticated series of fluffy pastel animal mascots with huge sparkling eyes, rounded bodies, warm fine outlines, soft hand-painted cel shading, muted cream/dusty rose/burgundy, tiny mint and lavender accents. All characters adult-coded by everyday settings, no baby merchandise. Beautiful detailed but quiet Chinese urban everyday setting. THREE manga panels with soft cream curved gutters and one character's ears gently crossing a panel edge, dynamic asymmetrical composition readable on a phone. Keep expressions neutral and ambiguous, do not reveal any correct choice or dramatic emotional motive. No letters, speech text, numbers, logo, watermark, realistic human, photorealism, heavy black borders. Landscape composition, entire panel strip visible, no cropping.",
+      "original": "artwork/personality-v2/scene-cover.png",
+      "src": "/assets/v2-cute-cover.webp"
+    },
+    {
+      "id": "city",
+      "prompt": "Use case: illustration-story. A polished wide 3:2 game background illustration for a cute mobile relationship observation game. Scene: a cute cream-pink fox and a lavender rabbit in neat casual adult office clothes, one at a tidy desk with laptop and blank documents, one walking near the window with an unmarked phone, contemporary Chinese office with city apartments outside, neutral relaxed expressions. Original adorable 2D chibi animal character illustration, matching a sophisticated series of fluffy pastel animal mascots with huge sparkling eyes, rounded bodies, warm fine outlines, soft hand-painted cel shading, muted cream/dusty rose/burgundy, tiny mint and lavender accents. All characters adult-coded by everyday settings, no baby merchandise. Beautiful detailed but quiet Chinese urban everyday setting. THREE manga panels with soft cream curved gutters and one character's ears gently crossing a panel edge, dynamic asymmetrical composition readable on a phone. Keep expressions neutral and ambiguous, do not reveal any correct choice or dramatic emotional motive. No letters, speech text, numbers, logo, watermark, realistic human, photorealism, heavy black borders. Landscape composition, entire panel strip visible, no cropping.",
+      "original": "artwork/personality-v2/scene-city.png",
+      "src": "/assets/v2-cute-city.webp"
+    },
+    {
+      "id": "home",
+      "prompt": "Use case: illustration-story. A polished wide 3:2 game background illustration for a cute mobile relationship observation game. Scene: a mint otter and a soft lavender rabbit in a cozy contemporary Chinese apartment, one on a sofa holding an unmarked phone and one beside a desk with a cup, soft lamp, window, sneakers near entry, neutral gently curious expressions. Original adorable 2D chibi animal character illustration, matching a sophisticated series of fluffy pastel animal mascots with huge sparkling eyes, rounded bodies, warm fine outlines, soft hand-painted cel shading, muted cream/dusty rose/burgundy, tiny mint and lavender accents. All characters adult-coded by everyday settings, no baby merchandise. Beautiful detailed but quiet Chinese urban everyday setting. THREE manga panels with soft cream curved gutters and one character's ears gently crossing a panel edge, dynamic asymmetrical composition readable on a phone. Keep expressions neutral and ambiguous, do not reveal any correct choice or dramatic emotional motive. No letters, speech text, numbers, logo, watermark, realistic human, photorealism, heavy black borders. Landscape composition, entire panel strip visible, no cropping.",
+      "original": "artwork/personality-v2/scene-home.png",
+      "src": "/assets/v2-cute-home.webp"
+    },
+    {
+      "id": "cafe",
+      "prompt": "Use case: illustration-story. A polished wide 3:2 game background illustration for a cute mobile relationship observation game. Scene: a peach deer and a calico cat sitting across a small round table in a cozy contemporary Chinese cafe, two tea cups, unmarked phone resting face down, window with urban apartment street, neutral friendly attentive expressions. Original adorable 2D chibi animal character illustration, matching a sophisticated series of fluffy pastel animal mascots with huge sparkling eyes, rounded bodies, warm fine outlines, soft hand-painted cel shading, muted cream/dusty rose/burgundy, tiny mint and lavender accents. All characters adult-coded by everyday settings, no baby merchandise. Beautiful detailed but quiet Chinese urban everyday setting. THREE manga panels with soft cream curved gutters and one character's ears gently crossing a panel edge, dynamic asymmetrical composition readable on a phone. Keep expressions neutral and ambiguous, do not reveal any correct choice or dramatic emotional motive. No letters, speech text, numbers, logo, watermark, realistic human, photorealism, heavy black borders. Landscape composition, entire panel strip visible, no cropping.",
+      "original": "artwork/personality-v2/scene-cafe.png",
+      "src": "/assets/v2-cute-cafe.webp"
+    }
+  ]
+}

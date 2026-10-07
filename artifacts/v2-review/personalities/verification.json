@@ -1,0 +1,116 @@
+{
+  "passed": true,
+  "base": "https://your-relationship-reading-v2.fliedwolf.workers.dev",
+  "results": [
+    {
+      "id": "type-01",
+      "widths": [
+        320,
+        390
+      ],
+      "poster": "750x1360",
+      "mascotPixels": 27775
+    },
+    {
+      "id": "type-02",
+      "widths": [
+        320,
+        390
+      ],
+      "poster": "750x1360",
+      "mascotPixels": 22587
+    },
+    {
+      "id": "type-03",
+      "widths": [
+        320,
+        390
+      ],
+      "poster": "750x1360",
+      "mascotPixels": 33455
+    },
+    {
+      "id": "type-04",
+      "widths": [
+        320,
+        390
+      ],
+      "poster": "750x1360",
+      "mascotPixels": 43723
+    },
+    {
+      "id": "type-05",
+      "widths": [
+        320,
+        390
+      ],
+      "poster": "750x1360",
+      "mascotPixels": 39433
+    },
+    {
+      "id": "type-06",
+      "widths": [
+        320,
+        390
+      ],
+      "poster": "750x1360",
+      "mascotPixels": 35700
+    },
+    {
+      "id": "type-07",
+      "widths": [
+        320,
+        390
+      ],
+      "poster": "750x1360",
+      "mascotPixels": 28764
+    },
+    {
+      "id": "type-08",
+      "widths": [
+        320,
+        390
+      ],
+      "poster": "750x1360",
+      "mascotPixels": 28564
+    },
+    {
+      "id": "type-09",
+      "widths": [
+        320,
+        390
+      ],
+      "poster": "750x1360",
+      "mascotPixels": 20627
+    },
+    {
+      "id": "type-10",
+      "widths": [
+        320,
+        390
+      ],
+      "poster": "750x1360",
+      "mascotPixels": 34741
+    },
+    {
+      "id": "type-11",
+      "widths": [
+        320,
+        390
+      ],
+      "poster": "750x1360",
+      "mascotPixels": 36394
+    },
+    {
+      "id": "type-12",
+      "widths": [
+        320,
+        390
+      ],
+      "poster": "750x1360",
+      "mascotPixels": 29596
+    }
+  ],
+  "liveClient": true,
+  "verifiedAt": "2026-10-07T13:16:35.549Z"
+}

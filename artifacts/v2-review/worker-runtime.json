@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "url": "http://127.0.0.1:4175",
+  "url": "https://your-relationship-reading-v2.fliedwolf.workers.dev",
   "runs": [
     {
       "gender": "male",
@@ -21,6 +21,6 @@
       "freshFriend": true
     }
   ],
-  "verifiedAt": "2026-10-07T10:33:07.078Z",
+  "verifiedAt": "2026-10-07T13:16:46.674Z",
   "runtime": "Cloudflare workerd + SQLite Durable Objects"
 }

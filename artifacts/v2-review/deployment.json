@@ -1,0 +1,12 @@
+{
+  "provider": "Cloudflare Workers",
+  "name": "your-relationship-reading-v2",
+  "url": "https://your-relationship-reading-v2.fliedwolf.workers.dev/",
+  "version": "33bde3ed-018c-4d41-b821-971cbbefbc27",
+  "workerStartupMs": 2,
+  "uploadKiB": 1226.12,
+  "gzipKiB": 854.16,
+  "assetsUploaded": 43,
+  "status": "deployed and publicly verified",
+  "originalMasterPreserved": "e781e25d8f83055ab87d3fc0ca9ec1ee954106f8"
+}

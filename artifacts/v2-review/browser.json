@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "url": "http://localhost:4174",
+  "url": "http://localhost:4175",
   "runs": [
     {
       "width": 320,
@@ -100,5 +100,5 @@
     }
   ],
   "errors": [],
-  "verifiedAt": "2026-10-07T08:45:13.216Z"
+  "verifiedAt": "2026-10-07T11:39:42.040Z"
 }

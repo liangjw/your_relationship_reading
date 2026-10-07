@@ -1,0 +1,138 @@
+{
+  "mode": "built-in imagegen",
+  "transparent": true,
+  "assets": [
+    {
+      "id": "type-01",
+      "type": "情绪雷达型",
+      "character": "耳机小狐狸",
+      "src": "/assets/mascot-type-01.webp",
+      "original": "artwork/personality-v2/type-01.png",
+      "bytes": 68782,
+      "width": 640,
+      "height": 640,
+      "prompt": "Use case: illustration-story. Asset type: mobile relationship personality game character mascot, first of a coherent set of 12. Create ONE irresistibly cute small pink-and-cream fox wearing soft burgundy listening headphones, perked ears, a little floating heart-shaped radar ripple, warm curious face, holding a tiny heart. This represents an emotional radar personality. High-quality original 2D kawaii chibi cartoon character, rounded expressive silhouette, small paws, soft hand-painted pastel cel shading, clean warm dark fine outlines, charming editorial sticker illustration, contemporary adult social game taste. Full body centered, square canvas, ample clear margins, simple silhouette recognizable at 160px. Palette cream, dusty rose, burgundy accents, very light soft texture. Actual transparent background, no scenery, no lettering, no numbers, no logos, no enclosing badge/circle, no photorealism, no vector-symbol substitute. Friendly and humorous, not baby toy merchandise. Generate only one fox."
+    },
+    {
+      "id": "type-02",
+      "type": "潜台词翻译官",
+      "character": "气泡小兔子",
+      "src": "/assets/mascot-type-02.webp",
+      "original": "artwork/personality-v2/type-02.png",
+      "bytes": 74092,
+      "width": 640,
+      "height": 640,
+      "prompt": "Use case: illustration-story. Asset type: one transparent mobile game personality mascot, part of a coherent 12-character cute animal series. Personality: Subtext Translator. Subject: ONE a cream-and-lavender rabbit with long floppy ears, thoughtfully holding two tiny speech bubbles, one bubble with a little heart and the other with a tiny question mark shape, a knowing sweet smile. High-quality original kawaii chibi cartoon, full-body big sparkling expressive eyes, rounded small body, tiny paws, fluffy expressive silhouette, warm fine dark outline, detailed soft painted cel shading, glossy simple props and blushing cheeks. Charming polished game character art matching a pink cream fox mascot with burgundy headphones, not a logo. Pastel cream/dusty rose/burgundy palette with personality's own accent color. Centered square canvas, complete character and props visible, ample clear margins, recognizable at 160px. Genuinely transparent background, no scenery, no lettering, no numbers, no logo, no enclosing badge or circle, no photography, no geometric symbol substitute. Only ONE character."
+    },
+    {
+      "id": "type-03",
+      "type": "行为侦探",
+      "character": "侦探小猫",
+      "src": "/assets/mascot-type-03.webp",
+      "original": "artwork/personality-v2/type-03.png",
+      "bytes": 84744,
+      "width": 640,
+      "height": 640,
+      "prompt": "Use case: illustration-story. Asset type: one transparent mobile game personality mascot, part of a coherent 12-character cute animal series. Personality: Behavior Detective. Subject: ONE a calico kitten in a small burgundy detective cape and soft cap, peering through a magnifying glass at tiny heart-shaped footprints, playful curious face. High-quality original kawaii chibi cartoon, full-body big sparkling expressive eyes, rounded small body, tiny paws, fluffy expressive silhouette, warm fine dark outline, detailed soft painted cel shading, glossy simple props and blushing cheeks. Charming polished game character art matching a pink cream fox mascot with burgundy headphones, not a logo. Pastel cream/dusty rose/burgundy palette with personality's own accent color. Centered square canvas, complete character and props visible, ample clear margins, recognizable at 160px. Genuinely transparent background, no scenery, no lettering, no numbers, no logo, no enclosing badge or circle, no photography, no geometric symbol substitute. Only ONE character."
+    },
+    {
+      "id": "type-04",
+      "type": "理性拆解者",
+      "character": "拼图小浣熊",
+      "src": "/assets/mascot-type-04.webp",
+      "original": "artwork/personality-v2/type-04.png",
+      "bytes": 92396,
+      "width": 640,
+      "height": 640,
+      "prompt": "Use case: illustration-story. Asset type: one transparent mobile game personality mascot, part of a coherent 12-character cute animal series. Personality: Rational Decoder. Subject: ONE a soft teal-gray raccoon with round glasses, assembling two large simple puzzle pieces next to a tiny tidy toolkit, focused but warm and adorably serious expression. High-quality original kawaii chibi cartoon, full-body big sparkling expressive eyes, rounded small body, tiny paws, fluffy expressive silhouette, warm fine dark outline, detailed soft painted cel shading, glossy simple props and blushing cheeks. Charming polished game character art matching a pink cream fox mascot with burgundy headphones, not a logo. Pastel cream/dusty rose/burgundy palette with personality's own accent color. Centered square canvas, complete character and props visible, ample clear margins, recognizable at 160px. Genuinely transparent background, no scenery, no lettering, no numbers, no logo, no enclosing badge or circle, no photography, no geometric symbol substitute. Only ONE character."
+    },
+    {
+      "id": "type-05",
+      "type": "共情型玩家",
+      "character": "抱抱水豚",
+      "src": "/assets/mascot-type-05.webp",
+      "original": "artwork/personality-v2/type-05.png",
+      "bytes": 52598,
+      "width": 640,
+      "height": 640,
+      "prompt": "Use case: illustration-story. Asset type: ONE transparent mobile relationship game personality mascot in a coherent 12-animal set. Personality Empathic Reader: ONE apricot capybara with a soft round muzzle and gentle half-closed happy eyes, hugging an oversized dusty-rose heart cushion, a little cream scarf, calm comforting seated pose. Polished original 2D kawaii chibi cartoon game character illustration, rounded expressive silhouette, soft fluffy painted cel shading, warm fine dark outlines, tiny paws, blushing cheeks, large sparkling eyes unless stated half-closed. Match a cream-pink fox with burgundy headphones and a cream-lavender rabbit with speech bubbles, same sweet sophisticated illustration series. Cream/dusty rose/burgundy plus own muted accent. Full body centered square, entire character and props, ample margins, readable at 160px. Genuinely transparent background. No scenery, letters, words, numbers, logo, badge, enclosing circle or geometry symbol. No photorealism. Only one character."
+    },
+    {
+      "id": "type-06",
+      "type": "安全感侦测器",
+      "character": "撑伞小企鹅",
+      "src": "/assets/mascot-type-06.webp",
+      "original": "artwork/personality-v2/type-06.png",
+      "bytes": 62734,
+      "width": 640,
+      "height": 640,
+      "prompt": "Use case: illustration-story. Asset type: ONE transparent mobile relationship game personality mascot in a coherent 12-animal set. Personality Security Reader: ONE lavender-and-cream baby penguin sheltering a small heart under a burgundy umbrella, protective caring eyes, round cozy belly, confident sweet expression. Polished original 2D kawaii chibi cartoon game character illustration, rounded expressive silhouette, soft fluffy painted cel shading, warm fine dark outlines, tiny paws, blushing cheeks, large sparkling eyes unless stated half-closed. Match a cream-pink fox with burgundy headphones and a cream-lavender rabbit with speech bubbles, same sweet sophisticated illustration series. Cream/dusty rose/burgundy plus own muted accent. Full body centered square, entire character and props, ample margins, readable at 160px. Genuinely transparent background. No scenery, letters, words, numbers, logo, badge, enclosing circle or geometry symbol. No photorealism. Only one character."
+    },
+    {
+      "id": "type-07",
+      "type": "恋爱现实主义者",
+      "character": "记账小仓鼠",
+      "src": "/assets/mascot-type-07.webp",
+      "original": "artwork/personality-v2/type-07.png",
+      "bytes": 61260,
+      "width": 640,
+      "height": 640,
+      "prompt": "Use case: illustration-story. Asset type: ONE transparent mobile relationship game personality mascot in a coherent 12-animal set. Personality Relationship Realist: ONE golden-tan hamster with round glasses, a tiny open planner with blank pages and a little calculator with unmarked square buttons, neatly stacking two tiny gold coins, pragmatic cheerful expression. Polished original 2D kawaii chibi cartoon game character illustration, rounded expressive silhouette, soft fluffy painted cel shading, warm fine dark outlines, tiny paws, blushing cheeks, large sparkling eyes unless stated half-closed. Match a cream-pink fox with burgundy headphones and a cream-lavender rabbit with speech bubbles, same sweet sophisticated illustration series. Cream/dusty rose/burgundy plus own muted accent. Full body centered square, entire character and props, ample margins, readable at 160px. Genuinely transparent background. No scenery, letters, words, numbers, logo, badge, enclosing circle or geometry symbol. No photorealism. Only one character."
+    },
+    {
+      "id": "type-08",
+      "type": "浪漫解码者",
+      "character": "送花小鹿",
+      "src": "/assets/mascot-type-08.webp",
+      "original": "artwork/personality-v2/type-08.png",
+      "bytes": 66930,
+      "width": 640,
+      "height": 640,
+      "prompt": "Use case: illustration-story. Asset type: ONE transparent mobile relationship game personality mascot in a coherent 12-animal set. Personality Romantic Reader: ONE peach-and-cream small deer with tiny rounded antlers and a burgundy bow, carrying a beautiful small pink flower bouquet and a wrapped gift, bashful happy smile. Polished original 2D kawaii chibi cartoon game character illustration, rounded expressive silhouette, soft fluffy painted cel shading, warm fine dark outlines, tiny paws, blushing cheeks, large sparkling eyes unless stated half-closed. Match a cream-pink fox with burgundy headphones and a cream-lavender rabbit with speech bubbles, same sweet sophisticated illustration series. Cream/dusty rose/burgundy plus own muted accent. Full body centered square, entire character and props, ample margins, readable at 160px. Genuinely transparent background. No scenery, letters, words, numbers, logo, badge, enclosing circle or geometry symbol. No photorealism. Only one character."
+    },
+    {
+      "id": "type-09",
+      "type": "性别思维翻译器",
+      "character": "传话小水獭",
+      "src": "/assets/mascot-type-09.webp",
+      "original": "artwork/personality-v2/type-09.png",
+      "bytes": 59144,
+      "width": 640,
+      "height": 640,
+      "prompt": "Use case: illustration-story. Asset type: ONE transparent mobile relationship game personality mascot in a coherent 12-animal set. Personality 性别思维翻译器: a mint-and-cream otter holding two different little speech bubbles connected by a tiny heart bridge, curious balanced expression. Polished original 2D kawaii chibi cartoon game character illustration, rounded expressive silhouette, soft fluffy painted cel shading, warm fine dark outlines, tiny paws, blushing cheeks, large sparkling eyes. Match a cream-pink fox with burgundy headphones and a cream-lavender rabbit with speech bubbles, same sweet sophisticated illustration series. Cream/dusty rose/burgundy plus own muted accent. Full body centered square, entire character and props, ample margins, readable at 160px. Genuinely transparent background. No scenery, letters, words, numbers, logo, badge, enclosing circle or geometry symbol. No photorealism. Only one character."
+    },
+    {
+      "id": "type-10",
+      "type": "性别刻板印象型",
+      "character": "撕标签小刺猬",
+      "src": "/assets/mascot-type-10.webp",
+      "original": "artwork/personality-v2/type-10.png",
+      "bytes": 72896,
+      "width": 640,
+      "height": 640,
+      "prompt": "Use case: illustration-story. Asset type: ONE transparent mobile relationship game personality mascot in a coherent 12-animal set. Personality 性别刻板印象型: a little warm orange hedgehog gently peeling a blank sticky label off its own apron, surprised thoughtful sweet face, friendly self-reflection rather than shame. Polished original 2D kawaii chibi cartoon game character illustration, rounded expressive silhouette, soft fluffy painted cel shading, warm fine dark outlines, tiny paws, blushing cheeks, large sparkling eyes. Match a cream-pink fox with burgundy headphones and a cream-lavender rabbit with speech bubbles, same sweet sophisticated illustration series. Cream/dusty rose/burgundy plus own muted accent. Full body centered square, entire character and props, ample margins, readable at 160px. Genuinely transparent background. No scenery, letters, words, numbers, logo, badge, enclosing circle or geometry symbol. No photorealism. Only one character."
+    },
+    {
+      "id": "type-11",
+      "type": "直觉型读心者",
+      "character": "闪电小黄鸡",
+      "src": "/assets/mascot-type-11.webp",
+      "original": "artwork/personality-v2/type-11.png",
+      "bytes": 63758,
+      "width": 640,
+      "height": 640,
+      "prompt": "Use case: illustration-story. Asset type: ONE transparent mobile relationship game personality mascot in a coherent 12-animal set. Personality 直觉型读心者: a soft yellow chick in tiny burgundy sneakers dashing forward with a tiny lightning-shaped prop and playful sparkling confident eyes. Polished original 2D kawaii chibi cartoon game character illustration, rounded expressive silhouette, soft fluffy painted cel shading, warm fine dark outlines, tiny paws, blushing cheeks, large sparkling eyes. Match a cream-pink fox with burgundy headphones and a cream-lavender rabbit with speech bubbles, same sweet sophisticated illustration series. Cream/dusty rose/burgundy plus own muted accent. Full body centered square, entire character and props, ample margins, readable at 160px. Genuinely transparent background. No scenery, letters, words, numbers, logo, badge, enclosing circle or geometry symbol. No photorealism. Only one character."
+    },
+    {
+      "id": "type-12",
+      "type": "异性观察家",
+      "character": "望远镜小猫头鹰",
+      "src": "/assets/mascot-type-12.webp",
+      "original": "artwork/personality-v2/type-12.png",
+      "bytes": 74406,
+      "width": 640,
+      "height": 640,
+      "prompt": "Use case: illustration-story. Asset type: ONE transparent mobile relationship game personality mascot in a coherent 12-animal set. Personality 异性观察家: a soft powder-blue owl holding small burgundy binoculars and a tiny blank notebook, wise curious huge expressive eyes. Polished original 2D kawaii chibi cartoon game character illustration, rounded expressive silhouette, soft fluffy painted cel shading, warm fine dark outlines, tiny paws, blushing cheeks, large sparkling eyes. Match a cream-pink fox with burgundy headphones and a cream-lavender rabbit with speech bubbles, same sweet sophisticated illustration series. Cream/dusty rose/burgundy plus own muted accent. Full body centered square, entire character and props, ample margins, readable at 160px. Genuinely transparent background. No scenery, letters, words, numbers, logo, badge, enclosing circle or geometry symbol. No photorealism. Only one character."
+    }
+  ]
+}

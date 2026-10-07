@@ -1,16 +1,16 @@
 :root {
-  --paper: #f8f4ec;
-  --surface: #fffdf8;
-  --ink: #292423;
-  --muted: #786962;
-  --accent: #8e344b;
-  --line: #d9cec5;
-  --serif: "Noto Serif SC", "Songti SC", "SimSun", serif;
+  --paper: #fff8f2;
+  --surface: #fffdfb;
+  --ink: #58424c;
+  --muted: #755d65;
+  --accent: #8d3e55;
+  --line: #ead6d8;
+  --serif: "Arial Rounded MT Bold", "Segoe UI", "Microsoft YaHei", sans-serif;
   --sans:
     -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
   color: var(--ink);
   font-family: var(--sans);
-  background: #e8e0d6;
+  background: #f3e4e7;
 }
 * {
   box-sizing: border-box;
@@ -20,13 +20,13 @@ body {
   background: var(--paper);
 }
 body[data-mood="rose"] {
-  --paper: #f4e9e6;
+  --paper: #fff3f5;
 }
 body[data-mood="plum"] {
-  --paper: #eeebf2;
+  --paper: #f7f3fc;
 }
 body[data-mood="light"] {
-  --paper: #f9f6ee;
+  --paper: #f4faf7;
 }
 button,
 a,
@@ -72,18 +72,19 @@ em {
   margin: 24px auto;
   padding: 30px 28px 88px;
   background: var(--paper);
-  box-shadow: 0 8px 38px #29242308;
+  border-radius: 30px;
+  box-shadow: 0 14px 50px #a35c7414;
 }
 .game-logo {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
-  border-bottom: 1px solid var(--ink);
+  border-bottom: 1px dashed var(--line);
   padding-bottom: 16px;
   gap: 12px;
 }
 .game-logo b {
-  font: 19px var(--serif);
+  font: 800 21px var(--serif);
 }
 .game-logo span {
   color: var(--accent);
@@ -102,12 +103,13 @@ em {
   line-height: 1.8;
 }
 .intro-head {
-  margin: 34px 0 25px;
+  margin: 26px 0 20px;
+  text-align: center;
 }
 .intro-head h1 {
-  font: 500 57px/1.2 var(--serif);
+  font: 850 43px/1.25 var(--serif);
   letter-spacing: -0.025em;
-  margin: 22px 0;
+  margin: 16px 0;
 }
 .intro-head p {
   color: var(--muted);
@@ -117,6 +119,10 @@ em {
   color: var(--accent);
 }
 .intro-comic {
+  border-radius: 24px;
+  overflow: hidden;
+  border: 3px solid white;
+  box-shadow: 0 5px 0 #ead6d880;
   aspect-ratio: 3/2;
 }
 .manga-board {
@@ -140,15 +146,16 @@ em {
 .gender-entry button {
   padding: 19px 16px;
   background: var(--surface);
-  border: 1px solid #bda59e;
-  border-radius: 3px;
+  border: 1px solid #e0bdc8;
+  border-radius: 20px;
+  box-shadow: 0 4px 0 #e5c8d1;
   text-align: left;
   min-height: 100px;
 }
 .gender-entry b {
   display: block;
   font: 21px var(--serif);
-  font-weight: 400;
+  font-weight: 750;
 }
 .gender-entry small {
   display: block;
@@ -188,6 +195,9 @@ em {
 .chapter-tag {
   font-size: 10px;
   color: var(--accent);
+  padding: 7px 10px;
+  background: #f9e8ed;
+  border-radius: 20px;
 }
 .round-number {
   font-size: 10px;
@@ -204,7 +214,8 @@ em {
   margin: 10px 0 22px;
 }
 .level-track i {
-  height: 2px;
+  height: 7px;
+  border-radius: 8px;
   flex: 1;
   background: var(--line);
 }
@@ -223,7 +234,8 @@ em {
 .story-panel {
   background: var(--surface);
   border: 1px solid var(--line);
-  border-radius: 2px;
+  border-radius: 24px;
+  box-shadow: 0 5px 0 #ead6d859;
   overflow: hidden;
 }
 .scene-context {
@@ -240,8 +252,9 @@ em {
 }
 .phone-message {
   padding: 11px 14px;
-  background: #ebece4;
-  border-radius: 1px 12px 12px;
+  background: #eff7f0;
+  border: 1px solid #d8e8dc;
+  border-radius: 6px 18px 18px;
   margin: 9px 0 13px;
   font-size: 15px;
 }
@@ -251,7 +264,7 @@ em {
   width: 16px;
   height: 2px;
   margin-top: 8px;
-  background: #9aa78b;
+  background: #aac2b0;
   opacity: 0.55;
 }
 .decision h2 {
@@ -274,8 +287,10 @@ em {
   min-height: 63px;
   padding: 14px 13px;
   background: var(--surface);
-  border: 1px solid #bdafa6;
-  border-radius: 4px;
+  border: 1px solid #e6c8d0;
+  border-radius: 18px;
+  box-shadow: 0 4px 0 #eddae0;
+  transition: transform .12s ease, background .12s ease;
 }
 .choice-copy {
   flex: 1;
@@ -285,12 +300,12 @@ em {
 .choice-dot {
   width: 11px;
   height: 11px;
-  border: 1px solid #ad9e96;
+  border: 2px solid #cfa6b3;
   border-radius: 50%;
   flex-shrink: 0;
 }
 .choice-arrow {
-  color: #9d8a81;
+  color: #aa7589;
   font-size: 17px;
 }
 .choice-reason {
@@ -300,14 +315,14 @@ em {
   border-top: 1px solid #e2d8cf;
   font-size: 11px;
   line-height: 1.7;
-  color: #786962;
+  color: #755d65;
 }
 .choice.picked {
-  background: #eedde0;
+  background: #f8dfe8;
   border-color: var(--accent);
 }
 .previous-choice .choice-dot {
-  background: #d8cdc4;
+  background: #cfa6b3;
 }
 .previous-label {
   display: inline-block;
@@ -323,7 +338,7 @@ em {
   margin: 24px 0;
 }
 .report-intro h1 {
-  font: 500 38px/1.2 var(--serif);
+  font: 800 36px/1.3 var(--serif);
   margin: 18px 0;
 }
 .report-intro p {
@@ -332,9 +347,10 @@ em {
 }
 .personality-card {
   padding: 22px;
-  background: #f0e2e2;
-  border: 1px solid #c9a7ad;
-  border-radius: 3px;
+  background: linear-gradient(150deg, #fce9ed, #fff5e9);
+  border: 2px solid #f0d1d9;
+  border-radius: 28px;
+  box-shadow: 0 7px 0 #ecd6dd;
   text-align: center;
 }
 .card-code {
@@ -343,19 +359,22 @@ em {
   letter-spacing: 0.1em;
   color: #815765;
 }
-.personality-symbol {
-  font-size: 47px;
-  width: 88px;
-  height: 88px;
-  margin: 21px auto 16px;
-  border: 1px solid #bd929b;
-  border-radius: 50%;
-  background: #f8efea;
-  display: grid;
-  place-items: center;
+.personality-character {
+  display: block;
+  width: min(230px, 100%);
+  height: auto;
+  aspect-ratio: 1;
+  object-fit: contain;
+  margin: 12px auto 4px;
+  filter: drop-shadow(0 8px 12px #893a4d14);
 }
+.personality-gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px 12px; padding-top: 18px; }
+.personality-gallery article { text-align: center; min-width: 0; }
+.personality-gallery img { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: contain; }
+.personality-gallery h3 { font-size: 13px; margin: 8px 0; }
+.personality-gallery p { font-size: 12px; line-height: 1.7; }
 .personality-card h2 {
-  font: 500 30px var(--serif);
+  font: 800 28px var(--serif);
   margin: 12px 0;
 }
 .type-english {
@@ -382,18 +401,16 @@ em {
 .score-line small {
   font: 12px var(--sans);
 }
-.score-limit {
-  font-size: 11px;
-  color: #755861;
-  margin: 9px 0 0;
-}
+
 .report-section {
-  border-top: 1px solid var(--line);
-  padding-top: 25px;
-  margin-top: 29px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  padding: 22px 18px;
+  margin-top: 22px;
 }
 .report-section h2 {
-  font: 500 25px var(--serif);
+  font: 750 22px var(--serif);
   margin: 12px 0 20px;
 }
 .report-section h2 > small {
@@ -406,7 +423,7 @@ em {
 }
 .report-section p {
   font-size: 13px;
-  color: #645851;
+  color: #64515a;
 }
 .report-section blockquote {
   font: 18px/1.8 var(--serif);
@@ -440,14 +457,17 @@ em {
   font-weight: 400;
 }
 .meter {
-  height: 3px;
-  background: #d9cec5;
+  height: 8px;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #f1e6eb;
   margin-top: 10px;
 }
 .meter i {
   display: block;
-  height: 3px;
-  background: var(--accent);
+  height: 8px;
+  border-radius: 12px;
+  background: linear-gradient(90deg, #c47391, #8d3e55);
 }
 .evidence-item {
   padding: 14px 0;
@@ -461,11 +481,12 @@ em {
 }
 .report-actions button {
   min-height: 50px;
-  border-radius: 3px;
+  border-radius: 18px;
 }
 .primary {
   background: var(--accent);
-  color: #fff8f3;
+  color: #fffdfb;
+  box-shadow: 0 4px 0 #663044;
 }
 .secondary {
   background: var(--surface);
@@ -502,19 +523,32 @@ details p {
   font-size: 13px;
 }
 .sound-toggle {
-  position: fixed;
-  right: max(12px, env(safe-area-inset-right));
-  bottom: max(12px, env(safe-area-inset-bottom));
+  position: static;
   z-index: 5;
   min-height: 44px;
   padding: 10px 14px;
   border: 1px solid var(--line);
   border-radius: 28px;
-  background: #fffdf9eb;
+  background: #fff9fceF;
   font-size: 12px;
-  box-shadow: 0 3px 16px #29242312;
+  box-shadow: 0 4px 0 #ead6d8;
 }
+.game-toolbar {
+  max-width: 480px;
+  margin: 20px auto 0;
+  padding: 8px 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--paper);
+  color: var(--muted);
+  font-size: 11px;
+  border-radius: 24px 24px 0 0;
+}
+.game-toolbar + #app .game-frame { margin-top: 0; }
+@media (max-width:600px) { .game-toolbar { margin: 0; max-width: none; border-radius: 0; padding-top: max(8px, env(safe-area-inset-top)); } }
 dialog {
+  border-radius: 26px;
   border: 1px solid var(--line);
   width: calc(100% - 24px);
   max-width: 430px;
@@ -524,7 +558,8 @@ dialog {
   color: var(--ink);
 }
 dialog::backdrop {
-  background: #29242388;
+  background: #58424c77;
+  backdrop-filter: blur(5px);
 }
 dialog h2 {
   font: 23px var(--serif);
@@ -563,7 +598,7 @@ dialog p {
   background: var(--ink);
   color: var(--surface);
   padding: 12px 18px;
-  border-radius: 5px;
+  border-radius: 18px;
   font-size: 12px;
   max-width: calc(100vw - 30px);
   line-height: 1.8;
@@ -595,6 +630,7 @@ dialog p {
     max-width: none;
     padding: 24px 23px calc(88px + env(safe-area-inset-bottom));
     box-shadow: none;
+    border-radius: 0;
   }
   .play {
     padding: 20px 19px calc(88px + env(safe-area-inset-bottom));
@@ -608,7 +644,7 @@ dialog p {
     padding-inline: 16px;
   }
   .intro-head h1 {
-    font-size: 50px;
+    font-size: 37px;
   }
   .gender-entry {
     gap: 10px;
@@ -652,3 +688,16 @@ dialog p {
     scroll-behavior: auto !important;
   }
 }
+
+/* Soft character-world interactions stay brief and never explain choices. */
+.gender-entry button:first-child { background: #fce8ed; }
+.gender-entry button:last-child { background: #eee9fa; }
+.gender-entry button:active, .choice:active, .primary:active { transform: translateY(3px); box-shadow: none; }
+.mini-tags span { background: #f7e8ed; border-radius: 20px; padding: 6px 9px; white-space: nowrap; }
+.mini-tags { gap: 6px; }
+.report-intro { text-align: center; }
+.personality-gallery article { background: #fff9f5; border: 1px solid var(--line); border-radius: 22px; padding: 10px; }
+.report-actions .secondary { border-color: #d9b7c4; box-shadow: 0 3px 0 #eddae0; }
+#poster-download { border-radius: 18px; }
+.game-frame > details { background: #fffdfb; border: 1px solid var(--line); border-radius: 20px; padding: 6px 16px; }
+@media (max-width: 360px) { .report-section { padding: 18px 14px; } .mini-tags { font-size: 9px; } }
