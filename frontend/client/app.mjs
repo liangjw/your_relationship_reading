@@ -26,6 +26,17 @@ async function response(response) {
     });
   return data;
 }
+async function request(url, options = {}, read = response) {
+  const controller = new AbortController(),
+    timeout = setTimeout(() => controller.abort(), 15000);
+  try {
+    return await read(
+      await fetch(url, { ...options, signal: controller.signal }),
+    );
+  } finally {
+    clearTimeout(timeout);
+  }
+}
 function media() {
   if (!view?.audio) return;
   const source = new URL(view.audio.src, location.origin).href;
@@ -60,12 +71,10 @@ function show(data, { scroll = true } = {}) {
   if (scroll) window.scrollTo({ top: 0, behavior: "instant" });
 }
 async function refresh() {
-  show(await response(await fetch("/api/game", { cache: "no-store" })));
+  show(await request("/api/game", { cache: "no-store" }));
 }
 async function act(payload, { quiet = false } = {}) {
   if (busy || !view) return;
-  const controller = new AbortController(),
-    timeout = setTimeout(() => controller.abort(), 15000);
   busy = true;
   app.setAttribute("aria-busy", "true");
   app.querySelectorAll("button").forEach((b) => (b.disabled = true));
@@ -75,18 +84,15 @@ async function act(payload, { quiet = false } = {}) {
       : null;
   picked?.classList.add("picked");
   try {
-    const result = await response(
-      await fetch("/api/action", {
-        method: "POST",
-        signal: controller.signal,
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          ...payload,
-          revision: view.revision,
-          requestId: crypto.randomUUID(),
-        }),
+    const result = await request("/api/action", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        ...payload,
+        revision: view.revision,
+        requestId: crypto.randomUUID(),
       }),
-    );
+    });
     show(result, { scroll: !quiet });
   } catch (e) {
     if (e.status === 409) {
@@ -101,7 +107,6 @@ async function act(payload, { quiet = false } = {}) {
         e.name === "AbortError" ? "连接超时，请检查网络后重试。" : e.message,
       );
   } finally {
-    clearTimeout(timeout);
     picked?.classList.remove("picked");
     busy = false;
     app.removeAttribute("aria-busy");
@@ -130,9 +135,14 @@ async function share() {
 async function poster() {
   if (!view?.share) return;
   try {
-    const result = await fetch(view.share.poster, { cache: "no-store" });
-    if (!result.ok) throw new Error("分享卡暂不可用，请重试。");
-    const svg = await result.blob(),
+    const svg = await request(
+        view.share.poster,
+        { cache: "no-store" },
+        async (result) => {
+          if (!result.ok) throw new Error("分享卡暂不可用，请重试。");
+          return result.blob();
+        },
+      ),
       src = URL.createObjectURL(svg),
       img = new Image();
     img.src = src;
@@ -153,7 +163,7 @@ async function poster() {
     download.download = view.share.filename;
     document.querySelector("#poster-dialog").showModal();
   } catch (e) {
-    toast(e.message);
+    toast(e.name === "AbortError" ? "分享卡加载超时，请重试。" : e.message);
   }
 }
 app.addEventListener("click", (event) => {
@@ -171,6 +181,7 @@ app.addEventListener("click", (event) => {
   if (!action) return;
   act({
     action,
+    clickCount: event.detail,
     ...(gender ? { gender } : {}),
     ...(questionId ? { questionId, pick: Number(pick) } : {}),
   });

@@ -1,0 +1,10 @@
+{
+  "command": "wrangler@4.147.0 deployments list --name your-relationship-reading-v2",
+  "checkedAt": "2026-10-07T10:52:48Z",
+  "workerExists": false,
+  "cloudflareErrorCode": 10007,
+  "deployed": false,
+  "lastDryRunPassed": true,
+  "runtimeEvidence": "worker-runtime.json",
+  "reasonNotPublished": "PRD section 12 real-user language validation and gender-option distributions unavailable; real AI outputs blocked by credit balance"
+}

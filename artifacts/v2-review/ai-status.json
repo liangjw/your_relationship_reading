@@ -1,0 +1,9 @@
+{
+  "verifiedAt": "2026-10-07T10:33:33Z",
+  "operation": "generateScenarioDraft M05",
+  "providerStatus": 429,
+  "providerCode": "credit_balance_exhausted",
+  "successfulAiOutput": false,
+  "approvedVariantCount": 0,
+  "credentialsLogged": false
+}

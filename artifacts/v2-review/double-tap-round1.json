@@ -1,0 +1,90 @@
+{
+  "passed": false,
+  "runs": [
+    {
+      "delay": 40,
+      "pick": 0,
+      "round": "02",
+      "passed": true
+    },
+    {
+      "delay": 40,
+      "pick": 3,
+      "round": "02",
+      "passed": true
+    },
+    {
+      "delay": 100,
+      "pick": 0,
+      "round": "02",
+      "passed": true
+    },
+    {
+      "delay": 100,
+      "pick": 3,
+      "round": "02",
+      "passed": true
+    },
+    {
+      "delay": 160,
+      "pick": 0,
+      "round": "02",
+      "passed": true
+    },
+    {
+      "delay": 160,
+      "pick": 3,
+      "round": "02",
+      "passed": true
+    },
+    {
+      "delay": 200,
+      "pick": 0,
+      "round": "02",
+      "passed": true
+    },
+    {
+      "delay": 200,
+      "pick": 3,
+      "round": "02",
+      "passed": true
+    },
+    {
+      "delay": 250,
+      "pick": 0,
+      "round": "03",
+      "passed": false
+    },
+    {
+      "delay": 250,
+      "pick": 3,
+      "round": "02",
+      "passed": true
+    },
+    {
+      "delay": 350,
+      "pick": 0,
+      "round": "03",
+      "passed": false
+    },
+    {
+      "delay": 350,
+      "pick": 3,
+      "round": "02",
+      "passed": true
+    },
+    {
+      "delay": 500,
+      "pick": 0,
+      "round": "03",
+      "passed": false
+    },
+    {
+      "delay": 500,
+      "pick": 3,
+      "round": "02",
+      "passed": true
+    }
+  ],
+  "verifiedAt": "2026-10-07T10:13:54.546Z"
+}

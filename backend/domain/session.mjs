@@ -79,6 +79,22 @@ export function applyAction(s, input, now = Date.now()) {
       status: 409,
     });
   const { action } = input;
+  // The browser's native click count is UI telemetry; rejection stays server-side.
+  if (
+    ["start", "answer", "back"].includes(action) &&
+    input.clickCount !== undefined
+  ) {
+    if (
+      !Number.isInteger(input.clickCount) ||
+      input.clickCount < 0 ||
+      input.clickCount > 10
+    )
+      throw Object.assign(new Error("点击信息无效，请重试。"), { status: 400 });
+    if (input.clickCount > 1)
+      throw Object.assign(new Error("连续点击已忽略，请按当前页面继续。"), {
+        status: 425,
+      });
+  }
   if (action === "start") {
     if (!["male", "female"].includes(input.gender))
       throw Object.assign(new Error("请选择路线。"), { status: 400 });

@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "kind": "Independent actual GameService with in-memory store and injected clock; not browser gestures",
+  "concurrentStatuses": [
+    200,
+    409
+  ],
+  "tails": [
+    {
+      "elapsed": 40,
+      "status": 425,
+      "index": 1
+    },
+    {
+      "elapsed": 100,
+      "status": 425,
+      "index": 1
+    },
+    {
+      "elapsed": 160,
+      "status": 425,
+      "index": 1
+    },
+    {
+      "elapsed": 200,
+      "status": 425,
+      "index": 1
+    },
+    {
+      "elapsed": 250,
+      "status": 425,
+      "index": 1
+    },
+    {
+      "elapsed": 350,
+      "status": 425,
+      "index": 1
+    },
+    {
+      "elapsed": 499,
+      "status": 425,
+      "index": 1
+    }
+  ],
+  "normalAt500": true,
+  "crossOrigin": 403,
+  "sessionIsolation": true,
+  "currentViewOnly": true,
+  "verifiedAt": "2026-10-07T09:10:33.750Z"
+}
