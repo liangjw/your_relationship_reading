@@ -66,3 +66,13 @@ Git实现已推送 `codex/v2-node-game`；原远程master仍为e781e25。Cloudfl
 用户要求主标题改为“你真的懂TA吗？”，入口、浏览器标题、OG分享标题与原生分享标题已同步，标题不再使用“异性”。随后按用户反馈将揭晓从约2.8秒放慢为5.2秒，主旋转4.8秒，翻面后留约1.5秒观看卡片；光晕、星光和原创揭晓音效同步延长。跳过、Esc与减少动态效果仍支持。两条路线专项浏览器复测已通过，实际CSS动画时长核验为4.8秒。
 
 标题及慢速揭晓最终线上版本4fd353cf-ad23-4ff5-9e1c-53fbc3c3e7ba；公网两条路线、4.8秒真实CSS旋转、自动结束、跳过、小屏和分享PNG复测通过，记录见effects-slow/browser.json。原截图目录出现一次本地文件写入错误，使用独立输出目录完成复测。主标题的线上HTML和入口API也已检查。
+
+## dramame.ai 自定义域名
+
+用户要求绑定 dramame.ai，并告知已在 GoDaddy 设置游戏子域名 CNAME。GoDaddy 已切换到 Cloudflare 分配的 lochlan.ns.cloudflare.com 与 summer.ns.cloudflare.com，界面确认使用自定义域名服务器。Cloudflare 已导入现有记录；用户单独确认删除根域名原网站两条 A 记录后，完成 dramame.ai 和 your-relationship-reading.dramame.ai 的 Worker Custom Domain 绑定。原记录备份见 artifacts/v2-review/domain-dns-backup.json。其他导入记录保留。
+
+wrangler.jsonc 持久保存两个绑定，并明确 workers_dev=true，PUBLIC_URL=https://dramame.ai 用于报告分享链接及二维码。发布版本 7611bed1-9ee0-480e-a723-0d6d95b5e776，启动 2ms，无新素材上传。Cloudflare API 和正式域名列表均确认两个主机名已绑定到 your-relationship-reading-v2，原 workers.dev 地址保留。
+
+当前 Cloudflare zone 状态仍为 pending，GoDaddy 的服务器更新正在传播，已触发 Cloudflare 检测。新域名的 HTTPS 尚未通过，不能视为已公网验收。绑定记录和检查结果位于 artifacts/v2-review/domain。DNS 激活及证书签发后应再次在两个 HTTPS 主机名核验入口、API、完整答题、报告和分享图。
+
+域名绑定后原 workers.dev 实际完成20题、报告和分享SVG生成已通过；返回的分享链接确认为 https://dramame.ai/?from=report。最终公网查询仍返回 GoDaddy NS，根域名仍加载原网站，游戏子域名 TLS 握手未完成。这是当前新域名未通过访问验收的具体状态，并非游戏 Worker 或额度故障。结果见 domain/verification.json。

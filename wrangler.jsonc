@@ -4,6 +4,12 @@
  "main":"backend/cloudflare/worker.mjs",
  "compatibility_date":"2026-10-07",
  "compatibility_flags":["nodejs_compat"],
+ "workers_dev":true,
+ "routes":[
+  {"pattern":"dramame.ai","custom_domain":true},
+  {"pattern":"your-relationship-reading.dramame.ai","custom_domain":true}
+ ],
+ "vars":{"PUBLIC_URL":"https://dramame.ai"},
  "assets":{"directory":"./dist/client","binding":"ASSETS","run_worker_first":["/api/*"]},
  "durable_objects":{"bindings":[{"name":"GAME_SESSIONS","class_name":"GameSession"}]},
  "exports":{"GameSession":{"type":"durable-object","storage":"sqlite"}}

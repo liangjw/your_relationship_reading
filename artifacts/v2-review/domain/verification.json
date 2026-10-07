@@ -1,0 +1,30 @@
+{
+  "checkedAt": "2026-10-07T16:23:21.463Z",
+  "hosts": [
+    {
+      "base": "https://dramame.ai",
+      "https": true,
+      "gameEntry": false,
+      "status": 200,
+      "error": "The expression evaluated to a falsy value:\n\n  assert(html.includes('你真的懂TA吗？'))\n"
+    },
+    {
+      "base": "https://your-relationship-reading.dramame.ai",
+      "https": false,
+      "gameEntry": false,
+      "error": "ERR_SSL_SSLV3_ALERT_HANDSHAKE_FAILURE"
+    },
+    {
+      "base": "https://your-relationship-reading-v2.fliedwolf.workers.dev",
+      "https": true,
+      "gameEntry": true,
+      "status": 200
+    }
+  ],
+  "report": {
+    "completed": true,
+    "questions": 20,
+    "shareUrl": "https://dramame.ai/?from=report",
+    "posterGenerated": true
+  }
+}

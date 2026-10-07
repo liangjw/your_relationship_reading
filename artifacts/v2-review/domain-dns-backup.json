@@ -1,0 +1,27 @@
+{
+  "previousNameservers": [
+    "ns71.domaincontrol.com",
+    "ns72.domaincontrol.com"
+  ],
+  "replacedRecords": [
+    {
+      "type": "A",
+      "ttl": 1,
+      "name": "dramame.ai",
+      "content": "13.248.243.5",
+      "proxied": true
+    },
+    {
+      "type": "A",
+      "ttl": 1,
+      "name": "dramame.ai",
+      "content": "76.223.105.230",
+      "proxied": true
+    }
+  ],
+  "nameservers": [
+    "lochlan.ns.cloudflare.com",
+    "summer.ns.cloudflare.com"
+  ],
+  "domain": "dramame.ai"
+}
