@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "url": "http://localhost:4175",
+  "runs": [
+    {
+      "gender": "male",
+      "uniqueScenes": 20,
+      "back": true,
+      "reveal": "auto",
+      "actualRotation": true,
+      "defaultMute": true,
+      "sound": false,
+      "radar": true,
+      "poster": true,
+      "refreshNoReplay": true,
+      "reducedMotion": true
+    },
+    {
+      "gender": "female",
+      "uniqueScenes": 20,
+      "back": true,
+      "reveal": "skip",
+      "actualRotation": true,
+      "defaultMute": false,
+      "sound": true,
+      "radar": true,
+      "poster": true,
+      "refreshNoReplay": true,
+      "reducedMotion": true
+    }
+  ],
+  "errors": [],
+  "verifiedAt": "2026-10-07T14:17:00.652Z"
+}

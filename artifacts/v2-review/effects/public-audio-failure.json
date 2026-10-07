@@ -1,0 +1,10 @@
+{
+  "url": "https://your-relationship-reading-v2.fliedwolf.workers.dev",
+  "version": "c1f55dcf-ac9e-48d4-a789-852277b16871",
+  "passed": false,
+  "failure": "female route reveal sound missing",
+  "observedPlay": ["entry.wav", "select.wav", "ordinary.wav", "turn.wav"],
+  "observedErrors": [{"src":"entry.wav","name":"AbortError"},{"src":"select.wav","name":"AbortError"},{"src":"turn.wav","name":"AbortError"}],
+  "cause": "Changing the background track aborts an older play promise, and its catch incorrectly mutes all audio.",
+  "fix": "Only a current NotAllowedError changes the user's sound preference; media interruptions leave it intact."
+}

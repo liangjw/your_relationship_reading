@@ -1,0 +1,322 @@
+[
+  {
+    "id": "M01",
+    "src": "/assets/scenes/M01.webp",
+    "context": "男生加班回家，明显心情不好。你问：“今天怎么了？” 他先说：“没什么，挺累的。” 你觉得他更可能接下来做什么？",
+    "prompt": "Use case: illustration-story. ONE unique scene illustration for question M01 of a mobile Chinese relationship game. Visible event: tired fox entering apartment at night with work bag, mint otter nearby asking, shoes by door. Original Chinese context, use only events before the final question: 男生加班回家，明显心情不好。你问：“今天怎么了？” 他先说：“没什么，挺累的。” 你觉得他更可能接下来做什么？. Depict factual setting and already-visible actions ONLY; DO NOT depict potential answers, hidden motives, future reactions, correctness, dramatic sadness, anger or romance. Beautiful high-quality original 2D kawaii chibi animal cast matching fluffy pastel fox, lavender rabbit, mint otter and calico cat; large sparkling eyes, warm fine outlines, soft hand-painted cel shading, muted cream/dusty rose/burgundy with soft lavender/mint accents. Adult everyday Chinese urban setting, no baby merchandise. Landscape 3:2, asymmetrical manga composition with 2 or 3 coherent panels, a scene establishing shot and object close-up, cream gutters and gentle ears or hand crossing panel edge. Give this scene its own camera angle and clear unique props. No letters, words, numbers, readable screen text, logos, watermark, photorealistic humans, heavy black panels. Keep the whole composition visible; no tutorial arrows and no score symbols.",
+    "bytes": 109590,
+    "sha256": "c0c02da19a6a9c489365280553725f30c62af08f914655af4c6dd6e7795d53dd"
+  },
+  {
+    "id": "M02",
+    "src": "/assets/scenes/M02.webp",
+    "context": "你对男朋友说：“我觉得你最近对我不太一样了。” 他停了一下。你觉得他更可能第一反应是？",
+    "prompt": "Use case: illustration-story. ONE unique scene illustration for question M02 of a mobile Chinese relationship game. Visible event: mint otter talking to fox on sofa, fox pauses holding cup, relationship conversation still unresolved. Original Chinese context, use only events before the final question: 你对男朋友说：“我觉得你最近对我不太一样了。” 他停了一下。你觉得他更可能第一反应是？. Depict factual setting and already-visible actions ONLY; DO NOT depict potential answers, hidden motives, future reactions, correctness, dramatic sadness, anger or romance. Beautiful high-quality original 2D kawaii chibi animal cast matching fluffy pastel fox, lavender rabbit, mint otter and calico cat; large sparkling eyes, warm fine outlines, soft hand-painted cel shading, muted cream/dusty rose/burgundy with soft lavender/mint accents. Adult everyday Chinese urban setting, no baby merchandise. Landscape 3:2, asymmetrical manga composition with 2 or 3 coherent panels, a scene establishing shot and object close-up, cream gutters and gentle ears or hand crossing panel edge. Give this scene its own camera angle and clear unique props. No letters, words, numbers, readable screen text, logos, watermark, photorealistic humans, heavy black panels. Keep the whole composition visible; no tutorial arrows and no score symbols.",
+    "bytes": 132354,
+    "sha256": "5555583bcb4b0ee2c6dd9f317d5fa5f3874d08b06eb7c28f865a6467ecaee1bf"
+  },
+  {
+    "id": "M03",
+    "src": "/assets/scenes/M03.webp",
+    "context": "你发现他今天被老板批评了。他没主动说，但你问起后，他更可能？",
+    "prompt": "Use case: illustration-story. ONE unique scene illustration for question M03 of a mobile Chinese relationship game. Visible event: fox at office desk after supervisor's conversation, neutral laptop and closed notebook, friend asks, no further response. Original Chinese context, use only events before the final question: 你发现他今天被老板批评了。他没主动说，但你问起后，他更可能？. Depict factual setting and already-visible actions ONLY; DO NOT depict potential answers, hidden motives, future reactions, correctness, dramatic sadness, anger or romance. Beautiful high-quality original 2D kawaii chibi animal cast matching fluffy pastel fox, lavender rabbit, mint otter and calico cat; large sparkling eyes, warm fine outlines, soft hand-painted cel shading, muted cream/dusty rose/burgundy with soft lavender/mint accents. Adult everyday Chinese urban setting, no baby merchandise. Landscape 3:2, asymmetrical manga composition with 2 or 3 coherent panels, a scene establishing shot and object close-up, cream gutters and gentle ears or hand crossing panel edge. Give this scene its own camera angle and clear unique props. No letters, words, numbers, readable screen text, logos, watermark, photorealistic humans, heavy black panels. Keep the whole composition visible; no tutorial arrows and no score symbols.",
+    "bytes": 121706,
+    "sha256": "2d0bdd6d81bd4f6bbe4679000dc250bb7f9d896dbf5f2699c35d4e181d0ae26e"
+  },
+  {
+    "id": "M04",
+    "src": "/assets/scenes/M04.webp",
+    "context": "你今天状态很差，只想让他陪你一下，不想听建议。你觉得很多男生最容易出现的反应是？",
+    "prompt": "Use case: illustration-story. ONE unique scene illustration for question M04 of a mobile Chinese relationship game. Visible event: tired mint otter sitting beside fox in living room, cup of water nearby, fox listening before responding. Original Chinese context, use only events before the final question: 你今天状态很差，只想让他陪你一下，不想听建议。你觉得很多男生最容易出现的反应是？. Depict factual setting and already-visible actions ONLY; DO NOT depict potential answers, hidden motives, future reactions, correctness, dramatic sadness, anger or romance. Beautiful high-quality original 2D kawaii chibi animal cast matching fluffy pastel fox, lavender rabbit, mint otter and calico cat; large sparkling eyes, warm fine outlines, soft hand-painted cel shading, muted cream/dusty rose/burgundy with soft lavender/mint accents. Adult everyday Chinese urban setting, no baby merchandise. Landscape 3:2, asymmetrical manga composition with 2 or 3 coherent panels, a scene establishing shot and object close-up, cream gutters and gentle ears or hand crossing panel edge. Give this scene its own camera angle and clear unique props. No letters, words, numbers, readable screen text, logos, watermark, photorealistic humans, heavy black panels. Keep the whole composition visible; no tutorial arrows and no score symbols.",
+    "bytes": 136738,
+    "sha256": "430047829f024758fd622bbc2fcb54023b042bd8425fc509738eccf83d021139"
+  },
+  {
+    "id": "M05",
+    "src": "/assets/scenes/M05.webp",
+    "context": "你们吵架时，你还想把事情讲清楚。他开始收拾东西，说：“我们都冷静一下，明天再聊。” 你觉得他真正更可能是在？",
+    "prompt": "Use case: illustration-story. ONE unique scene illustration for question M05 of a mobile Chinese relationship game. Visible event: fox gathers jacket and keys near apartment door, mint otter stays beside sofa during a discussion, no departure shown. Original Chinese context, use only events before the final question: 你们吵架时，你还想把事情讲清楚。他开始收拾东西，说：“我们都冷静一下，明天再聊。” 你觉得他真正更可能是在？. Depict factual setting and already-visible actions ONLY; DO NOT depict potential answers, hidden motives, future reactions, correctness, dramatic sadness, anger or romance. Beautiful high-quality original 2D kawaii chibi animal cast matching fluffy pastel fox, lavender rabbit, mint otter and calico cat; large sparkling eyes, warm fine outlines, soft hand-painted cel shading, muted cream/dusty rose/burgundy with soft lavender/mint accents. Adult everyday Chinese urban setting, no baby merchandise. Landscape 3:2, asymmetrical manga composition with 2 or 3 coherent panels, a scene establishing shot and object close-up, cream gutters and gentle ears or hand crossing panel edge. Give this scene its own camera angle and clear unique props. No letters, words, numbers, readable screen text, logos, watermark, photorealistic humans, heavy black panels. Keep the whole composition visible; no tutorial arrows and no score symbols.",
+    "bytes": 110778,
+    "sha256": "f8215f8c08434725ff8699af6d095719ca3abfb9a6404c196090fabc17a9b9a7"
+  },
+  {
+    "id": "M06",
+    "src": "/assets/scenes/M06.webp",
+    "context": "你指出家里的一个问题：“我们最近总因为这个吵。” 他第二天直接把问题处理掉了，却没怎么解释。你会猜他更可能觉得？",
+    "prompt": "Use case: illustration-story. ONE unique scene illustration for question M06 of a mobile Chinese relationship game. Visible event: fox repairing a loose cabinet hinge with screwdriver, mint otter in kitchen doorway, simple everyday household repair already happening. Original Chinese context, use only events before the final question: 你指出家里的一个问题：“我们最近总因为这个吵。” 他第二天直接把问题处理掉了，却没怎么解释。你会猜他更可能觉得？. Depict factual setting and already-visible actions ONLY; DO NOT depict potential answers, hidden motives, future reactions, correctness, dramatic sadness, anger or romance. Beautiful high-quality original 2D kawaii chibi animal cast matching fluffy pastel fox, lavender rabbit, mint otter and calico cat; large sparkling eyes, warm fine outlines, soft hand-painted cel shading, muted cream/dusty rose/burgundy with soft lavender/mint accents. Adult everyday Chinese urban setting, no baby merchandise. Landscape 3:2, asymmetrical manga composition with 2 or 3 coherent panels, a scene establishing shot and object close-up, cream gutters and gentle ears or hand crossing panel edge. Give this scene its own camera angle and clear unique props. No letters, words, numbers, readable screen text, logos, watermark, photorealistic humans, heavy black panels. Keep the whole composition visible; no tutorial arrows and no score symbols.",
+    "bytes": 119572,
+    "sha256": "761d02a025665cfbe9431fddaad71389fe83674e7dc0f1e120cfce465210fcef"
+  },
+  {
+    "id": "M07",
+    "src": "/assets/scenes/M07.webp",
+    "context": "吵完架第二天，他没有认真写长消息道歉，只是下班时顺手带了你喜欢吃的东西。你觉得这更可能是？",
+    "prompt": "Use case: illustration-story. ONE unique scene illustration for question M07 of a mobile Chinese relationship game. Visible event: fox arrives home with a takeout paper bag and small pastry box, mint otter at dining table, quiet next-day scene. Original Chinese context, use only events before the final question: 吵完架第二天，他没有认真写长消息道歉，只是下班时顺手带了你喜欢吃的东西。你觉得这更可能是？. Depict factual setting and already-visible actions ONLY; DO NOT depict potential answers, hidden motives, future reactions, correctness, dramatic sadness, anger or romance. Beautiful high-quality original 2D kawaii chibi animal cast matching fluffy pastel fox, lavender rabbit, mint otter and calico cat; large sparkling eyes, warm fine outlines, soft hand-painted cel shading, muted cream/dusty rose/burgundy with soft lavender/mint accents. Adult everyday Chinese urban setting, no baby merchandise. Landscape 3:2, asymmetrical manga composition with 2 or 3 coherent panels, a scene establishing shot and object close-up, cream gutters and gentle ears or hand crossing panel edge. Give this scene its own camera angle and clear unique props. No letters, words, numbers, readable screen text, logos, watermark, photorealistic humans, heavy black panels. Keep the whole composition visible; no tutorial arrows and no score symbols.",
+    "bytes": 120134,
+    "sha256": "c23e7e0277efa811a29a476d63b58033b27599371b9cdfc5f439b13d5c73ca71"
+  },
+  {
+    "id": "M08",
+    "src": "/assets/scenes/M08.webp",
+    "context": "你们周末一起装家具。说明书还有两页，他已经开始动手。你觉得他更可能？",
+    "prompt": "Use case: illustration-story. ONE unique scene illustration for question M08 of a mobile Chinese relationship game. Visible event: fox and otter assembling a flat-pack shelf, partly assembled wood, screws and two remaining blank instruction pages visibly on floor. Original Chinese context, use only events before the final question: 你们周末一起装家具。说明书还有两页，他已经开始动手。你觉得他更可能？. Depict factual setting and already-visible actions ONLY; DO NOT depict potential answers, hidden motives, future reactions, correctness, dramatic sadness, anger or romance. Beautiful high-quality original 2D kawaii chibi animal cast matching fluffy pastel fox, lavender rabbit, mint otter and calico cat; large sparkling eyes, warm fine outlines, soft hand-painted cel shading, muted cream/dusty rose/burgundy with soft lavender/mint accents. Adult everyday Chinese urban setting, no baby merchandise. Landscape 3:2, asymmetrical manga composition with 2 or 3 coherent panels, a scene establishing shot and object close-up, cream gutters and gentle ears or hand crossing panel edge. Give this scene its own camera angle and clear unique props. No letters, words, numbers, readable screen text, logos, watermark, photorealistic humans, heavy black panels. Keep the whole composition visible; no tutorial arrows and no score symbols.",
+    "bytes": 140518,
+    "sha256": "4c678e767b61c6c81d73c74507671c33dcdbc1480398d96000247cd2e7138871"
+  },
+  {
+    "id": "M09",
+    "src": "/assets/scenes/M09.webp",
+    "context": "一个女性同事在朋友圈夸他“今天超靠谱”。你觉得他在看到这条评论时，更可能？",
+    "prompt": "Use case: illustration-story. ONE unique scene illustration for question M09 of a mobile Chinese relationship game. Visible event: fox looking at unmarked phone by office desk, small avatar shapes in blank social comment bubble, colleague in distant background. Original Chinese context, use only events before the final question: 一个女性同事在朋友圈夸他“今天超靠谱”。你觉得他在看到这条评论时，更可能？. Depict factual setting and already-visible actions ONLY; DO NOT depict potential answers, hidden motives, future reactions, correctness, dramatic sadness, anger or romance. Beautiful high-quality original 2D kawaii chibi animal cast matching fluffy pastel fox, lavender rabbit, mint otter and calico cat; large sparkling eyes, warm fine outlines, soft hand-painted cel shading, muted cream/dusty rose/burgundy with soft lavender/mint accents. Adult everyday Chinese urban setting, no baby merchandise. Landscape 3:2, asymmetrical manga composition with 2 or 3 coherent panels, a scene establishing shot and object close-up, cream gutters and gentle ears or hand crossing panel edge. Give this scene its own camera angle and clear unique props. No letters, words, numbers, readable screen text, logos, watermark, photorealistic humans, heavy black panels. Keep the whole composition visible; no tutorial arrows and no score symbols.",
+    "bytes": 103632,
+    "sha256": "a1826f42ccf5211980458afa5e1839875ceb905ae23c4db423f1210537fff049"
+  },
+  {
+    "id": "M10",
+    "src": "/assets/scenes/M10.webp",
+    "context": "前任突然给他发消息：“最近过得好吗？” 你觉得很多男生更可能？",
+    "prompt": "Use case: illustration-story. ONE unique scene illustration for question M10 of a mobile Chinese relationship game. Visible event: fox notices a new unmarked chat notification on phone, sitting by apartment window, no reply shown. Original Chinese context, use only events before the final question: 前任突然给他发消息：“最近过得好吗？” 你觉得很多男生更可能？. Depict factual setting and already-visible actions ONLY; DO NOT depict potential answers, hidden motives, future reactions, correctness, dramatic sadness, anger or romance. Beautiful high-quality original 2D kawaii chibi animal cast matching fluffy pastel fox, lavender rabbit, mint otter and calico cat; large sparkling eyes, warm fine outlines, soft hand-painted cel shading, muted cream/dusty rose/burgundy with soft lavender/mint accents. Adult everyday Chinese urban setting, no baby merchandise. Landscape 3:2, asymmetrical manga composition with 2 or 3 coherent panels, a scene establishing shot and object close-up, cream gutters and gentle ears or hand crossing panel edge. Give this scene its own camera angle and clear unique props. No letters, words, numbers, readable screen text, logos, watermark, photorealistic humans, heavy black panels. Keep the whole composition visible; no tutorial arrows and no score symbols.",
+    "bytes": 130920,
+    "sha256": "845feffe41937c08e25ea77270205e4d5e5d5fd47e942350405e80ff63066b14"
+  },
+  {
+    "id": "M11",
+    "src": "/assets/scenes/M11.webp",
+    "context": "你半开玩笑地问：“你为什么不回我？” 他更可能先？",
+    "prompt": "Use case: illustration-story. ONE unique scene illustration for question M11 of a mobile Chinese relationship game. Visible event: otter teasingly asks fox about unanswered chat beside cafe table, two phones, reply still unresolved. Original Chinese context, use only events before the final question: 你半开玩笑地问：“你为什么不回我？” 他更可能先？. Depict factual setting and already-visible actions ONLY; DO NOT depict potential answers, hidden motives, future reactions, correctness, dramatic sadness, anger or romance. Beautiful high-quality original 2D kawaii chibi animal cast matching fluffy pastel fox, lavender rabbit, mint otter and calico cat; large sparkling eyes, warm fine outlines, soft hand-painted cel shading, muted cream/dusty rose/burgundy with soft lavender/mint accents. Adult everyday Chinese urban setting, no baby merchandise. Landscape 3:2, asymmetrical manga composition with 2 or 3 coherent panels, a scene establishing shot and object close-up, cream gutters and gentle ears or hand crossing panel edge. Give this scene its own camera angle and clear unique props. No letters, words, numbers, readable screen text, logos, watermark, photorealistic humans, heavy black panels. Keep the whole composition visible; no tutorial arrows and no score symbols.",
+    "bytes": 128196,
+    "sha256": "89cdbdf239513ed054e6698edcbd24c619b5c884ac90a19e4bf8b2e20601e57a"
+  },
+  {
+    "id": "M12",
+    "src": "/assets/scenes/M12.webp",
+    "context": "你们公开关系后，他突然不太愿意频繁发合照。你会猜他更可能是？",
+    "prompt": "Use case: illustration-story. ONE unique scene illustration for question M12 of a mobile Chinese relationship game. Visible event: fox and otter looking at a framed photo and a phone with blank social profile icons at home, no subsequent posting shown. Original Chinese context, use only events before the final question: 你们公开关系后，他突然不太愿意频繁发合照。你会猜他更可能是？. Depict factual setting and already-visible actions ONLY; DO NOT depict potential answers, hidden motives, future reactions, correctness, dramatic sadness, anger or romance. Beautiful high-quality original 2D kawaii chibi animal cast matching fluffy pastel fox, lavender rabbit, mint otter and calico cat; large sparkling eyes, warm fine outlines, soft hand-painted cel shading, muted cream/dusty rose/burgundy with soft lavender/mint accents. Adult everyday Chinese urban setting, no baby merchandise. Landscape 3:2, asymmetrical manga composition with 2 or 3 coherent panels, a scene establishing shot and object close-up, cream gutters and gentle ears or hand crossing panel edge. Give this scene its own camera angle and clear unique props. No letters, words, numbers, readable screen text, logos, watermark, photorealistic humans, heavy black panels. Keep the whole composition visible; no tutorial arrows and no score symbols.",
+    "bytes": 132618,
+    "sha256": "15353faa29f062eb91d15f9037d7250cd77a82b04c2d8896444d79fa38fffcc6"
+  },
+  {
+    "id": "M13",
+    "src": "/assets/scenes/M13.webp",
+    "context": "你升职后收入变成他的两倍。你觉得这对很多男性的亲密关系感受更可能？",
+    "prompt": "Use case: illustration-story. ONE unique scene illustration for question M13 of a mobile Chinese relationship game. Visible event: otter holding promotion envelope beside fox at home, two plain pay envelopes and laptop, no money numbers or competitive expression. Original Chinese context, use only events before the final question: 你升职后收入变成他的两倍。你觉得这对很多男性的亲密关系感受更可能？. Depict factual setting and already-visible actions ONLY; DO NOT depict potential answers, hidden motives, future reactions, correctness, dramatic sadness, anger or romance. Beautiful high-quality original 2D kawaii chibi animal cast matching fluffy pastel fox, lavender rabbit, mint otter and calico cat; large sparkling eyes, warm fine outlines, soft hand-painted cel shading, muted cream/dusty rose/burgundy with soft lavender/mint accents. Adult everyday Chinese urban setting, no baby merchandise. Landscape 3:2, asymmetrical manga composition with 2 or 3 coherent panels, a scene establishing shot and object close-up, cream gutters and gentle ears or hand crossing panel edge. Give this scene its own camera angle and clear unique props. No letters, words, numbers, readable screen text, logos, watermark, photorealistic humans, heavy black panels. Keep the whole composition visible; no tutorial arrows and no score symbols.",
+    "bytes": 124402,
+    "sha256": "8d6aa2ca5910dfcd48fe8c153f01aa6e4eee37055a0bac06e5ef75b9f2a3cf8d"
+  },
+  {
+    "id": "M14",
+    "src": "/assets/scenes/M14.webp",
+    "context": "只能二选一作为长期伴侣：外形非常吸引你但不太体贴，或外形普通但非常可靠。你猜男性平均更可能偏向？",
+    "prompt": "Use case: illustration-story. ONE unique scene illustration for question M14 of a mobile Chinese relationship game. Visible event: two charming male-coded animal character profile portraits, one stylish fox and one practical otter, same friendly expression, no winner, dating profile comparison. Original Chinese context, use only events before the final question: 只能二选一作为长期伴侣：外形非常吸引你但不太体贴，或外形普通但非常可靠。你猜男性平均更可能偏向？. Depict factual setting and already-visible actions ONLY; DO NOT depict potential answers, hidden motives, future reactions, correctness, dramatic sadness, anger or romance. Beautiful high-quality original 2D kawaii chibi animal cast matching fluffy pastel fox, lavender rabbit, mint otter and calico cat; large sparkling eyes, warm fine outlines, soft hand-painted cel shading, muted cream/dusty rose/burgundy with soft lavender/mint accents. Adult everyday Chinese urban setting, no baby merchandise. Landscape 3:2, asymmetrical manga composition with 2 or 3 coherent panels, a scene establishing shot and object close-up, cream gutters and gentle ears or hand crossing panel edge. Give this scene its own camera angle and clear unique props. No letters, words, numbers, readable screen text, logos, watermark, photorealistic humans, heavy black panels. Keep the whole composition visible; no tutorial arrows and no score symbols.",
+    "bytes": 148200,
+    "sha256": "7a3ea9663f0a524b29defb329de768a208702034cab29b74fbbc7dff307ea21e"
+  },
+  {
+    "id": "M15",
+    "src": "/assets/scenes/M15.webp",
+    "context": "第一次约会吃饭，账单 428 元。你觉得一个男生平均更可能认为哪一种最“自然”？",
+    "prompt": "Use case: illustration-story. ONE unique scene illustration for question M15 of a mobile Chinese relationship game. Visible event: fox and otter at Chinese restaurant table with meal dishes, unmarked receipt and bill tray, hands have not reached for payment. Original Chinese context, use only events before the final question: 第一次约会吃饭，账单 428 元。你觉得一个男生平均更可能认为哪一种最“自然”？. Depict factual setting and already-visible actions ONLY; DO NOT depict potential answers, hidden motives, future reactions, correctness, dramatic sadness, anger or romance. Beautiful high-quality original 2D kawaii chibi animal cast matching fluffy pastel fox, lavender rabbit, mint otter and calico cat; large sparkling eyes, warm fine outlines, soft hand-painted cel shading, muted cream/dusty rose/burgundy with soft lavender/mint accents. Adult everyday Chinese urban setting, no baby merchandise. Landscape 3:2, asymmetrical manga composition with 2 or 3 coherent panels, a scene establishing shot and object close-up, cream gutters and gentle ears or hand crossing panel edge. Give this scene its own camera angle and clear unique props. No letters, words, numbers, readable screen text, logos, watermark, photorealistic humans, heavy black panels. Keep the whole composition visible; no tutorial arrows and no score symbols.",
+    "bytes": 159658,
+    "sha256": "20a9d566a57c99d0268dcf8357a8dff2ed4a97f9317e2befa29187e9eb78648c"
+  },
+  {
+    "id": "M16",
+    "src": "/assets/scenes/M16.webp",
+    "context": "工作正处于最关键的两年，女朋友问：“我们要不要开始考虑结婚？” 你觉得他更容易先想到？",
+    "prompt": "Use case: illustration-story. ONE unique scene illustration for question M16 of a mobile Chinese relationship game. Visible event: fox at busy office desk with thick project folders and a blank two-year calendar, otter nearby with small wedding planning notebook, no decisions. Original Chinese context, use only events before the final question: 工作正处于最关键的两年，女朋友问：“我们要不要开始考虑结婚？” 你觉得他更容易先想到？. Depict factual setting and already-visible actions ONLY; DO NOT depict potential answers, hidden motives, future reactions, correctness, dramatic sadness, anger or romance. Beautiful high-quality original 2D kawaii chibi animal cast matching fluffy pastel fox, lavender rabbit, mint otter and calico cat; large sparkling eyes, warm fine outlines, soft hand-painted cel shading, muted cream/dusty rose/burgundy with soft lavender/mint accents. Adult everyday Chinese urban setting, no baby merchandise. Landscape 3:2, asymmetrical manga composition with 2 or 3 coherent panels, a scene establishing shot and object close-up, cream gutters and gentle ears or hand crossing panel edge. Give this scene its own camera angle and clear unique props. No letters, words, numbers, readable screen text, logos, watermark, photorealistic humans, heavy black panels. Keep the whole composition visible; no tutorial arrows and no score symbols.",
+    "bytes": 141728,
+    "sha256": "1bc4588c65e7dded17c34d1807e0d47de76eef0852351cdfeccb85ae029ac157"
+  },
+  {
+    "id": "M17",
+    "src": "/assets/scenes/M17.webp",
+    "context": "和几个男性朋友打游戏，最后一局输了。他说：“再来一局。” 你觉得这背后更可能是？",
+    "prompt": "Use case: illustration-story. ONE unique scene illustration for question M17 of a mobile Chinese relationship game. Visible event: fox and two male-coded animal friends sitting at gaming computers with plain defeat-colored screen, fox hand on controller ready for another round, no result. Original Chinese context, use only events before the final question: 和几个男性朋友打游戏，最后一局输了。他说：“再来一局。” 你觉得这背后更可能是？. Depict factual setting and already-visible actions ONLY; DO NOT depict potential answers, hidden motives, future reactions, correctness, dramatic sadness, anger or romance. Beautiful high-quality original 2D kawaii chibi animal cast matching fluffy pastel fox, lavender rabbit, mint otter and calico cat; large sparkling eyes, warm fine outlines, soft hand-painted cel shading, muted cream/dusty rose/burgundy with soft lavender/mint accents. Adult everyday Chinese urban setting, no baby merchandise. Landscape 3:2, asymmetrical manga composition with 2 or 3 coherent panels, a scene establishing shot and object close-up, cream gutters and gentle ears or hand crossing panel edge. Give this scene its own camera angle and clear unique props. No letters, words, numbers, readable screen text, logos, watermark, photorealistic humans, heavy black panels. Keep the whole composition visible; no tutorial arrows and no score symbols.",
+    "bytes": 122200,
+    "sha256": "26a7248d409b6a60589dc041e8e9457b95dc64177ce41e3c348eef6a47290413"
+  },
+  {
+    "id": "M18",
+    "src": "/assets/scenes/M18.webp",
+    "context": "旅行导航显示前方有一条更快但明显更野的路，另一条慢 20 分钟但稳。你觉得男性平均更可能？",
+    "prompt": "Use case: illustration-story. ONE unique scene illustration for question M18 of a mobile Chinese relationship game. Visible event: fox and otter in car parked at road fork, phone navigation showing two unlabelled routes, one scenic narrow dirt route and one stable paved route, no chosen path. Original Chinese context, use only events before the final question: 旅行导航显示前方有一条更快但明显更野的路，另一条慢 20 分钟但稳。你觉得男性平均更可能？. Depict factual setting and already-visible actions ONLY; DO NOT depict potential answers, hidden motives, future reactions, correctness, dramatic sadness, anger or romance. Beautiful high-quality original 2D kawaii chibi animal cast matching fluffy pastel fox, lavender rabbit, mint otter and calico cat; large sparkling eyes, warm fine outlines, soft hand-painted cel shading, muted cream/dusty rose/burgundy with soft lavender/mint accents. Adult everyday Chinese urban setting, no baby merchandise. Landscape 3:2, asymmetrical manga composition with 2 or 3 coherent panels, a scene establishing shot and object close-up, cream gutters and gentle ears or hand crossing panel edge. Give this scene its own camera angle and clear unique props. No letters, words, numbers, readable screen text, logos, watermark, photorealistic humans, heavy black panels. Keep the whole composition visible; no tutorial arrows and no score symbols.",
+    "bytes": 146994,
+    "sha256": "283543cd313356e0d954a47c6b926e530441f1a82926f37bdb7f6e57e6fe1bba"
+  },
+  {
+    "id": "M19",
+    "src": "/assets/scenes/M19.webp",
+    "context": "朋友拿到一个特别高的职位。你觉得男生更容易出现哪种第一反应？",
+    "prompt": "Use case: illustration-story. ONE unique scene illustration for question M19 of a mobile Chinese relationship game. Visible event: fox viewing a friend's promotion announcement on unmarked laptop, colleague pictured at podium in small visual inset, calm expression. Original Chinese context, use only events before the final question: 朋友拿到一个特别高的职位。你觉得男生更容易出现哪种第一反应？. Depict factual setting and already-visible actions ONLY; DO NOT depict potential answers, hidden motives, future reactions, correctness, dramatic sadness, anger or romance. Beautiful high-quality original 2D kawaii chibi animal cast matching fluffy pastel fox, lavender rabbit, mint otter and calico cat; large sparkling eyes, warm fine outlines, soft hand-painted cel shading, muted cream/dusty rose/burgundy with soft lavender/mint accents. Adult everyday Chinese urban setting, no baby merchandise. Landscape 3:2, asymmetrical manga composition with 2 or 3 coherent panels, a scene establishing shot and object close-up, cream gutters and gentle ears or hand crossing panel edge. Give this scene its own camera angle and clear unique props. No letters, words, numbers, readable screen text, logos, watermark, photorealistic humans, heavy black panels. Keep the whole composition visible; no tutorial arrows and no score symbols.",
+    "bytes": 110542,
+    "sha256": "059c5de66584e19f319f469d6f05544f46ea593536e33611572c10d8ee93ce45"
+  },
+  {
+    "id": "M20",
+    "src": "/assets/scenes/M20.webp",
+    "context": "你问他：“你最近最想得到的是什么？” 你觉得男性更容易把答案落在？",
+    "prompt": "Use case: illustration-story. ONE unique scene illustration for question M20 of a mobile Chinese relationship game. Visible event: fox and otter chatting beside balcony table at sunset, blank notebook between them, wishes still unspoken. Original Chinese context, use only events before the final question: 你问他：“你最近最想得到的是什么？” 你觉得男性更容易把答案落在？. Depict factual setting and already-visible actions ONLY; DO NOT depict potential answers, hidden motives, future reactions, correctness, dramatic sadness, anger or romance. Beautiful high-quality original 2D kawaii chibi animal cast matching fluffy pastel fox, lavender rabbit, mint otter and calico cat; large sparkling eyes, warm fine outlines, soft hand-painted cel shading, muted cream/dusty rose/burgundy with soft lavender/mint accents. Adult everyday Chinese urban setting, no baby merchandise. Landscape 3:2, asymmetrical manga composition with 2 or 3 coherent panels, a scene establishing shot and object close-up, cream gutters and gentle ears or hand crossing panel edge. Give this scene its own camera angle and clear unique props. No letters, words, numbers, readable screen text, logos, watermark, photorealistic humans, heavy black panels. Keep the whole composition visible; no tutorial arrows and no score symbols.",
+    "bytes": 155502,
+    "sha256": "829f1a904ab8bb759bb17dd17b4ba7272ad083cec9d5926290851da576011cef"
+  },
+  {
+    "id": "F01",
+    "src": "/assets/scenes/F01.webp",
+    "context": "她下班回家说：“今天真的很烦。” 你问“怎么了”，她没有马上讲。你觉得她更可能？",
+    "prompt": "Use case: illustration-story. ONE unique scene illustration for question F01 of a mobile Chinese relationship game. Visible event: lavender rabbit comes home with office tote, fox asks how her day went, rabbit pauses by dining table, no response yet. Original Chinese context, use only events before the final question: 她下班回家说：“今天真的很烦。” 你问“怎么了”，她没有马上讲。你觉得她更可能？. Depict factual setting and already-visible actions ONLY; DO NOT depict potential answers, hidden motives, future reactions, correctness, dramatic sadness, anger or romance. Beautiful high-quality original 2D kawaii chibi animal cast matching fluffy pastel fox, lavender rabbit, mint otter and calico cat; large sparkling eyes, warm fine outlines, soft hand-painted cel shading, muted cream/dusty rose/burgundy with soft lavender/mint accents. Adult everyday Chinese urban setting, no baby merchandise. Landscape 3:2, asymmetrical manga composition with 2 or 3 coherent panels, a scene establishing shot and object close-up, cream gutters and gentle ears or hand crossing panel edge. Give this scene its own camera angle and clear unique props. No letters, words, numbers, readable screen text, logos, watermark, photorealistic humans, heavy black panels. Keep the whole composition visible; no tutorial arrows and no score symbols.",
+    "bytes": 122776,
+    "sha256": "29d719e05a90cf1442935549554d5f937432056efcf7b3dd6d38b04ca052dbb6"
+  },
+  {
+    "id": "F02",
+    "src": "/assets/scenes/F02.webp",
+    "context": "她跟闺蜜讲一件和男朋友吵架的事。你觉得她更可能？",
+    "prompt": "Use case: illustration-story. ONE unique scene illustration for question F02 of a mobile Chinese relationship game. Visible event: rabbit telling calico cat friend about a relationship disagreement at a cafe, two cups, small blank speech bubbles, no subsequent response. Original Chinese context, use only events before the final question: 她跟闺蜜讲一件和男朋友吵架的事。你觉得她更可能？. Depict factual setting and already-visible actions ONLY; DO NOT depict potential answers, hidden motives, future reactions, correctness, dramatic sadness, anger or romance. Beautiful high-quality original 2D kawaii chibi animal cast matching fluffy pastel fox, lavender rabbit, mint otter and calico cat; large sparkling eyes, warm fine outlines, soft hand-painted cel shading, muted cream/dusty rose/burgundy with soft lavender/mint accents. Adult everyday Chinese urban setting, no baby merchandise. Landscape 3:2, asymmetrical manga composition with 2 or 3 coherent panels, a scene establishing shot and object close-up, cream gutters and gentle ears or hand crossing panel edge. Give this scene its own camera angle and clear unique props. No letters, words, numbers, readable screen text, logos, watermark, photorealistic humans, heavy black panels. Keep the whole composition visible; no tutorial arrows and no score symbols.",
+    "bytes": 133424,
+    "sha256": "fb7895d8d797747af14b2debeb1c0ecc4729364783d9cff47ec4c8f8d6661503"
+  },
+  {
+    "id": "F03",
+    "src": "/assets/scenes/F03.webp",
+    "context": "她和一个朋友闹别扭，第一反应不是一个人消化，而是找两个很信任的人聊聊。你觉得这更像？",
+    "prompt": "Use case: illustration-story. ONE unique scene illustration for question F03 of a mobile Chinese relationship game. Visible event: rabbit talking with two trusted animal friends on cozy cafe sofa, friendship conversation, all neutral attentive expressions. Original Chinese context, use only events before the final question: 她和一个朋友闹别扭，第一反应不是一个人消化，而是找两个很信任的人聊聊。你觉得这更像？. Depict factual setting and already-visible actions ONLY; DO NOT depict potential answers, hidden motives, future reactions, correctness, dramatic sadness, anger or romance. Beautiful high-quality original 2D kawaii chibi animal cast matching fluffy pastel fox, lavender rabbit, mint otter and calico cat; large sparkling eyes, warm fine outlines, soft hand-painted cel shading, muted cream/dusty rose/burgundy with soft lavender/mint accents. Adult everyday Chinese urban setting, no baby merchandise. Landscape 3:2, asymmetrical manga composition with 2 or 3 coherent panels, a scene establishing shot and object close-up, cream gutters and gentle ears or hand crossing panel edge. Give this scene its own camera angle and clear unique props. No letters, words, numbers, readable screen text, logos, watermark, photorealistic humans, heavy black panels. Keep the whole composition visible; no tutorial arrows and no score symbols.",
+    "bytes": 159760,
+    "sha256": "de8b69313ee0a04ab41877b38e84603a3a4c64487225f19460ca12275d888e0f"
+  },
+  {
+    "id": "F04",
+    "src": "/assets/scenes/F04.webp",
+    "context": "你说“我没事”，但你的语气和往常不一样。她更可能？",
+    "prompt": "Use case: illustration-story. ONE unique scene illustration for question F04 of a mobile Chinese relationship game. Visible event: fox saying something to rabbit at kitchen counter, rabbit watches attentively, unmarked speech bubble, expression subtle and no next reaction. Original Chinese context, use only events before the final question: 你说“我没事”，但你的语气和往常不一样。她更可能？. Depict factual setting and already-visible actions ONLY; DO NOT depict potential answers, hidden motives, future reactions, correctness, dramatic sadness, anger or romance. Beautiful high-quality original 2D kawaii chibi animal cast matching fluffy pastel fox, lavender rabbit, mint otter and calico cat; large sparkling eyes, warm fine outlines, soft hand-painted cel shading, muted cream/dusty rose/burgundy with soft lavender/mint accents. Adult everyday Chinese urban setting, no baby merchandise. Landscape 3:2, asymmetrical manga composition with 2 or 3 coherent panels, a scene establishing shot and object close-up, cream gutters and gentle ears or hand crossing panel edge. Give this scene its own camera angle and clear unique props. No letters, words, numbers, readable screen text, logos, watermark, photorealistic humans, heavy black panels. Keep the whole composition visible; no tutorial arrows and no score symbols.",
+    "bytes": 116184,
+    "sha256": "6f12641c3b9027968585fbe5ef3ebd8ab489b8839d0ef07b9f145dd6e157b531"
+  },
+  {
+    "id": "F05",
+    "src": "/assets/scenes/F05.webp",
+    "context": "你们吵架时，她说：“我们今天一定要把这件事说清楚。” 你觉得她更可能是在？",
+    "prompt": "Use case: illustration-story. ONE unique scene illustration for question F05 of a mobile Chinese relationship game. Visible event: rabbit and fox discussing an unresolved issue in apartment, rabbit gestures toward table, neither leaving or hugging. Original Chinese context, use only events before the final question: 你们吵架时，她说：“我们今天一定要把这件事说清楚。” 你觉得她更可能是在？. Depict factual setting and already-visible actions ONLY; DO NOT depict potential answers, hidden motives, future reactions, correctness, dramatic sadness, anger or romance. Beautiful high-quality original 2D kawaii chibi animal cast matching fluffy pastel fox, lavender rabbit, mint otter and calico cat; large sparkling eyes, warm fine outlines, soft hand-painted cel shading, muted cream/dusty rose/burgundy with soft lavender/mint accents. Adult everyday Chinese urban setting, no baby merchandise. Landscape 3:2, asymmetrical manga composition with 2 or 3 coherent panels, a scene establishing shot and object close-up, cream gutters and gentle ears or hand crossing panel edge. Give this scene its own camera angle and clear unique props. No letters, words, numbers, readable screen text, logos, watermark, photorealistic humans, heavy black panels. Keep the whole composition visible; no tutorial arrows and no score symbols.",
+    "bytes": 137192,
+    "sha256": "0410ff6febfeaf61c464b1204842ba310133c99c654eef2f0c0b98083cf6d298"
+  },
+  {
+    "id": "F06",
+    "src": "/assets/scenes/F06.webp",
+    "context": "她和你争论时突然开始举：“上次你也是这样、那次你也……” 你觉得她更可能在做什么？",
+    "prompt": "Use case: illustration-story. ONE unique scene illustration for question F06 of a mobile Chinese relationship game. Visible event: rabbit and fox in conversation with small inset memories of earlier everyday moments, plain calendar and phone, no blame symbolism. Original Chinese context, use only events before the final question: 她和你争论时突然开始举：“上次你也是这样、那次你也……” 你觉得她更可能在做什么？. Depict factual setting and already-visible actions ONLY; DO NOT depict potential answers, hidden motives, future reactions, correctness, dramatic sadness, anger or romance. Beautiful high-quality original 2D kawaii chibi animal cast matching fluffy pastel fox, lavender rabbit, mint otter and calico cat; large sparkling eyes, warm fine outlines, soft hand-painted cel shading, muted cream/dusty rose/burgundy with soft lavender/mint accents. Adult everyday Chinese urban setting, no baby merchandise. Landscape 3:2, asymmetrical manga composition with 2 or 3 coherent panels, a scene establishing shot and object close-up, cream gutters and gentle ears or hand crossing panel edge. Give this scene its own camera angle and clear unique props. No letters, words, numbers, readable screen text, logos, watermark, photorealistic humans, heavy black panels. Keep the whole composition visible; no tutorial arrows and no score symbols.",
+    "bytes": 140174,
+    "sha256": "931e67ac6e61580d16958ad425c60d2ad31fe0e6f47bbe469b4088eabd00263d"
+  },
+  {
+    "id": "F07",
+    "src": "/assets/scenes/F07.webp",
+    "context": "吵完架，她说：“你先抱我一下，我们再说。” 你觉得她更可能在追求？",
+    "prompt": "Use case: illustration-story. ONE unique scene illustration for question F07 of a mobile Chinese relationship game. Visible event: rabbit asks fox for a hug during discussion, standing close but arms not yet embracing, cozy home, no resolution depicted. Original Chinese context, use only events before the final question: 吵完架，她说：“你先抱我一下，我们再说。” 你觉得她更可能在追求？. Depict factual setting and already-visible actions ONLY; DO NOT depict potential answers, hidden motives, future reactions, correctness, dramatic sadness, anger or romance. Beautiful high-quality original 2D kawaii chibi animal cast matching fluffy pastel fox, lavender rabbit, mint otter and calico cat; large sparkling eyes, warm fine outlines, soft hand-painted cel shading, muted cream/dusty rose/burgundy with soft lavender/mint accents. Adult everyday Chinese urban setting, no baby merchandise. Landscape 3:2, asymmetrical manga composition with 2 or 3 coherent panels, a scene establishing shot and object close-up, cream gutters and gentle ears or hand crossing panel edge. Give this scene its own camera angle and clear unique props. No letters, words, numbers, readable screen text, logos, watermark, photorealistic humans, heavy black panels. Keep the whole composition visible; no tutorial arrows and no score symbols.",
+    "bytes": 137232,
+    "sha256": "7393fa05da9c02eedbb67a2cce25c92ae352129c35a291ed73c1e89e36e0d02a"
+  },
+  {
+    "id": "F08",
+    "src": "/assets/scenes/F08.webp",
+    "context": "她看到男朋友在公开社交平台频繁给一个漂亮女生互动。你觉得她平均更可能感受到？",
+    "prompt": "Use case: illustration-story. ONE unique scene illustration for question F08 of a mobile Chinese relationship game. Visible event: rabbit looking at unmarked phone showing social thumbnails and small interaction hearts, fox in room, no anger or betrayal illustration. Original Chinese context, use only events before the final question: 她看到男朋友在公开社交平台频繁给一个漂亮女生互动。你觉得她平均更可能感受到？. Depict factual setting and already-visible actions ONLY; DO NOT depict potential answers, hidden motives, future reactions, correctness, dramatic sadness, anger or romance. Beautiful high-quality original 2D kawaii chibi animal cast matching fluffy pastel fox, lavender rabbit, mint otter and calico cat; large sparkling eyes, warm fine outlines, soft hand-painted cel shading, muted cream/dusty rose/burgundy with soft lavender/mint accents. Adult everyday Chinese urban setting, no baby merchandise. Landscape 3:2, asymmetrical manga composition with 2 or 3 coherent panels, a scene establishing shot and object close-up, cream gutters and gentle ears or hand crossing panel edge. Give this scene its own camera angle and clear unique props. No letters, words, numbers, readable screen text, logos, watermark, photorealistic humans, heavy black panels. Keep the whole composition visible; no tutorial arrows and no score symbols.",
+    "bytes": 108088,
+    "sha256": "91b6fc426430a036a82c09244b4988ed02cbcefe27d9e51b9282bb5caf273752"
+  },
+  {
+    "id": "F09",
+    "src": "/assets/scenes/F09.webp",
+    "context": "男朋友说：“她只是同事。” 她却继续问：“那你们怎么认识的？平时聊什么？” 你觉得这更可能是？",
+    "prompt": "Use case: illustration-story. ONE unique scene illustration for question F09 of a mobile Chinese relationship game. Visible event: fox and rabbit talking about colleague, office photo and phone with blank bubbles on table, relationship history questions unresolved. Original Chinese context, use only events before the final question: 男朋友说：“她只是同事。” 她却继续问：“那你们怎么认识的？平时聊什么？” 你觉得这更可能是？. Depict factual setting and already-visible actions ONLY; DO NOT depict potential answers, hidden motives, future reactions, correctness, dramatic sadness, anger or romance. Beautiful high-quality original 2D kawaii chibi animal cast matching fluffy pastel fox, lavender rabbit, mint otter and calico cat; large sparkling eyes, warm fine outlines, soft hand-painted cel shading, muted cream/dusty rose/burgundy with soft lavender/mint accents. Adult everyday Chinese urban setting, no baby merchandise. Landscape 3:2, asymmetrical manga composition with 2 or 3 coherent panels, a scene establishing shot and object close-up, cream gutters and gentle ears or hand crossing panel edge. Give this scene its own camera angle and clear unique props. No letters, words, numbers, readable screen text, logos, watermark, photorealistic humans, heavy black panels. Keep the whole composition visible; no tutorial arrows and no score symbols.",
+    "bytes": 127198,
+    "sha256": "d389b6d4396180fe976e70eb1f6f3cab68663531646d2f0e626ae132047c740a"
+  },
+  {
+    "id": "F10",
+    "src": "/assets/scenes/F10.webp",
+    "context": "闺蜜出现一个条件很好、又很受欢迎的女生。你觉得女性更容易出现哪种“安静的反应”？",
+    "prompt": "Use case: illustration-story. ONE unique scene illustration for question F10 of a mobile Chinese relationship game. Visible event: rabbit with two female-coded animal friends at a social gathering, newcomer friendly and well-dressed, no jealous or judgmental expression. Original Chinese context, use only events before the final question: 闺蜜出现一个条件很好、又很受欢迎的女生。你觉得女性更容易出现哪种“安静的反应”？. Depict factual setting and already-visible actions ONLY; DO NOT depict potential answers, hidden motives, future reactions, correctness, dramatic sadness, anger or romance. Beautiful high-quality original 2D kawaii chibi animal cast matching fluffy pastel fox, lavender rabbit, mint otter and calico cat; large sparkling eyes, warm fine outlines, soft hand-painted cel shading, muted cream/dusty rose/burgundy with soft lavender/mint accents. Adult everyday Chinese urban setting, no baby merchandise. Landscape 3:2, asymmetrical manga composition with 2 or 3 coherent panels, a scene establishing shot and object close-up, cream gutters and gentle ears or hand crossing panel edge. Give this scene its own camera angle and clear unique props. No letters, words, numbers, readable screen text, logos, watermark, photorealistic humans, heavy black panels. Keep the whole composition visible; no tutorial arrows and no score symbols.",
+    "bytes": 155672,
+    "sha256": "7b7e0e21bb65b654b777a0ea587c44872fd8d43aee69b9c174935b7b189a7330"
+  },
+  {
+    "id": "F11",
+    "src": "/assets/scenes/F11.webp",
+    "context": "长期伴侣候选人 A：比自己大 3–5 岁、收入稳定；B：同龄、外形更吸引。你猜女性平均更可能把哪项看得更重要？",
+    "prompt": "Use case: illustration-story. ONE unique scene illustration for question F11 of a mobile Chinese relationship game. Visible event: two male-coded animal dating profiles in equal panels, older tidy office fox and similarly charming younger casual otter, neutral identical expressions, no ranking. Original Chinese context, use only events before the final question: 长期伴侣候选人 A：比自己大 3–5 岁、收入稳定；B：同龄、外形更吸引。你猜女性平均更可能把哪项看得更重要？. Depict factual setting and already-visible actions ONLY; DO NOT depict potential answers, hidden motives, future reactions, correctness, dramatic sadness, anger or romance. Beautiful high-quality original 2D kawaii chibi animal cast matching fluffy pastel fox, lavender rabbit, mint otter and calico cat; large sparkling eyes, warm fine outlines, soft hand-painted cel shading, muted cream/dusty rose/burgundy with soft lavender/mint accents. Adult everyday Chinese urban setting, no baby merchandise. Landscape 3:2, asymmetrical manga composition with 2 or 3 coherent panels, a scene establishing shot and object close-up, cream gutters and gentle ears or hand crossing panel edge. Give this scene its own camera angle and clear unique props. No letters, words, numbers, readable screen text, logos, watermark, photorealistic humans, heavy black panels. Keep the whole composition visible; no tutorial arrows and no score symbols.",
+    "bytes": 157036,
+    "sha256": "6a6752437876667a39dad2ecce529165599b581bac4293f59120f0fa50b931cb"
+  },
+  {
+    "id": "F12",
+    "src": "/assets/scenes/F12.webp",
+    "context": "两个人只能选一个长期伴侣：非常帅但不稳定，或外形普通但善良可靠。你猜女性平均更可能？",
+    "prompt": "Use case: illustration-story. ONE unique scene illustration for question F12 of a mobile Chinese relationship game. Visible event: two equally charming male-coded animal profiles, stylish fox and practical kind otter with small everyday bag, neither shown as worse or winner. Original Chinese context, use only events before the final question: 两个人只能选一个长期伴侣：非常帅但不稳定，或外形普通但善良可靠。你猜女性平均更可能？. Depict factual setting and already-visible actions ONLY; DO NOT depict potential answers, hidden motives, future reactions, correctness, dramatic sadness, anger or romance. Beautiful high-quality original 2D kawaii chibi animal cast matching fluffy pastel fox, lavender rabbit, mint otter and calico cat; large sparkling eyes, warm fine outlines, soft hand-painted cel shading, muted cream/dusty rose/burgundy with soft lavender/mint accents. Adult everyday Chinese urban setting, no baby merchandise. Landscape 3:2, asymmetrical manga composition with 2 or 3 coherent panels, a scene establishing shot and object close-up, cream gutters and gentle ears or hand crossing panel edge. Give this scene its own camera angle and clear unique props. No letters, words, numbers, readable screen text, logos, watermark, photorealistic humans, heavy black panels. Keep the whole composition visible; no tutorial arrows and no score symbols.",
+    "bytes": 168148,
+    "sha256": "74f9a091495194b37f1e770a465d732dfa3209325ce333c8e9b650ba6ba1c4d9"
+  },
+  {
+    "id": "F13",
+    "src": "/assets/scenes/F13.webp",
+    "context": "生日礼物：A 一件昂贵但明显“随便买的”；B 不贵，但准确记住了她半年前随口说过的一件小事。你猜女性更容易觉得？",
+    "prompt": "Use case: illustration-story. ONE unique scene illustration for question F13 of a mobile Chinese relationship game. Visible event: two gifts beside rabbit, an elegant wrapped expensive-looking box and a modest handmade keepsake based on an old conversation, no favourite selected. Original Chinese context, use only events before the final question: 生日礼物：A 一件昂贵但明显“随便买的”；B 不贵，但准确记住了她半年前随口说过的一件小事。你猜女性更容易觉得？. Depict factual setting and already-visible actions ONLY; DO NOT depict potential answers, hidden motives, future reactions, correctness, dramatic sadness, anger or romance. Beautiful high-quality original 2D kawaii chibi animal cast matching fluffy pastel fox, lavender rabbit, mint otter and calico cat; large sparkling eyes, warm fine outlines, soft hand-painted cel shading, muted cream/dusty rose/burgundy with soft lavender/mint accents. Adult everyday Chinese urban setting, no baby merchandise. Landscape 3:2, asymmetrical manga composition with 2 or 3 coherent panels, a scene establishing shot and object close-up, cream gutters and gentle ears or hand crossing panel edge. Give this scene its own camera angle and clear unique props. No letters, words, numbers, readable screen text, logos, watermark, photorealistic humans, heavy black panels. Keep the whole composition visible; no tutorial arrows and no score symbols.",
+    "bytes": 149942,
+    "sha256": "7c57fa072e47cf70a610ff8b97a451984acdb6f3db5f7c20a697666b90bb2d83"
+  },
+  {
+    "id": "F14",
+    "src": "/assets/scenes/F14.webp",
+    "context": "男朋友拿到一个可能让你们异地两年的工作机会。你觉得她更容易先考虑？",
+    "prompt": "Use case: illustration-story. ONE unique scene illustration for question F14 of a mobile Chinese relationship game. Visible event: rabbit and fox holding a job-offer envelope beside two city silhouettes connected on a map, suitcase nearby, no choice or separation depicted. Original Chinese context, use only events before the final question: 男朋友拿到一个可能让你们异地两年的工作机会。你觉得她更容易先考虑？. Depict factual setting and already-visible actions ONLY; DO NOT depict potential answers, hidden motives, future reactions, correctness, dramatic sadness, anger or romance. Beautiful high-quality original 2D kawaii chibi animal cast matching fluffy pastel fox, lavender rabbit, mint otter and calico cat; large sparkling eyes, warm fine outlines, soft hand-painted cel shading, muted cream/dusty rose/burgundy with soft lavender/mint accents. Adult everyday Chinese urban setting, no baby merchandise. Landscape 3:2, asymmetrical manga composition with 2 or 3 coherent panels, a scene establishing shot and object close-up, cream gutters and gentle ears or hand crossing panel edge. Give this scene its own camera angle and clear unique props. No letters, words, numbers, readable screen text, logos, watermark, photorealistic humans, heavy black panels. Keep the whole composition visible; no tutorial arrows and no score symbols.",
+    "bytes": 140260,
+    "sha256": "2abae5fa87c5770879872b46b9f7eab3ffdbafd4c92b376075ec96914dba5acc"
+  },
+  {
+    "id": "F15",
+    "src": "/assets/scenes/F15.webp",
+    "context": "她说：“我不是要你解决，我只是想让你知道我现在很难受。” 你觉得她最可能希望对方下一步？",
+    "prompt": "Use case: illustration-story. ONE unique scene illustration for question F15 of a mobile Chinese relationship game. Visible event: rabbit describing her difficult day to fox beside sofa with warm tea, fox has not offered any response or solution. Original Chinese context, use only events before the final question: 她说：“我不是要你解决，我只是想让你知道我现在很难受。” 你觉得她最可能希望对方下一步？. Depict factual setting and already-visible actions ONLY; DO NOT depict potential answers, hidden motives, future reactions, correctness, dramatic sadness, anger or romance. Beautiful high-quality original 2D kawaii chibi animal cast matching fluffy pastel fox, lavender rabbit, mint otter and calico cat; large sparkling eyes, warm fine outlines, soft hand-painted cel shading, muted cream/dusty rose/burgundy with soft lavender/mint accents. Adult everyday Chinese urban setting, no baby merchandise. Landscape 3:2, asymmetrical manga composition with 2 or 3 coherent panels, a scene establishing shot and object close-up, cream gutters and gentle ears or hand crossing panel edge. Give this scene its own camera angle and clear unique props. No letters, words, numbers, readable screen text, logos, watermark, photorealistic humans, heavy black panels. Keep the whole composition visible; no tutorial arrows and no score symbols.",
+    "bytes": 144676,
+    "sha256": "5beccf9865f39ff5bf193fb1955f836d04c191ea37b2644af3514eab64199930"
+  },
+  {
+    "id": "F16",
+    "src": "/assets/scenes/F16.webp",
+    "context": "两人关系有点不确定，她开始更频繁问：“你还爱我吗？” 你觉得这更接近？",
+    "prompt": "Use case: illustration-story. ONE unique scene illustration for question F16 of a mobile Chinese relationship game. Visible event: rabbit asks fox a relationship question while sitting beside him on a city bench, blank speech bubble, no answer shown. Original Chinese context, use only events before the final question: 两人关系有点不确定，她开始更频繁问：“你还爱我吗？” 你觉得这更接近？. Depict factual setting and already-visible actions ONLY; DO NOT depict potential answers, hidden motives, future reactions, correctness, dramatic sadness, anger or romance. Beautiful high-quality original 2D kawaii chibi animal cast matching fluffy pastel fox, lavender rabbit, mint otter and calico cat; large sparkling eyes, warm fine outlines, soft hand-painted cel shading, muted cream/dusty rose/burgundy with soft lavender/mint accents. Adult everyday Chinese urban setting, no baby merchandise. Landscape 3:2, asymmetrical manga composition with 2 or 3 coherent panels, a scene establishing shot and object close-up, cream gutters and gentle ears or hand crossing panel edge. Give this scene its own camera angle and clear unique props. No letters, words, numbers, readable screen text, logos, watermark, photorealistic humans, heavy black panels. Keep the whole composition visible; no tutorial arrows and no score symbols.",
+    "bytes": 151786,
+    "sha256": "19989b3ded82ef7a766d3e4715a7f784bb77bec37418dddf210d9133ccacf79b"
+  },
+  {
+    "id": "F17",
+    "src": "/assets/scenes/F17.webp",
+    "context": "她发现男朋友把两人的合照从头像换掉了，却没有解释。你觉得她更可能？",
+    "prompt": "Use case: illustration-story. ONE unique scene illustration for question F17 of a mobile Chinese relationship game. Visible event: rabbit looking at phone whose avatar changed from a two-character portrait to a single neutral picture, tiny two-panel screen close-up, no emotional reaction. Original Chinese context, use only events before the final question: 她发现男朋友把两人的合照从头像换掉了，却没有解释。你觉得她更可能？. Depict factual setting and already-visible actions ONLY; DO NOT depict potential answers, hidden motives, future reactions, correctness, dramatic sadness, anger or romance. Beautiful high-quality original 2D kawaii chibi animal cast matching fluffy pastel fox, lavender rabbit, mint otter and calico cat; large sparkling eyes, warm fine outlines, soft hand-painted cel shading, muted cream/dusty rose/burgundy with soft lavender/mint accents. Adult everyday Chinese urban setting, no baby merchandise. Landscape 3:2, asymmetrical manga composition with 2 or 3 coherent panels, a scene establishing shot and object close-up, cream gutters and gentle ears or hand crossing panel edge. Give this scene its own camera angle and clear unique props. No letters, words, numbers, readable screen text, logos, watermark, photorealistic humans, heavy black panels. Keep the whole composition visible; no tutorial arrows and no score symbols.",
+    "bytes": 123500,
+    "sha256": "bff30f3fce6e00d369f0e2b5cd422124c759e02e41698969d1466715727ee6e3"
+  },
+  {
+    "id": "F18",
+    "src": "/assets/scenes/F18.webp",
+    "context": "一群女生讨论谁最近“状态最好”。你觉得女性平均更容易把比较放在哪？",
+    "prompt": "Use case: illustration-story. ONE unique scene illustration for question F18 of a mobile Chinese relationship game. Visible event: rabbit deer and calico cat talking at cafe table, casual everyday outfits, blank social photo thumbnails, no comparison winner or body emphasis. Original Chinese context, use only events before the final question: 一群女生讨论谁最近“状态最好”。你觉得女性平均更容易把比较放在哪？. Depict factual setting and already-visible actions ONLY; DO NOT depict potential answers, hidden motives, future reactions, correctness, dramatic sadness, anger or romance. Beautiful high-quality original 2D kawaii chibi animal cast matching fluffy pastel fox, lavender rabbit, mint otter and calico cat; large sparkling eyes, warm fine outlines, soft hand-painted cel shading, muted cream/dusty rose/burgundy with soft lavender/mint accents. Adult everyday Chinese urban setting, no baby merchandise. Landscape 3:2, asymmetrical manga composition with 2 or 3 coherent panels, a scene establishing shot and object close-up, cream gutters and gentle ears or hand crossing panel edge. Give this scene its own camera angle and clear unique props. No letters, words, numbers, readable screen text, logos, watermark, photorealistic humans, heavy black panels. Keep the whole composition visible; no tutorial arrows and no score symbols.",
+    "bytes": 169780,
+    "sha256": "ae282f55e5f773f529d9783d3ef6e4dd26e87d79ea3f2b624101462bd517ff12"
+  },
+  {
+    "id": "F19",
+    "src": "/assets/scenes/F19.webp",
+    "context": "有两个男生：A 非常有事业野心但时间极少；B 事业普通但长期稳定、愿意投入关系。你猜女性平均更可能偏向？",
+    "prompt": "Use case: illustration-story. ONE unique scene illustration for question F19 of a mobile Chinese relationship game. Visible event: two male-coded animal dating profile panels, busy professional fox with closed laptop and dependable otter with calendar, equal visual warmth and no winner. Original Chinese context, use only events before the final question: 有两个男生：A 非常有事业野心但时间极少；B 事业普通但长期稳定、愿意投入关系。你猜女性平均更可能偏向？. Depict factual setting and already-visible actions ONLY; DO NOT depict potential answers, hidden motives, future reactions, correctness, dramatic sadness, anger or romance. Beautiful high-quality original 2D kawaii chibi animal cast matching fluffy pastel fox, lavender rabbit, mint otter and calico cat; large sparkling eyes, warm fine outlines, soft hand-painted cel shading, muted cream/dusty rose/burgundy with soft lavender/mint accents. Adult everyday Chinese urban setting, no baby merchandise. Landscape 3:2, asymmetrical manga composition with 2 or 3 coherent panels, a scene establishing shot and object close-up, cream gutters and gentle ears or hand crossing panel edge. Give this scene its own camera angle and clear unique props. No letters, words, numbers, readable screen text, logos, watermark, photorealistic humans, heavy black panels. Keep the whole composition visible; no tutorial arrows and no score symbols.",
+    "bytes": 156598,
+    "sha256": "13f5dc3dd351b4bfe20ed315c3a3d378ef4275c956f4a97af68700954b7710a3"
+  },
+  {
+    "id": "F20",
+    "src": "/assets/scenes/F20.webp",
+    "context": "一个人说：“我们其实都不喜欢公开讲亲密关系。” 但她会默默关注朋友圈里的互动变化。你觉得这更可能说明？",
+    "prompt": "Use case: illustration-story. ONE unique scene illustration for question F20 of a mobile Chinese relationship game. Visible event: rabbit quietly checks social feed on phone by apartment window while fox reads a notebook nearby, no public announcements or emotional assumptions. Original Chinese context, use only events before the final question: 一个人说：“我们其实都不喜欢公开讲亲密关系。” 但她会默默关注朋友圈里的互动变化。你觉得这更可能说明？. Depict factual setting and already-visible actions ONLY; DO NOT depict potential answers, hidden motives, future reactions, correctness, dramatic sadness, anger or romance. Beautiful high-quality original 2D kawaii chibi animal cast matching fluffy pastel fox, lavender rabbit, mint otter and calico cat; large sparkling eyes, warm fine outlines, soft hand-painted cel shading, muted cream/dusty rose/burgundy with soft lavender/mint accents. Adult everyday Chinese urban setting, no baby merchandise. Landscape 3:2, asymmetrical manga composition with 2 or 3 coherent panels, a scene establishing shot and object close-up, cream gutters and gentle ears or hand crossing panel edge. Give this scene its own camera angle and clear unique props. No letters, words, numbers, readable screen text, logos, watermark, photorealistic humans, heavy black panels. Keep the whole composition visible; no tutorial arrows and no score symbols.",
+    "bytes": 140782,
+    "sha256": "7d37afbdb752a5be473b343663f83e86c451324a93d71df66cde2649f3a06774"
+  }
+]

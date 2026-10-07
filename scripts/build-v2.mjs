@@ -8,8 +8,7 @@ for (const file of ["index.html", "styles.css"])
   fs.copyFileSync("frontend/" + file, path.join(root, file));
 fs.cpSync("frontend/client", path.join(root, "client"), { recursive: true });
 fs.mkdirSync(path.join(root, "assets"), { recursive: true });
-for (const file of fs.readdirSync("frontend/assets"))
-  fs.copyFileSync("frontend/assets/" + file, path.join(root, "assets", file));
+fs.cpSync('frontend/assets',path.join(root,'assets'),{recursive:true});
 fs.cpSync("frontend/audio", path.join(root, "audio"), { recursive: true });
 fs.writeFileSync(
   path.join(root, "_headers"),

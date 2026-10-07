@@ -3,6 +3,8 @@ import assert from 'node:assert/strict';
 import {createRequire} from 'node:module';
 import {questionsFor} from '../backend/content/bank.mjs';
 if (process.argv.includes('--personalities')) { await import('./qa-v2-personalities.mjs'); process.exit(0); }
+if (process.argv.includes('--effects')) { await import('./qa-v2-effects.mjs'); process.exit(0); }
+if (process.argv.includes('--audio-race')) { await import('./qa-v2-audio-race.mjs'); process.exit(0); }
 const require=createRequire(import.meta.url),{chromium}=require('C:/Users/Mayn/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
 const base=process.env.GAME_URL||'http://localhost:4174';
 const browser=await chromium.launch({headless:true,channel:'msedge'}),errors=[],runs=[];

@@ -2,11 +2,26 @@
   "provider": "Cloudflare Workers",
   "name": "your-relationship-reading-v2",
   "url": "https://your-relationship-reading-v2.fliedwolf.workers.dev/",
-  "version": "33bde3ed-018c-4d41-b821-971cbbefbc27",
-  "workerStartupMs": 2,
-  "uploadKiB": 1226.12,
-  "gzipKiB": 854.16,
-  "assetsUploaded": 43,
+  "version": "4ccae00f-a415-4125-ba47-3175b57bd54a",
+  "workerStartupMs": 3,
+  "uploadKiB": 1229.48,
+  "gzipKiB": 855.48,
+  "assetsUploaded": 1,
+  "priorFeatureDeployment": {
+    "version": "c1f55dcf-ac9e-48d4-a789-852277b16871",
+    "assetsUploaded": 47
+  },
+  "questionArtworks": 40,
   "status": "deployed and publicly verified",
+  "verifiedAt": "2026-10-07T14:45:33.697Z",
+  "checks": {
+    "unitTests": 28,
+    "mobileRoutes": 8,
+    "personalities": 12,
+    "publicSceneImages": 40,
+    "publicEffects": true,
+    "publicAudioRace": true,
+    "publicPNG": true
+  },
   "originalMasterPreserved": "e781e25d8f83055ab87d3fc0ca9ec1ee954106f8"
 }

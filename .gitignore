@@ -19,3 +19,5 @@ scripts/proposal-*.mjs
 artwork/personality-v2/*.png
 artwork/personality-v2/source-manifest.json
 artwork/personality-v2/scenes-source.json
+artwork/question-scenes/*.png
+artwork/question-scenes/source-manifest.json

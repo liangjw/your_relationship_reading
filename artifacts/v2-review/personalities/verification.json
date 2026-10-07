@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "base": "https://your-relationship-reading-v2.fliedwolf.workers.dev",
+  "base": "http://localhost:4175",
   "results": [
     {
       "id": "type-01",
@@ -112,5 +112,5 @@
     }
   ],
   "liveClient": true,
-  "verifiedAt": "2026-10-07T13:16:35.549Z"
+  "verifiedAt": "2026-10-07T14:13:29.578Z"
 }

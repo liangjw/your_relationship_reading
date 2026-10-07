@@ -1,5 +1,6 @@
 // Browser adapter only: DOM, HTTP, media playback, clipboard and image export.
 // No question bank, scoring, type classification, progression or report rules.
+import {configureEffects,playEffect,stopEffects,turnScene,revealCard} from './effects.mjs';
 const app = document.querySelector("#app"),
   audio = document.querySelector("#bgm"),
   sound = document.querySelector("#sound");
@@ -11,6 +12,7 @@ let view,
   pendingVisibility,
   lastCue,
   activeCue;
+let lastHTML;
 const toast = (text) => {
   const node = document.querySelector("#toast");
   node.textContent = text;
@@ -38,6 +40,7 @@ async function request(url, options = {}, read = response) {
   }
 }
 function media() {
+  configureEffects(!muted);
   if (!view?.audio) return;
   const source = new URL(view.audio.src, location.origin).href;
   if (audio.src !== source) audio.src = source;
@@ -47,8 +50,12 @@ function media() {
     audio.pause();
     activeCue?.pause();
   } else {
-    audio.play().catch(() => {
+    audio.play().catch((error) => {
+      // Track changes and manual pauses can abort an older play promise.
+      // Only a current autoplay refusal should change the user's sound setting.
+      if (error.name !== 'NotAllowedError' || audio.src !== source || muted || document.hidden) return;
       muted = true;
+      configureEffects(false);
       sound.textContent = "♪ 开启声音";
       sound.setAttribute("aria-pressed", "false");
     });
@@ -62,13 +69,19 @@ function media() {
     }
   }
 }
-function show(data, { scroll = true } = {}) {
+function show(data, { scroll = true, animate = false, back = false } = {}) {
+  const previous = view;
   view = data;
   document.body.dataset.screen = view.screen;
   document.body.dataset.mood = view.mood;
-  app.innerHTML = view.html;
+  if (lastHTML !== view.html) { app.innerHTML = view.html; lastHTML = view.html; }
   media();
   if (scroll) window.scrollTo({ top: 0, behavior: "instant" });
+  if (animate && previous?.motion?.key !== view.motion?.key) {
+    if (view.motion?.kind === 'reveal') revealCard(app.querySelector('.personality-card'),view.audio.effects.reveal);
+    else if (view.motion?.kind === 'scene') { turnScene(app.querySelector('main'),{back});playEffect(view.audio.effects.turn); }
+  }
+  for (const src of view.motion?.preload || []) { const image=new Image();image.src=src; }
 }
 async function refresh() {
   show(await request("/api/game", { cache: "no-store" }));
@@ -83,6 +96,7 @@ async function act(payload, { quiet = false } = {}) {
       ? app.querySelector(`[data-pick="${payload.pick}"]`)
       : null;
   picked?.classList.add("picked");
+  if (!quiet) playEffect(view.audio?.effects?.select);
   try {
     const result = await request("/api/action", {
       method: "POST",
@@ -93,7 +107,7 @@ async function act(payload, { quiet = false } = {}) {
         requestId: crypto.randomUUID(),
       }),
     });
-    show(result, { scroll: !quiet });
+    show(result, { scroll: !quiet, animate: !quiet, back: payload.action === 'back' });
   } catch (e) {
     if (e.status === 409) {
       try {
@@ -198,12 +212,14 @@ document
     document.querySelector("#poster-dialog").close(),
   );
 document.addEventListener("visibilitychange", () => {
+  if (document.hidden) stopEffects();
   media();
   const action = document.hidden ? "pause" : "resume";
   if (busy) pendingVisibility = action;
   else if (view) act({ action }, { quiet: true });
 });
 window.addEventListener("pagehide", () => {
+  stopEffects();
   audio.pause();
   if (view && !busy)
     navigator.sendBeacon(

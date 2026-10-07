@@ -106,6 +106,18 @@
     {
       "name": "typing",
       "duration": 0.4
+    },
+    {
+      "name": "select",
+      "duration": 0.12
+    },
+    {
+      "name": "turn",
+      "duration": 0.3
+    },
+    {
+      "name": "reveal",
+      "duration": 2.65
     }
   ]
 }

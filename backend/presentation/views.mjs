@@ -1,3 +1,5 @@
+import { sceneArt } from "./scene-art.mjs";
+import { radarMarkup } from "./radar.mjs";
 import { mascotFor } from "./mascots.mjs";
 import { questionsFor } from "../content/bank.mjs";
 import { sessionQuestions } from "../domain/session.mjs";
@@ -13,29 +15,6 @@ export const esc = (v) =>
   );
 const logo =
   '<div class="game-logo"><b>心动译码<span>。</span></b><small>关系小剧场</small></div>';
-const boardFor = (q) =>
-  [
-    "risk",
-    "status",
-    "ambition",
-    "competition",
-    "resources",
-    "disclosure-work",
-  ].includes(q.scenarioFamily)
-    ? "city"
-    : [
-          "date",
-          "preference",
-          "resource-preference",
-          "long-term-preference",
-          "care-investment",
-          "social-support",
-          "social-comparison",
-          "social-competition",
-          "relationship-tradeoff",
-        ].includes(q.scenarioFamily)
-      ? "cafe"
-      : "home";
 const art = (board, alt) =>
   `<img class="manga-board" src="/assets/v2-cute-${board}.webp" alt="${alt}" width="1536" height="1024">`;
 const t = (g) => (g === "male" ? "他" : "她");
@@ -73,6 +52,7 @@ function entry(s) {
 }
 function play(s) {
   const q = sessionQuestions(s)[s.index],
+    scene = sceneArt(q),
     prev = s.answers.find((a) => a.id === q.id),
     chapter =
       s.index < 5
@@ -82,7 +62,7 @@ function play(s) {
           : s.index < 18
             ? "心动与生活"
             : "猜测之外";
-  return `<header class="play-header"><button class="back-button" data-action="back">${s.index ? "← 上一题" : "← 返回入口"}</button><span class="chapter-tag">${chapter}</span><span class="round-number"><b>${String(s.index + 1).padStart(2, "0")}</b> / 20</span></header><div class="level-track" aria-label="第${s.index + 1}题，共20题">${Array.from({ length: 20 }, (_, i) => `<i class="${i < s.index ? "done" : i === s.index ? "current" : ""}"></i>`).join("")}</div><div class="route-label"><span>走进${t(q.targetGender)}的生活</span><span>只凭这一刻，你会怎么猜？</span></div><section class="story-panel">${art(boardFor(q), "卡通角色演绎的都市生活片段")}<div class="scene-context">${sceneContext(q)}</div></section><section class="decision"><h2>你的第一反应是……</h2><div class="choices">${s.orders[q.id].map((pick) => `<button class="choice${prev?.pick === pick ? " previous-choice" : ""}" data-action="answer" data-question-id="${q.id}" data-pick="${pick}"><span class="choice-dot" aria-hidden="true"></span><span class="choice-copy">${esc(q.choices[pick])}${prev?.pick === pick ? '<i class="previous-label">上次选择</i>' : ""}${q.reasons ? `<small class="choice-reason">我这样猜，因为：${esc(q.reasons[pick].text)}</small>` : ""}</span><span class="choice-arrow" aria-hidden="true">↗</span></button>`).join("")}</div></section>`;
+  return `<header class="play-header"><button class="back-button" data-action="back">${s.index ? "← 上一题" : "← 返回入口"}</button><span class="chapter-tag">${chapter}</span><span class="round-number"><b>${String(s.index + 1).padStart(2, "0")}</b> / 20</span></header><div class="level-track" aria-label="第${s.index + 1}题，共20题">${Array.from({ length: 20 }, (_, i) => `<i class="${i < s.index ? "done" : i === s.index ? "current" : ""}"></i>`).join("")}</div><div class="route-label"><span>走进${t(q.targetGender)}的生活</span><span>只凭这一刻，你会怎么猜？</span></div><section class="story-panel" data-scene="${q.id}"><span class="scene-stamp">第 ${String(s.index + 1).padStart(2, "0")} 幕</span><img class="manga-board" src="${scene.src}" alt="${esc(scene.alt)}" width="1200" height="800"><div class="scene-context">${sceneContext(q)}</div></section><section class="decision"><h2>你的第一反应是……</h2><div class="choices">${s.orders[q.id].map((pick) => `<button class="choice${prev?.pick === pick ? " previous-choice" : ""}" data-action="answer" data-question-id="${q.id}" data-pick="${pick}"><span class="choice-dot" aria-hidden="true"></span><span class="choice-copy">${esc(q.choices[pick])}${prev?.pick === pick ? '<i class="previous-label">上次选择</i>' : ""}${q.reasons ? `<small class="choice-reason">我这样猜，因为：${esc(q.reasons[pick].text)}</small>` : ""}</span><span class="choice-arrow" aria-hidden="true">↗</span></button>`).join("")}</div></section>`;
 }
 function calibrationMarkup(r) {
   if (r.stereotype === null)
@@ -160,7 +140,7 @@ export function reportData(s) {
 }
 function report(s, r) {
   const mascot = mascotFor(r.type.id);
-  return `${logo}<button class="back-button report-back" data-action="back">← 返回最后一题，修改答案</button><header class="report-intro"><span class="eyebrow">你的关系小剧场 · 通关报告</span><h1>你的异性<br><em>理解人格。</em></h1><p>20个预测，看看你听懂了多少。</p></header><section class="personality-card" data-type="${r.type.id}"><div class="card-code">NO. ${String(r.type.number).padStart(2, "0")} / 12</div><img class="personality-character" src="${mascot.src}" alt="${esc(mascot.character)}" width="640" height="640"><h2>${r.type.name}</h2><p class="type-english">${r.type.english}</p><blockquote class="personality-quote">“${r.type.quote}”</blockquote><div class="score-line"><span>异性理解力</span><b>${r.score}<small> / 100</small></b></div></section><section class="report-section"><h2>你的观察地图</h2>${r.metrics.map((m) => `<div class="metric"><div><span>${m.label}</span><b>${m.value ?? "未评估"}<small> / 100${m.lowerIsBetter ? " · 越低越好" : ""}</small></b></div><div class="meter"><i style="width:${m.value ?? 0}%"></i></div></div>`).join("")}</section><section class="report-section"><span class="section-label">01 / YOU GOT THIS</span><h2>你最懂的</h2><p>${esc(r.strongest.context)}</p><blockquote>“${esc(r.strongest.selected)}”</blockquote><p>这一幕，你抓住了关键线索。也可以听听TA自己的解释。</p></section><section class="report-section"><span class="section-label">02 / THE PLOT TWIST</span><h2>你最容易误判的</h2>${r.misses.length ? r.misses.map((e) => `<article class="evidence-item"><h3>${e.id}</h3><p>${esc(e.context)}</p><p>你猜：${esc(e.selected)}</p><p>还可以这样理解：${esc(e.direction)}</p></article>`).join("") : "<p>这一局你接住了不少线索。现实中的人仍可能有自己的解释。</p>"}</section><section class="report-section"><span class="section-label">03 / GENDER IS NOT A PASSWORD</span><h2>最大的性别刻板倾向</h2>${calibrationMarkup(r)}</section><section class="report-section"><span class="section-label">04 / YOUR IMAGINATION</span><h2>脑补指数 <em>${r.imagination}</em><small> / 100</small></h2><p>${r.imagination >= 50 ? "你的内心小剧场开播得比证据快了一点。" : "你给“也许只是别的原因”留了点位置。"}</p><p class="micro-note">${r.threatCount} / ${r.threatTotal}个可测情境里选择了关系威胁解释，不能诊断焦虑或依恋。${r.threatEvidence.length ? `<br>本局选项：${r.threatEvidence.map((e) => `${e.id} · ${esc(e.selected)}`).join("；")}` : ""}</p></section><section class="report-section"><span class="section-label">05 / RELATIONSHIP MANUAL</span><h2>异性使用说明书</h2><h3>3个已知 Bug</h3><ol>${r.bugs.map((b) => `<li>${esc(b)}</li>`).join("")}</ol><h3>2个最佳沟通方式</h3><ol>${r.communication.map((b) => `<li>${esc(b)}</li>`).join("")}</ol></section><section class="report-section"><span class="section-label">06 / YOUR FRIEND HAS A POINT</span><h2>${r.copy.kind === "ai" ? "AI 损友总结" : "损友总结"}</h2><p>${esc(r.copy.opening)}</p><p>${esc(r.copy.closing)}</p></section><div class="report-actions"><button class="primary" data-ui="poster">生成我的人格长卡 ↗</button><button class="secondary" data-ui="share">把这局发给TA</button><button class="text-button" data-action="start" data-gender="${s.playerGender}">再观察一局 →</button></div><p class="tiny-note">${questionsFor(s.playerGender, s.edition + 1).some((q) => q.variantKind === "approved") ? "下一局，同一个主题，换个生活瞬间。" : "再玩一次，看看换个想法会发生什么。"}</p><details class="report-archive"><summary>一起揭晓这20幕</summary>${r.archive.map((e) => `<details class="scene-review"><summary>${e.id} · 这一幕的回看</summary><p>${esc(e.context)}</p><p>你猜：${esc(e.selected)}</p><p>另一种理解：${esc(e.direction)}</p><p>${esc(e.anchor)}</p><p>${esc(e.explanation)}</p></details>`).join("")}</details><details><summary>12种异性理解人格</summary><div class="personality-gallery">${TYPES.map((v) => { const m = mascotFor(v.id); return `<article><img src="${m.src}" alt="${esc(m.character)}" width="640" height="640" loading="lazy"><h3>${v.name}</h3><p>${v.quote}</p></article>`; }).join("")}</div></details><details><summary>关于这份报告</summary><p>分数和人格描述来自你这局的选择，用来发现相处中的习惯与不同理解。每个具体的人，都值得重新认识。</p><p>${DISCLAIMER}</p><p>如有雷同，纯属巧合。如果你觉得“这也太像我对象了”——不是我们认识你对象，是题库终于写到了你们那种相处方式。如果你和对象因此吵起来……本游戏概不负责。😂</p><p>匿名会话保存在服务器，浏览器仅保存会话标识。分享不包含答卷或会话标识。</p></details>`;
+  return `${logo}<button class="back-button report-back" data-action="back">← 返回最后一题，修改答案</button><header class="report-intro"><span class="eyebrow">你的关系小剧场 · 通关报告</span><h1>你的异性<br><em>理解人格。</em></h1><p>20个预测，看看你听懂了多少。</p></header><section class="personality-card" data-type="${r.type.id}"><div class="card-code">NO. ${String(r.type.number).padStart(2, "0")} / 12</div><img class="personality-character" src="${mascot.src}" alt="${esc(mascot.character)}" width="640" height="640"><h2>${r.type.name}</h2><p class="type-english">${r.type.english}</p><blockquote class="personality-quote">“${r.type.quote}”</blockquote><div class="score-line"><span>异性理解力</span><b>${r.score}<small> / 100</small></b></div></section><section class="report-section"><h2>你的观察地图</h2>${radarMarkup(r.metrics)}<p class="radar-note">地图越向外，表现越强。性别校准与下方刻板指数方向相反。</p><div class="radar-legend">${r.metrics.map((m) => `<div class="metric"><span>${m.label}</span><b>${m.value ?? "未评估"}<small> / 100${m.lowerIsBetter ? " · 越低越好" : ""}</small></b></div>`).join("")}</div></section><section class="report-section"><span class="section-label">01 / YOU GOT THIS</span><h2>你最懂的</h2><p>${esc(r.strongest.context)}</p><blockquote>“${esc(r.strongest.selected)}”</blockquote><p>这一幕，你抓住了关键线索。也可以听听TA自己的解释。</p></section><section class="report-section"><span class="section-label">02 / THE PLOT TWIST</span><h2>你最容易误判的</h2>${r.misses.length ? r.misses.map((e) => `<article class="evidence-item"><h3>${e.id}</h3><p>${esc(e.context)}</p><p>你猜：${esc(e.selected)}</p><p>还可以这样理解：${esc(e.direction)}</p></article>`).join("") : "<p>这一局你接住了不少线索。现实中的人仍可能有自己的解释。</p>"}</section><section class="report-section"><span class="section-label">03 / GENDER IS NOT A PASSWORD</span><h2>最大的性别刻板倾向</h2>${calibrationMarkup(r)}</section><section class="report-section"><span class="section-label">04 / YOUR IMAGINATION</span><h2>脑补指数 <em>${r.imagination}</em><small> / 100</small></h2><p>${r.imagination >= 50 ? "你的内心小剧场开播得比证据快了一点。" : "你给“也许只是别的原因”留了点位置。"}</p><p class="micro-note">${r.threatCount} / ${r.threatTotal}个可测情境里选择了关系威胁解释，不能诊断焦虑或依恋。${r.threatEvidence.length ? `<br>本局选项：${r.threatEvidence.map((e) => `${e.id} · ${esc(e.selected)}`).join("；")}` : ""}</p></section><section class="report-section"><span class="section-label">05 / RELATIONSHIP MANUAL</span><h2>异性使用说明书</h2><h3>3个已知 Bug</h3><ol>${r.bugs.map((b) => `<li>${esc(b)}</li>`).join("")}</ol><h3>2个最佳沟通方式</h3><ol>${r.communication.map((b) => `<li>${esc(b)}</li>`).join("")}</ol></section><section class="report-section"><span class="section-label">06 / YOUR FRIEND HAS A POINT</span><h2>${r.copy.kind === "ai" ? "AI 损友总结" : "损友总结"}</h2><p>${esc(r.copy.opening)}</p><p>${esc(r.copy.closing)}</p></section><div class="report-actions"><button class="primary" data-ui="poster">生成我的人格长卡 ↗</button><button class="secondary" data-ui="share">把这局发给TA</button><button class="text-button" data-action="start" data-gender="${s.playerGender}">再观察一局 →</button></div><p class="tiny-note">${questionsFor(s.playerGender, s.edition + 1).some((q) => q.variantKind === "approved") ? "下一局，同一个主题，换个生活瞬间。" : "再玩一次，看看换个想法会发生什么。"}</p><details class="report-archive"><summary>一起揭晓这20幕</summary>${r.archive.map((e) => `<details class="scene-review"><summary>${e.id} · 这一幕的回看</summary><p>${esc(e.context)}</p><p>你猜：${esc(e.selected)}</p><p>另一种理解：${esc(e.direction)}</p><p>${esc(e.anchor)}</p><p>${esc(e.explanation)}</p></details>`).join("")}</details><details><summary>12种异性理解人格</summary><div class="personality-gallery">${TYPES.map((v) => { const m = mascotFor(v.id); return `<article><img src="${m.src}" alt="${esc(m.character)}" width="640" height="640" loading="lazy"><h3>${v.name}</h3><p>${v.quote}</p></article>`; }).join("")}</div></details><details><summary>关于这份报告</summary><p>分数和人格描述来自你这局的选择，用来发现相处中的习惯与不同理解。每个具体的人，都值得重新认识。</p><p>${DISCLAIMER}</p><p>如有雷同，纯属巧合。如果你觉得“这也太像我对象了”——不是我们认识你对象，是题库终于写到了你们那种相处方式。如果你和对象因此吵起来……本游戏概不负责。😂</p><p>匿名会话保存在服务器，浏览器仅保存会话标识。分享不包含答卷或会话标识。</p></details>`;
 }
 export function present(s, publicUrl, r = null) {
   if (s.screen === "report") r ??= reportData(s);
@@ -193,7 +173,17 @@ export function present(s, publicUrl, r = null) {
     screen: s.screen,
     mood,
     html: `<main class="game-frame ${s.screen === "entry" ? "intro" : s.screen} fade-in">${s.screen === "entry" ? entry(s) : s.screen === "play" ? play(s) : report(s, r)}</main>`,
+    motion: {
+      key: s.screen + ":" + s.edition + (current ? ":" + current.id : ""),
+      kind: s.screen === "report" ? "reveal" : s.screen === "play" ? "scene" : "entry",
+      preload: current ? sessionQuestions(s).slice(s.index + 1, s.index + 3).map(q => sceneArt(q).src) : [],
+    },
     audio: {
+      effects: {
+        select: { src: "/audio/select.wav", volume: 0.24 },
+        turn: { src: "/audio/turn.wav", volume: 0.17 },
+        reveal: { src: "/audio/reveal.wav", volume: 0.3 },
+      },
       src: `/audio/${s.screen === "report" ? r.type.id : s.screen === "entry" ? "entry" : sceneTrack(current)}.wav`,
       cue,
       volume: s.screen === "report" ? 0.24 : 0.13,

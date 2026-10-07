@@ -1,3 +1,4 @@
+import { radarMarkup } from "./radar.mjs";
 import QRCode from "qrcode-generator";
 import { esc } from "./views.mjs";
 import mascotImages from "./mascot-inline.mjs";
@@ -28,5 +29,5 @@ export function poster(r, url) {
     )
     .join(
       "",
-    )}<text x="50" y="738" font-size="25">异性理解力</text><text x="690" y="750" text-anchor="end" font-size="65" fill="#893a4d">${r.score}<tspan font-size="22"> / 100</tspan></text>${r.metrics.map((m, i) => `<text x="50" y="${807 + i * 40}" font-size="22">${m.label}</text><text x="690" y="${807 + i * 40}" text-anchor="end" font-size="24">${m.value ?? "未评估"}${m.lowerIsBetter ? " ↓" : ""}</text>`).join("")}<text x="50" y="1060" font-size="26">脑补指数 ${r.imagination} / 100</text><text x="50" y="1140" font-size="28">你以为你懂。</text><text x="50" y="1190" font-size="28">来，换你猜一次。</text><rect x="510" y="1100" width="180" height="180" fill="white"/>${modules}<text x="50" y="1292" font-size="16">20题 · 单人 · 预测异性 · 最后一起揭晓</text><text x="50" y="1325" font-size="14">娱乐与自我观察，不是心理诊断，不代表所有男性或女性。</text></g></svg>`;
+    )}<text x="50" y="738" font-size="25">异性理解力</text><text x="690" y="750" text-anchor="end" font-size="65" fill="#893a4d">${r.score}<tspan font-size="22"> / 100</tspan></text>${`<g transform="translate(28 773) scale(.96)">${radarMarkup(r.metrics, {embedded:true})}</g>`}${r.metrics.map((m, i) => `<text x="428" y="${815 + i * 40}" font-size="19">${m.label}</text><text x="690" y="${815 + i * 40}" text-anchor="end" font-size="22">${m.value ?? "未评估"}${m.lowerIsBetter ? " ↓" : ""}</text>`).join("")}<text x="50" y="1110" font-size="26">脑补指数 ${r.imagination} / 100</text><text x="50" y="1160" font-size="28">你以为你懂。</text><text x="50" y="1210" font-size="28">来，换你猜一次。</text><rect x="510" y="1100" width="180" height="180" fill="white"/>${modules}<text x="50" y="1292" font-size="16">20题 · 单人 · 预测异性 · 最后一起揭晓</text><text x="50" y="1325" font-size="14">娱乐与自我观察，不是心理诊断，不代表所有男性或女性。</text></g></svg>`;
 }
