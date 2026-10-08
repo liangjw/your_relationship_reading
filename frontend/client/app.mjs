@@ -137,17 +137,34 @@ async function share() {
   const { title, text, url } = view.share;
   try {
     if (navigator.share) await navigator.share({ title, text, url });
-    else {
-      await navigator.clipboard.writeText(url);
-      toast("试玩链接已复制，发给TA一起聊聊。");
-    }
+    else showShareDialog({title,text,url});
   } catch (e) {
-    if (e.name !== "AbortError")
-      toast("可复制浏览器地址分享，或保存人格长卡。");
+    if (e.name !== "AbortError") showShareDialog({title,text,url});
   }
 }
+function showShareDialog({title,text,url}) {
+  document.querySelector('#share-title').textContent = title;
+  document.querySelector('#share-description').textContent = text;
+  document.querySelector('#share-copy').value = `${title}\n${text}\n${url}`;
+  document.querySelector('#share-hint').textContent = /MicroMessenger/i.test(navigator.userAgent)
+    ? '点微信右上角「···」，转发给朋友；也可以复制下方邀请文案。'
+    : '把邀请发给TA，看看你们会解锁哪张角色卡。';
+  document.querySelector('#share-dialog').showModal();
+}
+document.querySelector('#close-share').addEventListener('click',()=>document.querySelector('#share-dialog').close());
+document.querySelector('#copy-invite').addEventListener('click',async()=>{
+  const field = document.querySelector('#share-copy');
+  try {
+    await navigator.clipboard.writeText(field.value);
+    document.querySelector('#share-dialog').close();
+    toast('邀请文案和试玩链接已复制，发给TA吧。');
+  } catch {
+    field.focus();field.select();
+    document.querySelector('#share-hint').textContent = '已选中邀请文案，长按复制后发给TA。';
+  }
+});
 async function poster() {
-  if (!view?.share) return;
+  if (!view?.share?.poster) return;
   try {
     const svg = await request(
         view.share.poster,

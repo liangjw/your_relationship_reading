@@ -1,8 +1,8 @@
 {
   "worker": "your-relationship-reading-v2",
-  "version": "7611bed1-9ee0-480e-a723-0d6d95b5e776",
+  "version": "bc228166-1ea5-4ca9-b6c3-74119300b666",
   "publicUrl": "https://dramame.ai",
-  "zoneStatus": "pending",
+  "zoneStatus": "active",
   "nameservers": [
     "lochlan.ns.cloudflare.com",
     "summer.ns.cloudflare.com"
@@ -21,7 +21,7 @@
       "cert_id": "298beea8-48ee-447f-adab-08d0c33317af"
     }
   ],
-  "checkedAt": "2026-10-07T16:19:10.2976409Z",
-  "httpsStatus": "pending DNS activation and certificate issuance",
+  "checkedAt": "2026-10-08T00:19:39.0864444Z",
+  "httpsStatus": "Both custom domains serve the current game over HTTPS; share/hosts.json verified",
   "previousDnsBackup": "domain-dns-backup.json"
 }

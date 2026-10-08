@@ -76,3 +76,13 @@ wrangler.jsonc 持久保存两个绑定，并明确 workers_dev=true，PUBLIC_UR
 当前 Cloudflare zone 状态仍为 pending，GoDaddy 的服务器更新正在传播，已触发 Cloudflare 检测。新域名的 HTTPS 尚未通过，不能视为已公网验收。绑定记录和检查结果位于 artifacts/v2-review/domain。DNS 激活及证书签发后应再次在两个 HTTPS 主机名核验入口、API、完整答题、报告和分享图。
 
 域名绑定后原 workers.dev 实际完成20题、报告和分享SVG生成已通过；返回的分享链接确认为 https://dramame.ai/?from=report。最终公网查询仍返回 GoDaddy NS，根域名仍加载原网站，游戏子域名 TLS 握手未完成。这是当前新域名未通过访问验收的具体状态，并非游戏 Worker 或额度故障。结果见 domain/verification.json。
+
+## 2026-10-08 入口邀请与分享标题
+
+入口主标题下新增“邀请TA来猜”按钮，使用现有粉色胶囊按钮风格，手机最小触控高度44px。邀请不启动游戏、不改变答题进度，也无需先通关。入口分享标题改为“TA说「没事」，你听懂了几层意思？”，说明为“20幕生活小剧场，测测你是懂TA，还是脑补大师。玩完解锁你的专属角色卡！”。页面标题去掉V2，Open Graph和Twitter分享标题、描述同步更新，并配置现有漫画封面。报告原生分享标题带上当前玩家的真实角色名称。
+
+支持Web Share的浏览器优先调起系统分享；取消后保持当前页面。未支持或调用失败时弹出邀请卡，复制内容包含标题、说明和试玩链接；剪贴板受限时选中文案供长按复制。微信内回退显示右上角转发提示。报告PNG仍仅在通关后可生成，入口不暴露报告能力。
+
+原有28项测试通过。分享专项在320、390、430px覆盖复制、模拟微信UA、剪贴板拒绝、原生分享参数、用户取消和原生分享失败六种情况，全部通过；实际完成20题，角色分享标题和750×1360 PNG保存通过。原生分享调用和微信环境在自动化中模拟，本轮没有微信真机分享卡片验证。证据见artifacts/v2-review/share/browser.json和share/public/browser.json。
+
+Cloudflare发布版本bc228166-1ea5-4ca9-b6c3-74119300b666，上传3个静态文件，启动3ms。dramame.ai状态已由pending转为active，根域名、游戏子域名和原workers.dev均返回当前游戏的HTTPS入口与新分享信息，见share/hosts.json；更新后的分享专项已在根域名公网通过。原先域名传播和证书等待事项已解决。

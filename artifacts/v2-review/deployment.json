@@ -2,18 +2,18 @@
   "provider": "Cloudflare Workers",
   "name": "your-relationship-reading-v2",
   "url": "https://your-relationship-reading-v2.fliedwolf.workers.dev/",
-  "version": "7611bed1-9ee0-480e-a723-0d6d95b5e776",
-  "workerStartupMs": 2,
-  "uploadKiB": 1229.44,
-  "gzipKiB": 855.49,
-  "assetsUploaded": 0,
+  "version": "bc228166-1ea5-4ca9-b6c3-74119300b666",
+  "workerStartupMs": 3,
+  "uploadKiB": 1230.48,
+  "gzipKiB": 855.78,
+  "assetsUploaded": 3,
   "priorFeatureDeployment": {
     "version": "c1f55dcf-ac9e-48d4-a789-852277b16871",
     "assetsUploaded": 47
   },
   "questionArtworks": 40,
-  "status": "deployed; custom domains bound; DNS activation and HTTPS verification pending",
-  "verifiedAt": "2026-10-07T15:00:23.368857Z",
+  "status": "deployed and publicly verified on both custom domains and workers.dev",
+  "verifiedAt": "2026-10-08T00:20:22.663Z",
   "checks": {
     "unitTests": 28,
     "mobileRoutes": 8,
@@ -21,18 +21,21 @@
     "publicSceneImages": 40,
     "publicEffects": true,
     "publicAudioRace": true,
-    "publicPNG": true
+    "publicPNG": true,
+    "publicShare": true
   },
   "originalMasterPreserved": "e781e25d8f83055ab87d3fc0ca9ec1ee954106f8",
   "title": "你真的懂TA吗？",
   "revealSeconds": 5.2,
   "rotationSeconds": 4.8,
-  "currentVerification": "artifacts/v2-review/effects-slow/browser.json",
-  "priorPublicVersion": "4fd353cf-ad23-4ff5-9e1c-53fbc3c3e7ba",
+  "currentVerification": "artifacts/v2-review/share/public/browser.json",
+  "priorPublicVersion": "7611bed1-9ee0-480e-a723-0d6d95b5e776",
   "canonicalUrl": "https://dramame.ai/",
   "customDomains": [
     "dramame.ai",
     "your-relationship-reading.dramame.ai"
   ],
-  "domainVerification": "artifacts/v2-review/domain/binding.json"
+  "domainVerification": "artifacts/v2-review/domain/binding.json",
+  "priorCurrentVerification": "artifacts/v2-review/effects-slow/browser.json",
+  "shareTitle": "TA说「没事」，你听懂了几层意思？"
 }

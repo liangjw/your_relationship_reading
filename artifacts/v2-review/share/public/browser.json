@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "url": "https://dramame.ai",
+  "runs": [
+    {
+      "mode": "copy",
+      "width": 320,
+      "passed": true
+    },
+    {
+      "mode": "wechat",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "mode": "denied",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "mode": "native",
+      "width": 430,
+      "passed": true
+    },
+    {
+      "mode": "cancel",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "mode": "native-error",
+      "width": 390,
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "verifiedAt": "2026-10-08T00:19:47.652Z"
+}
